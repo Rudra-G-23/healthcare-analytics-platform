@@ -1,0 +1,3 @@
+- **Fact Table**: Stores quantitative metrics or measurements (the whats and how much). This table records events like sales amounts, units sold, or time logged. Fact tables contain a massive number of rows with repeating IDs and numerical values.
+
+- **Dimension Table**: Stores descriptive context (the who, what, where, and when). This table gives meaning to the numbers in the fact table by storing attributes like customer names, product categories, or store locations. Dimension tables are smaller but have more columns.
