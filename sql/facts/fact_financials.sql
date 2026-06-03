@@ -1,5 +1,46 @@
 --------------------------------------------------------------------------------
--->> Create Production Grade Dimension Fact Financials Table
+-->> Create Fact Financials Table
+--------------------------------------------------------------------------------
+
+CREATE TABLE public.fact_financials (
+    financial_record_id           VARCHAR(30) PRIMARY KEY,
+
+    hospital_id                   VARCHAR(20) NOT NULL,
+    year                          INTEGER,
+
+    month_name                    INTEGER,
+    visit_count                   INTEGER,
+
+    operational_cost              NUMERIC(14,2),
+    staffing_cost                 NUMERIC(14,2),
+    emergency_department_cost     NUMERIC(14,2),
+    icu_cost                      NUMERIC(14,2),
+    revenue                       NUMERIC(14,2),
+    profit_margin                 NUMERIC(6,2),
+    government_funding            NUMERIC(14,2),
+    equipment_investment          NUMERIC(14,2),
+
+    expansion_projects_flag       BOOLEAN,
+    bed_occupancy_rate            NUMERIC(5,2),
+    avg_patient_satisfaction      NUMERIC(5,2),
+    readmission_rate              NUMERIC(5,2),
+    complaint_rate                NUMERIC(5,2),
+    mortality_rate                NUMERIC(5,2),
+    avg_wait_time_minutes         NUMERIC(10,2),
+
+    total_overtime_hours          NUMERIC(12,2),
+    avg_burnout_index             NUMERIC(5,2),
+    total_staff_absences          INTEGER,
+    hospital_name                 VARCHAR(150),
+    latitude                      NUMERIC(10,6),
+    longitude                     NUMERIC(10,6),
+
+    created_at                    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+);
+
+
+--------------------------------------------------------------------------------
+-->> Create Production Grade Fact Financials Table
 --------------------------------------------------------------------------------
 
 CREATE TABLE bronze.fact_financials (
@@ -10,8 +51,8 @@ CREATE TABLE bronze.fact_financials (
     year                          INTEGER
         CHECK (year >= 2000),
 
-    month                         INTEGER
-        CHECK (month BETWEEN 1 AND 12),
+    month_name                         INTEGER
+        CHECK (month_name BETWEEN 1 AND 12),
 
     visit_count                   INTEGER
         CHECK (visit_count >= 0),

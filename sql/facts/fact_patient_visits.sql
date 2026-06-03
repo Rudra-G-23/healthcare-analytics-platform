@@ -1,5 +1,50 @@
 --------------------------------------------------------------------------------
--->> Create Production Grade Dimension Fact Patient Table
+-->> Create Fact Patient Table
+--------------------------------------------------------------------------------
+CREATE TABLE public.fact_patient_visits (
+    visit_id                     VARCHAR(30) PRIMARY KEY,
+
+    patient_id                   VARCHAR(20) NOT NULL,
+    hospital_id                  VARCHAR(20) NOT NULL,
+    department_id                VARCHAR(20) NOT NULL,
+    doctor_id                    VARCHAR(20) NOT NULL,
+
+    arrival_datetime             TIMESTAMP NOT NULL,
+    triage_datetime              TIMESTAMP,
+    treatment_start_datetime     TIMESTAMP,
+    discharge_datetime           TIMESTAMP,
+
+    admission_type               VARCHAR(50),
+    severity_level               INTEGER,
+
+    diagnosis_category           VARCHAR(100),
+    length_of_stay_hours         NUMERIC(10,2),
+    wait_time_minutes            NUMERIC(10,2),
+    treatment_delay_minutes      INTEGER,
+
+    icu_required_flag            BOOLEAN,
+    outcome                      VARCHAR(50),
+    mortality_flag               BOOLEAN,
+    readmission_30_days_flag     BOOLEAN,
+    insurance_type               VARCHAR(50),
+
+    treatment_cost               NUMERIC(12,2),
+    revenue_amount               NUMERIC(12,2),
+    satisfaction_score           NUMERIC(5,2),
+
+    complaint_flag               BOOLEAN,
+    ambulance_arrival_flag       BOOLEAN,
+    month_name                        INTEGER,
+
+    hospital_name                VARCHAR(150),
+    latitude                     NUMERIC(10,6),
+    longitude                    NUMERIC(10,6),
+
+    created_at                   TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);    
+
+--------------------------------------------------------------------------------
+-->> Create Production Grade Fact Patient Table
 --------------------------------------------------------------------------------
 CREATE TABLE bronze.fact_patient_visits (
     visit_id                     VARCHAR(30) PRIMARY KEY,
@@ -53,8 +98,8 @@ CREATE TABLE bronze.fact_patient_visits (
 
     ambulance_arrival_flag       BOOLEAN,
 
-    month                        INTEGER
-        CHECK (month BETWEEN 1 AND 12),
+    month_name                        INTEGER
+        CHECK (month_name BETWEEN 1 AND 12),
 
     hospital_name                VARCHAR(150),
 

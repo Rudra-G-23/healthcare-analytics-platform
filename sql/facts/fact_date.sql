@@ -1,5 +1,30 @@
 --------------------------------------------------------------------------------
--->> Create Production Grade Dimension Date Table
+-->> Create Date Table
+--------------------------------------------------------------------------------
+
+CREATE TABLE public.dim_date (
+    date_key            INTEGER PRIMARY KEY,
+    full_date           DATE NOT NULL UNIQUE,
+
+    year                INTEGER,
+    quarter             VARCHAR(10),
+    month_int           INTEGER,
+    month_name          VARCHAR(20),
+    week_number         INTEGER,
+    day_of_week         VARCHAR(20),
+    day_number          INTEGER,
+
+    is_weekend          BOOLEAN,
+    is_holiday          BOOLEAN,
+    season              VARCHAR(20),
+    is_winter           BOOLEAN,
+    is_flu_season       BOOLEAN,
+
+    created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+);
+
+--------------------------------------------------------------------------------
+-->> Create Production Grade Date Table
 --------------------------------------------------------------------------------
 
 CREATE TABLE bronze.dim_date (
@@ -12,10 +37,10 @@ CREATE TABLE bronze.dim_date (
 
     quarter             VARCHAR(10),
 
-    month               INTEGER
-        CHECK (month BETWEEN 1 AND 12),
+    month_name               INTEGER
+        CHECK (month_name BETWEEN 1 AND 12),
 
-    month_name          VARCHAR(20),
+    month_name_name          VARCHAR(20),
 
     week_number         INTEGER
         CHECK (week_number BETWEEN 1 AND 53),

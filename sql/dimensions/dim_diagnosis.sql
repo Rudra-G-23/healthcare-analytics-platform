@@ -1,4 +1,21 @@
 --------------------------------------------------------------------------------
+-->> Create Dimension Diagnosis Table
+--------------------------------------------------------------------------------
+
+CREATE TABLE public.dim_diagnosis (
+    diagnosis_id         VARCHAR(20) PRIMARY KEY,
+    category             VARCHAR(100) NOT NULL,
+    icd_chapter          VARCHAR(100) NOT NULL,
+    severity_weight      NUMERIC(5,2),
+    icu_probability      NUMERIC(5,2),
+    avg_los_hours        INTEGER,
+    readmission_risk     VARCHAR(20),
+    cost_weight          NUMERIC(6,2),
+
+    created_at           TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------------------------------------
 -->> Create Production Grade Dimension Diagnosis Table
 --------------------------------------------------------------------------------
 

@@ -11,7 +11,7 @@ USERNAME: str = "admin"
 PASSWORD: str = db_password
 HOST: str = "localhost"
 PORT: int = "5432"
-DB_NAME: str = "HospitalDB"
+DB_NAME: str = "healthcare_dw"
 
 conn_string = f"postgresql+psycopg2://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DB_NAME}"
 engine = create_engine(conn_string)

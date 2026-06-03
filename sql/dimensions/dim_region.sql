@@ -2,7 +2,7 @@
 -->> Create Dimension Region Table
 --------------------------------------------------------------------------------
 
-CREATE TABLE bronze.dim_region (
+CREATE TABLE public.dim_region (
     region_id      VARCHAR(20) PRIMARY KEY,
     region_name    VARCHAR(100) NOT NULL,
     population_m   NUMERIC(10,2),

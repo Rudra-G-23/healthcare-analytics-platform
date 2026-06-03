@@ -1,4 +1,23 @@
 --------------------------------------------------------------------------------
+-->> Create Dimension Doctor Table
+--------------------------------------------------------------------------------
+
+CREATE TABLE public.dim_doctor (
+    doctor_id               VARCHAR(20) PRIMARY KEY,
+    doctor_name             VARCHAR(150) NOT NULL,
+    specialty               VARCHAR(100) NOT NULL,
+    grade                   VARCHAR(50),
+
+    years_experience        INTEGER,
+    primary_hospital_id     VARCHAR(20) NOT NULL,
+    annual_salary           NUMERIC(12,2),
+    part_time_flag          BOOLEAN,
+    burnout_baseline        NUMERIC(5,2),
+
+    created_at              TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------------------------------------
 -->> Create Production Grade Dimension Doctor Table
 --------------------------------------------------------------------------------
 
