@@ -3,14 +3,14 @@
 CREATE DATABASE & SCHEMAS
 ================================================================
 Script Purpose:
-    This script creates a new database named 'HospitalDB' after checking if it already exists.
-    First, it terminates active connections if the database is active, then it is dropped and recreated.
-    Additionally, the script sets up three schemas within the database: 'bronze', 'silver', and 'gold'.
+    - This script creates a new database named 'HospitalDB' after checking if it already exists.
+    - First, it terminates active connections if the database is active, then it is dropped and recreated.
+    - Additionally, the script sets up three schemas within the database: 'bronze', 'silver', and 'gold'.
 
 WARNING:
-    Running this script will drop the entire 'HospitalDB' database if it exists.
-    All data in the database will be permanently deleted. Proceed with caution
-    and ensure you have proper backups before running this script.
+    - Running this script will drop the entire 'HospitalDB' database if it exists.
+    - All data in the database will be permanently deleted. Proceed with caution.
+    - Ensure you have proper backups before running this script.
 ================================================================
 */
 
