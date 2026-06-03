@@ -1,0 +1,1801 @@
+,Doctor_ID,Doctor_Name,Specialty,Grade,Years_Experience,Primary_Hospital_ID,Annual_Salary,Part_Time_Flag,Burnout_Baseline
+0,DR00001,Dr. Samuel Jackson,Oncology,Senior Registrar,10,H01,89886,False,0.46
+1,DR00002,Dr. James White,Cardiology,Foundation Year 2,1,H09,45420,False,0.37
+2,DR00003,Dr. Mei Smith,Neurology,Senior House Officer,5,H08,52238,False,0.58
+3,DR00004,Dr. Mei Williams,Neurology,Consultant,27,H03,130779,True,0.63
+4,DR00005,Dr. Christopher White,Pediatrics,Consultant,28,H02,141454,False,0.51
+5,DR00006,Dr. William Singh,ICU,Consultant,11,H04,120397,True,0.52
+6,DR00007,Dr. Helen Young,Cardiology,Registrar,8,H06,69025,False,0.62
+7,DR00008,Dr. Sophie Harris,ICU,Foundation Year 2,2,H01,41742,True,0.29
+8,DR00009,Dr. Samuel Garcia,Emergency,Senior Registrar,8,H06,82906,True,0.23
+9,DR00010,Dr. Daniel Patel,Pediatrics,Foundation Year 1,1,H03,29662,False,0.32
+10,DR00011,Dr. Nina Jackson,Cardiology,Senior Registrar,6,H04,82661,False,0.26
+11,DR00012,Dr. Rajesh Taylor,Pediatrics,Registrar,6,H01,72422,False,0.55
+12,DR00013,Dr. Christopher Khan,Cardiology,Consultant,21,H05,129110,False,0.64
+13,DR00014,Dr. Andrew White,Pediatrics,Registrar,7,H01,77167,False,0.25
+14,DR00015,Dr. Sophie Allen,Oncology,Senior Registrar,9,H02,78908,False,0.23
+15,DR00016,Dr. Christopher Singh,Oncology,Foundation Year 1,1,H01,33179,False,0.42
+16,DR00017,Dr. Liam Wilson,Oncology,Senior Registrar,11,H03,89987,False,0.3
+17,DR00018,Dr. Mei Walker,Orthopedics,Registrar,8,H02,58708,False,0.27
+18,DR00019,Dr. James Robinson,Oncology,Registrar,8,H01,77977,False,0.2
+19,DR00020,Dr. Carlos Davis,Cardiology,Consultant,33,H06,136629,False,0.41
+20,DR00021,Dr. Daniel Nguyen,Pediatrics,Senior Registrar,6,H09,88384,True,0.57
+21,DR00022,Dr. Amanda Jackson,Oncology,Senior Registrar,6,H05,82371,False,0.34
+22,DR00023,Dr. Matthew Jackson,Emergency,Consultant,21,H01,108275,False,0.46
+23,DR00024,Dr. Thomas Wilson,Neurology,Registrar,3,H08,65541,False,0.33
+24,DR00025,Dr. Amanda Thompson,Neurology,Senior House Officer,2,H06,48976,False,0.2
+25,DR00026,Dr. Helen Jackson,Orthopedics,Consultant,18,H07,108184,False,0.26
+26,DR00027,Dr. Patrick Khan,Neurology,Senior Registrar,8,H08,87619,False,0.6
+27,DR00028,Dr. Sarah Taylor,Orthopedics,Senior Registrar,9,H06,98286,False,0.46
+28,DR00029,Dr. Aisha Jones,Cardiology,Foundation Year 2,2,H01,34696,False,0.63
+29,DR00030,Dr. Rajesh Martinez,Neurology,Consultant,13,H04,142811,False,0.31
+30,DR00031,Dr. Rachel Jackson,Orthopedics,Senior Registrar,7,H05,92045,False,0.27
+31,DR00032,Dr. Christopher Williams,ICU,Registrar,5,H08,62589,False,0.5
+32,DR00033,Dr. Rajesh Allen,ICU,Foundation Year 2,2,H05,39206,False,0.45
+33,DR00034,Dr. Nina Clark,Neurology,Foundation Year 1,0,H05,34983,False,0.35
+34,DR00035,Dr. Michael Nguyen,Oncology,Consultant,17,H08,113782,True,0.46
+35,DR00036,Dr. Michael Garcia,Neurology,Senior House Officer,3,H04,46455,False,0.55
+36,DR00037,Dr. William Park,Neurology,Foundation Year 1,0,H07,33279,False,0.26
+37,DR00038,Dr. Aisha Anderson,Pediatrics,Senior Registrar,6,H02,93042,False,0.39
+38,DR00039,Dr. Andrew Rodriguez,Cardiology,Foundation Year 2,1,H08,41766,False,0.39
+39,DR00040,Dr. Charlotte White,Cardiology,Consultant,10,H05,137035,True,0.61
+40,DR00041,Dr. Patrick Jackson,Pediatrics,Senior House Officer,3,H02,49059,False,0.3
+41,DR00042,Dr. Daniel Robinson,Oncology,Consultant,15,H11,140566,False,0.44
+42,DR00043,Dr. William Robinson,Pediatrics,Registrar,6,H01,75086,False,0.58
+43,DR00044,Dr. Charlotte Patel,Oncology,Senior House Officer,4,H02,43221,False,0.58
+44,DR00045,Dr. James Singh,Oncology,Consultant,15,H04,136433,False,0.36
+45,DR00046,Dr. Thomas Wilson,Neurology,Senior Registrar,12,H04,94584,True,0.46
+46,DR00047,Dr. Charlotte Singh,Oncology,Registrar,4,H06,69971,False,0.51
+47,DR00048,Dr. Andrew Lee,Pediatrics,Senior Registrar,8,H03,90474,True,0.59
+48,DR00049,Dr. Jessica Young,Cardiology,Senior Registrar,12,H05,92980,True,0.47
+49,DR00050,Dr. James Harris,Neurology,Foundation Year 2,2,H04,40678,False,0.26
+50,DR00051,Dr. Lauren Young,Orthopedics,Senior House Officer,3,H03,43214,False,0.47
+51,DR00052,Dr. Emma Garcia,Pediatrics,Consultant,16,H06,113134,False,0.37
+52,DR00053,Dr. Aisha White,Cardiology,Consultant,14,H09,138527,False,0.66
+53,DR00054,Dr. Patrick Lewis,Neurology,Senior House Officer,4,H05,46911,False,0.64
+54,DR00055,Dr. Rachel White,Orthopedics,Consultant,29,H01,111307,True,0.35
+55,DR00056,Dr. Lauren Taylor,ICU,Foundation Year 2,1,H04,41962,False,0.59
+56,DR00057,Dr. Jessica Rodriguez,Orthopedics,Consultant,31,H03,132210,False,0.27
+57,DR00058,Dr. Patrick Wilson,Neurology,Registrar,3,H04,66289,False,0.4
+58,DR00059,Dr. Robert Smith,Pediatrics,Foundation Year 1,0,H07,29486,True,0.49
+59,DR00060,Dr. Lauren Smith,Pediatrics,Foundation Year 1,1,H03,28955,False,0.7
+60,DR00061,Dr. Andrew Williams,ICU,Consultant,12,H01,124291,False,0.47
+61,DR00062,Dr. Emma Williams,Orthopedics,Consultant,25,H01,114061,False,0.43
+62,DR00063,Dr. William Miller,Pediatrics,Foundation Year 1,1,H01,35641,False,0.22
+63,DR00064,Dr. Christopher Anderson,Emergency,Senior Registrar,6,H02,90991,False,0.67
+64,DR00065,Dr. Christopher Miller,Neurology,Senior Registrar,10,H01,92389,False,0.59
+65,DR00066,Dr. Helen Nguyen,Emergency,Senior House Officer,2,H03,49391,False,0.55
+66,DR00067,Dr. Michael Anderson,Cardiology,Consultant,30,H02,130360,False,0.62
+67,DR00068,Dr. Olivia Young,Cardiology,Consultant,21,H08,112721,False,0.26
+68,DR00069,Dr. Sarah Brown,Neurology,Foundation Year 1,1,H05,35556,False,0.25
+69,DR00070,Dr. Robert Lee,Oncology,Senior Registrar,12,H02,86549,False,0.3
+70,DR00071,Dr. Priya Kim,Oncology,Consultant,20,H07,109424,False,0.22
+71,DR00072,Dr. Amanda Walker,Cardiology,Senior House Officer,2,H08,45801,False,0.69
+72,DR00073,Dr. Helen Martinez,Orthopedics,Senior House Officer,3,H07,48556,True,0.63
+73,DR00074,Dr. Priya Smith,Cardiology,Senior Registrar,10,H03,81509,False,0.29
+74,DR00075,Dr. David Martin,Neurology,Registrar,3,H05,68365,False,0.49
+75,DR00076,Dr. Amelia Robinson,Neurology,Consultant,29,H03,138200,False,0.23
+76,DR00077,Dr. Mei Davis,Cardiology,Consultant,20,H03,126716,True,0.43
+77,DR00078,Dr. Matthew Smith,Emergency,Foundation Year 2,1,H10,36012,False,0.27
+78,DR00079,Dr. Amelia Anderson,ICU,Senior House Officer,3,H08,50098,False,0.31
+79,DR00080,Dr. Charlotte Wilson,Oncology,Consultant,12,H04,127196,False,0.62
+80,DR00081,Dr. Rachel Thompson,Cardiology,Senior House Officer,4,H10,46324,True,0.7
+81,DR00082,Dr. Liam Thomas,Pediatrics,Foundation Year 1,0,H01,38259,False,0.51
+82,DR00083,Dr. David Khan,Cardiology,Registrar,6,H01,70116,False,0.32
+83,DR00084,Dr. Michael Chen,Neurology,Registrar,4,H02,61247,False,0.29
+84,DR00085,Dr. Liam Kim,ICU,Consultant,13,H02,131985,False,0.21
+85,DR00086,Dr. Carlos Allen,Pediatrics,Senior Registrar,11,H03,78014,False,0.23
+86,DR00087,Dr. Rajesh Hall,Pediatrics,Consultant,17,H02,143800,True,0.63
+87,DR00088,Dr. Matthew Johnson,Emergency,Consultant,11,H09,138185,False,0.29
+88,DR00089,Dr. Sophie Park,Neurology,Registrar,7,H01,63524,False,0.42
+89,DR00090,Dr. Rachel Taylor,Oncology,Senior House Officer,4,H08,53127,False,0.3
+90,DR00091,Dr. Mei Allen,Orthopedics,Registrar,3,H01,75591,False,0.58
+91,DR00092,Dr. Matthew Martinez,Oncology,Senior Registrar,9,H03,78538,False,0.55
+92,DR00093,Dr. Mei Garcia,Pediatrics,Senior House Officer,2,H01,57487,False,0.6
+93,DR00094,Dr. Aisha Miller,Orthopedics,Senior Registrar,12,H06,86456,False,0.35
+94,DR00095,Dr. Charlotte Allen,Cardiology,Consultant,16,H11,113038,False,0.28
+95,DR00096,Dr. Charlotte Young,ICU,Senior Registrar,9,H02,91773,False,0.68
+96,DR00097,Dr. Sophie Harris,Emergency,Consultant,30,H02,117270,False,0.43
+97,DR00098,Dr. Lauren Robinson,Pediatrics,Registrar,5,H03,66260,False,0.24
+98,DR00099,Dr. Aisha Singh,Orthopedics,Foundation Year 2,1,H02,35320,False,0.59
+99,DR00100,Dr. Matthew Taylor,ICU,Senior Registrar,9,H03,97558,False,0.32
+100,DR00101,Dr. Amelia Khan,Emergency,Senior House Officer,5,H01,48311,False,0.44
+101,DR00102,Dr. Rachel Park,ICU,Senior House Officer,2,H02,56298,False,0.66
+102,DR00103,Dr. Liam Khan,Orthopedics,Consultant,11,H04,119105,False,0.65
+103,DR00104,Dr. Amelia Singh,Emergency,Registrar,7,H05,63847,False,0.35
+104,DR00105,Dr. Emma Thompson,Orthopedics,Registrar,5,H03,69159,False,0.28
+105,DR00106,Dr. Sarah Park,Orthopedics,Consultant,18,H06,135427,True,0.65
+106,DR00107,Dr. Samuel Hall,ICU,Foundation Year 1,0,H02,32136,False,0.62
+107,DR00108,Dr. Samuel Garcia,Neurology,Consultant,26,H02,142608,False,0.44
+108,DR00109,Dr. David Thomas,Neurology,Senior House Officer,3,H01,56196,False,0.51
+109,DR00110,Dr. Aisha Rodriguez,ICU,Senior Registrar,9,H03,81367,False,0.65
+110,DR00111,Dr. James Jones,Emergency,Senior Registrar,12,H04,90911,False,0.26
+111,DR00112,Dr. Robert Thomas,ICU,Senior Registrar,9,H04,78460,False,0.38
+112,DR00113,Dr. Rachel Khan,Neurology,Consultant,22,H07,116084,False,0.65
+113,DR00114,Dr. Olivia Jackson,Oncology,Senior Registrar,10,H03,92559,False,0.59
+114,DR00115,Dr. David Jackson,ICU,Senior Registrar,10,H01,86743,False,0.23
+115,DR00116,Dr. James Davis,Emergency,Senior Registrar,9,H08,75818,False,0.57
+116,DR00117,Dr. Nina Lee,Oncology,Foundation Year 2,1,H03,36394,False,0.27
+117,DR00118,Dr. Daniel Martin,ICU,Registrar,7,H03,74349,True,0.57
+118,DR00119,Dr. Daniel Nguyen,Emergency,Senior House Officer,3,H05,53929,True,0.33
+119,DR00120,Dr. Andrew Martin,Orthopedics,Consultant,16,H08,110211,True,0.5
+120,DR00121,Dr. Matthew Thompson,ICU,Senior Registrar,9,H05,75104,False,0.42
+121,DR00122,Dr. Samuel Walker,Cardiology,Registrar,3,H01,73287,False,0.52
+122,DR00123,Dr. Michael Johnson,Cardiology,Registrar,6,H09,73634,False,0.42
+123,DR00124,Dr. William Williams,Neurology,Registrar,8,H09,60356,False,0.59
+124,DR00125,Dr. Charlotte Rodriguez,Neurology,Consultant,16,H01,127819,True,0.34
+125,DR00126,Dr. Liam Johnson,Orthopedics,Consultant,16,H04,111541,False,0.37
+126,DR00127,Dr. William Lewis,Orthopedics,Senior Registrar,8,H07,90548,False,0.54
+127,DR00128,Dr. Daniel Williams,Neurology,Senior House Officer,2,H03,52320,False,0.64
+128,DR00129,Dr. Rajesh Khan,Neurology,Consultant,21,H03,116743,False,0.63
+129,DR00130,Dr. Liam Wilson,Emergency,Registrar,8,H04,61869,False,0.34
+130,DR00131,Dr. Priya White,Neurology,Consultant,24,H02,128840,False,0.48
+131,DR00132,Dr. William Miller,ICU,Senior Registrar,9,H02,75660,False,0.59
+132,DR00133,Dr. David Allen,Orthopedics,Senior Registrar,8,H06,76111,False,0.63
+133,DR00134,Dr. Carlos Rodriguez,Oncology,Senior House Officer,2,H02,45172,False,0.69
+134,DR00135,Dr. Liam Thompson,Oncology,Registrar,3,H05,77828,False,0.59
+135,DR00136,Dr. Michael Chen,ICU,Consultant,20,H04,109581,False,0.4
+136,DR00137,Dr. Helen Hall,Neurology,Senior Registrar,6,H09,83628,False,0.67
+137,DR00138,Dr. Andrew Lee,ICU,Consultant,17,H08,127539,False,0.64
+138,DR00139,Dr. Lauren Patel,Emergency,Senior Registrar,7,H07,78651,False,0.58
+139,DR00140,Dr. Christopher Brown,Neurology,Consultant,22,H09,137279,False,0.67
+140,DR00141,Dr. Robert Wilson,Pediatrics,Senior House Officer,4,H05,55020,False,0.63
+141,DR00142,Dr. Carlos White,Oncology,Consultant,35,H02,118602,False,0.2
+142,DR00143,Dr. Nina Davis,Neurology,Senior Registrar,11,H02,77590,True,0.33
+143,DR00144,Dr. Helen Thomas,Oncology,Senior Registrar,10,H09,83716,False,0.46
+144,DR00145,Dr. Daniel Kim,Orthopedics,Consultant,25,H02,130812,False,0.37
+145,DR00146,Dr. Robert Wilson,ICU,Consultant,16,H05,120517,False,0.42
+146,DR00147,Dr. Christopher Robinson,Oncology,Registrar,4,H11,64963,True,0.3
+147,DR00148,Dr. Michael Garcia,Emergency,Senior Registrar,9,H06,80306,False,0.5
+148,DR00149,Dr. Patrick Kim,Emergency,Consultant,31,H01,124725,False,0.22
+149,DR00150,Dr. Andrew Young,Neurology,Consultant,17,H03,127018,False,0.6
+150,DR00151,Dr. Lauren Harris,Neurology,Registrar,8,H06,69814,False,0.33
+151,DR00152,Dr. Charlotte Nguyen,ICU,Consultant,20,H08,135255,False,0.43
+152,DR00153,Dr. Helen Chen,Neurology,Registrar,6,H09,71329,False,0.22
+153,DR00154,Dr. Matthew Williams,Neurology,Registrar,5,H02,64712,False,0.27
+154,DR00155,Dr. Lauren Clark,Orthopedics,Consultant,11,H03,135972,False,0.34
+155,DR00156,Dr. Rachel Brown,Emergency,Consultant,30,H08,131417,False,0.59
+156,DR00157,Dr. William Miller,Emergency,Consultant,13,H01,130734,True,0.27
+157,DR00158,Dr. Emma Kim,ICU,Registrar,4,H07,63653,False,0.29
+158,DR00159,Dr. Liam Chen,Pediatrics,Consultant,29,H04,119063,False,0.32
+159,DR00160,Dr. Rachel Nguyen,Emergency,Senior House Officer,4,H10,47088,True,0.46
+160,DR00161,Dr. Daniel Thompson,Cardiology,Registrar,5,H02,76228,True,0.44
+161,DR00162,Dr. Carlos Martin,Neurology,Registrar,4,H06,60867,False,0.26
+162,DR00163,Dr. James Kim,Oncology,Senior Registrar,11,H02,94960,False,0.38
+163,DR00164,Dr. Sophie Smith,Oncology,Consultant,27,H03,112928,False,0.21
+164,DR00165,Dr. Priya Hall,Cardiology,Foundation Year 2,2,H06,35090,False,0.26
+165,DR00166,Dr. Sarah Martin,Cardiology,Registrar,8,H02,66609,False,0.32
+166,DR00167,Dr. Michael Lee,Emergency,Senior House Officer,5,H01,49605,False,0.7
+167,DR00168,Dr. Daniel Young,Oncology,Foundation Year 2,1,H04,44248,False,0.23
+168,DR00169,Dr. Sophie Walker,Orthopedics,Consultant,14,H01,130242,False,0.43
+169,DR00170,Dr. Priya Clark,Pediatrics,Consultant,10,H02,120485,False,0.65
+170,DR00171,Dr. Robert Martin,ICU,Foundation Year 1,1,H01,34049,False,0.48
+171,DR00172,Dr. Lauren Taylor,Emergency,Consultant,15,H06,118498,True,0.68
+172,DR00173,Dr. Sophie Jones,ICU,Registrar,3,H08,75616,False,0.66
+173,DR00174,Dr. Liam Rodriguez,Oncology,Registrar,7,H06,70442,True,0.54
+174,DR00175,Dr. Liam Smith,Emergency,Registrar,7,H09,60827,False,0.59
+175,DR00176,Dr. Daniel Chen,Neurology,Registrar,6,H01,59702,True,0.61
+176,DR00177,Dr. Sarah Thompson,Pediatrics,Foundation Year 2,2,H07,39401,False,0.36
+177,DR00178,Dr. David Singh,Orthopedics,Registrar,8,H01,73120,False,0.59
+178,DR00179,Dr. Patrick Miller,Neurology,Senior Registrar,9,H01,81177,False,0.56
+179,DR00180,Dr. Samuel Hall,Orthopedics,Registrar,6,H04,71092,False,0.38
+180,DR00181,Dr. Sophie Harris,Emergency,Senior Registrar,12,H04,76483,False,0.56
+181,DR00182,Dr. David Allen,Neurology,Senior Registrar,7,H03,87672,False,0.5
+182,DR00183,Dr. Michael Martin,Orthopedics,Consultant,23,H05,117610,False,0.31
+183,DR00184,Dr. Sarah Martinez,Neurology,Consultant,18,H02,109119,False,0.62
+184,DR00185,Dr. Matthew Johnson,ICU,Consultant,19,H08,132609,True,0.67
+185,DR00186,Dr. Amanda Wilson,ICU,Registrar,7,H03,63149,True,0.35
+186,DR00187,Dr. Lauren Garcia,Cardiology,Registrar,5,H03,64228,False,0.68
+187,DR00188,Dr. Sophie Harris,ICU,Consultant,32,H02,132693,False,0.51
+188,DR00189,Dr. Emma Martinez,Pediatrics,Registrar,5,H06,72668,False,0.22
+189,DR00190,Dr. Daniel Nguyen,Emergency,Senior Registrar,11,H03,75735,False,0.51
+190,DR00191,Dr. Amanda White,Pediatrics,Consultant,20,H04,123957,False,0.27
+191,DR00192,Dr. Sophie Martin,Neurology,Registrar,3,H03,60562,False,0.37
+192,DR00193,Dr. Amelia Rodriguez,Pediatrics,Foundation Year 1,1,H01,34942,False,0.45
+193,DR00194,Dr. Helen Young,Orthopedics,Senior Registrar,6,H08,73866,False,0.65
+194,DR00195,Dr. Daniel Park,Cardiology,Senior Registrar,11,H05,75147,False,0.56
+195,DR00196,Dr. Amelia Smith,Oncology,Senior House Officer,5,H04,49893,False,0.56
+196,DR00197,Dr. Charlotte Thompson,Cardiology,Foundation Year 1,1,H02,30689,False,0.2
+197,DR00198,Dr. Jessica Thompson,Orthopedics,Foundation Year 1,0,H02,29705,False,0.32
+198,DR00199,Dr. Carlos Khan,ICU,Foundation Year 2,2,H05,35795,False,0.58
+199,DR00200,Dr. Samuel Jones,Cardiology,Registrar,6,H03,61930,True,0.56
+200,DR00201,Dr. Robert White,Cardiology,Consultant,25,H08,134045,False,0.26
+201,DR00202,Dr. Charlotte Young,Oncology,Senior House Officer,5,H02,47904,False,0.31
+202,DR00203,Dr. Amanda Smith,Orthopedics,Consultant,25,H05,143358,False,0.57
+203,DR00204,Dr. Amanda Park,ICU,Consultant,29,H03,137810,False,0.42
+204,DR00205,Dr. Patrick Khan,Orthopedics,Consultant,22,H03,113446,False,0.37
+205,DR00206,Dr. Christopher Robinson,Emergency,Registrar,4,H07,65653,False,0.56
+206,DR00207,Dr. Sophie Harris,Pediatrics,Foundation Year 1,1,H05,37117,False,0.62
+207,DR00208,Dr. Sarah Martinez,Emergency,Foundation Year 1,1,H02,35051,False,0.27
+208,DR00209,Dr. Aisha Lee,Neurology,Senior House Officer,5,H03,49763,False,0.68
+209,DR00210,Dr. Thomas Martinez,Neurology,Registrar,8,H05,59789,True,0.69
+210,DR00211,Dr. Sarah Lee,Emergency,Consultant,16,H01,141178,False,0.27
+211,DR00212,Dr. Sophie Young,ICU,Senior Registrar,11,H05,93691,False,0.42
+212,DR00213,Dr. Amanda Singh,ICU,Senior House Officer,4,H05,57012,False,0.62
+213,DR00214,Dr. Liam Khan,Orthopedics,Senior House Officer,5,H07,47604,False,0.7
+214,DR00215,Dr. Daniel Walker,Emergency,Registrar,3,H01,77355,False,0.65
+215,DR00216,Dr. Sophie Jones,Neurology,Foundation Year 1,0,H04,34816,False,0.36
+216,DR00217,Dr. Michael Harris,Emergency,Registrar,3,H04,65732,False,0.3
+217,DR00218,Dr. Lauren Kim,Pediatrics,Senior Registrar,8,H04,91382,False,0.41
+218,DR00219,Dr. Rajesh Garcia,Orthopedics,Foundation Year 1,0,H06,30331,False,0.45
+219,DR00220,Dr. Mei Smith,Pediatrics,Foundation Year 2,2,H02,39189,False,0.28
+220,DR00221,Dr. Nina Kim,Cardiology,Foundation Year 1,1,H05,37916,True,0.42
+221,DR00222,Dr. Sarah Garcia,Cardiology,Consultant,11,H03,123335,False,0.66
+222,DR00223,Dr. Emma Park,Pediatrics,Consultant,30,H08,125472,False,0.52
+223,DR00224,Dr. Jessica Kim,Neurology,Foundation Year 2,2,H05,43753,False,0.55
+224,DR00225,Dr. Lauren Park,ICU,Foundation Year 1,1,H06,36015,False,0.36
+225,DR00226,Dr. Jessica Lewis,Emergency,Registrar,7,H04,64562,False,0.22
+226,DR00227,Dr. Daniel Hall,Cardiology,Registrar,7,H01,75498,False,0.54
+227,DR00228,Dr. Patrick Martinez,Pediatrics,Consultant,35,H05,113069,True,0.4
+228,DR00229,Dr. Daniel Lee,Neurology,Senior Registrar,8,H01,98229,False,0.67
+229,DR00230,Dr. Rachel Thompson,Neurology,Senior Registrar,8,H07,94152,True,0.26
+230,DR00231,Dr. Liam Martin,Pediatrics,Senior Registrar,6,H06,95660,False,0.65
+231,DR00232,Dr. Rajesh Park,Oncology,Consultant,22,H05,121032,False,0.69
+232,DR00233,Dr. Amanda Park,Emergency,Registrar,8,H10,66130,False,0.4
+233,DR00234,Dr. Liam Young,ICU,Registrar,6,H06,70204,False,0.23
+234,DR00235,Dr. Amanda Thomas,Oncology,Foundation Year 2,1,H02,43555,False,0.28
+235,DR00236,Dr. Helen Walker,Cardiology,Registrar,5,H09,76680,False,0.61
+236,DR00237,Dr. William Patel,Emergency,Foundation Year 2,2,H07,36827,False,0.66
+237,DR00238,Dr. Lauren Khan,Cardiology,Senior House Officer,3,H05,48020,False,0.57
+238,DR00239,Dr. James Williams,Oncology,Foundation Year 1,0,H08,36815,False,0.64
+239,DR00240,Dr. Patrick Taylor,Cardiology,Consultant,35,H01,138154,False,0.66
+240,DR00241,Dr. Robert Chen,Orthopedics,Senior House Officer,4,H08,45747,False,0.51
+241,DR00242,Dr. Amanda Thompson,ICU,Registrar,4,H06,65286,False,0.51
+242,DR00243,Dr. Samuel Kim,Pediatrics,Senior Registrar,9,H05,74074,False,0.63
+243,DR00244,Dr. Olivia Rodriguez,ICU,Senior Registrar,11,H01,88802,False,0.38
+244,DR00245,Dr. Christopher Thompson,ICU,Senior Registrar,6,H07,74602,False,0.52
+245,DR00246,Dr. William Garcia,Orthopedics,Senior Registrar,12,H08,94136,False,0.67
+246,DR00247,Dr. James Allen,Emergency,Registrar,6,H03,74257,False,0.25
+247,DR00248,Dr. Helen Kim,Emergency,Senior Registrar,6,H06,78517,False,0.39
+248,DR00249,Dr. Olivia Hall,Cardiology,Senior House Officer,5,H02,49361,False,0.54
+249,DR00250,Dr. Patrick Williams,Pediatrics,Senior Registrar,6,H01,77002,False,0.49
+250,DR00251,Dr. Helen Singh,Cardiology,Senior Registrar,7,H06,83921,False,0.4
+251,DR00252,Dr. William Davis,Oncology,Registrar,6,H04,76444,False,0.53
+252,DR00253,Dr. Christopher Robinson,ICU,Senior Registrar,7,H05,75732,False,0.46
+253,DR00254,Dr. Amelia Martin,Oncology,Foundation Year 2,2,H07,40291,False,0.35
+254,DR00255,Dr. Jessica Park,Emergency,Senior Registrar,10,H07,77639,False,0.51
+255,DR00256,Dr. Matthew Martinez,ICU,Registrar,6,H02,77383,False,0.69
+256,DR00257,Dr. Robert Davis,Orthopedics,Consultant,22,H04,135056,False,0.48
+257,DR00258,Dr. Samuel Martinez,Cardiology,Senior Registrar,10,H04,88723,False,0.26
+258,DR00259,Dr. William Miller,ICU,Registrar,6,H02,71315,True,0.46
+259,DR00260,Dr. Rachel Chen,Neurology,Senior Registrar,11,H02,90604,False,0.4
+260,DR00261,Dr. Rajesh Khan,Orthopedics,Foundation Year 1,1,H10,32194,False,0.27
+261,DR00262,Dr. Christopher Kim,Neurology,Registrar,4,H01,63511,False,0.54
+262,DR00263,Dr. Matthew Taylor,ICU,Foundation Year 1,0,H05,38152,False,0.28
+263,DR00264,Dr. William White,Oncology,Foundation Year 1,1,H01,35790,False,0.44
+264,DR00265,Dr. Andrew Anderson,Oncology,Foundation Year 2,2,H02,35111,True,0.25
+265,DR00266,Dr. Christopher Kim,ICU,Senior Registrar,9,H01,80646,False,0.58
+266,DR00267,Dr. Christopher Clark,Cardiology,Consultant,19,H08,135906,False,0.47
+267,DR00268,Dr. Christopher Singh,Orthopedics,Foundation Year 1,1,H06,30685,False,0.58
+268,DR00269,Dr. Priya Williams,Cardiology,Senior Registrar,11,H07,89466,False,0.56
+269,DR00270,Dr. Daniel Thompson,Cardiology,Senior Registrar,9,H04,86676,False,0.26
+270,DR00271,Dr. Robert Robinson,Oncology,Foundation Year 1,1,H07,33867,False,0.47
+271,DR00272,Dr. Andrew Kim,ICU,Senior Registrar,10,H04,92994,False,0.51
+272,DR00273,Dr. Jessica Harris,Pediatrics,Senior House Officer,4,H04,46487,False,0.52
+273,DR00274,Dr. Matthew Williams,Pediatrics,Registrar,5,H10,65524,True,0.67
+274,DR00275,Dr. William Brown,Cardiology,Foundation Year 2,2,H04,39848,False,0.37
+275,DR00276,Dr. Emma Rodriguez,Neurology,Consultant,25,H02,111481,True,0.36
+276,DR00277,Dr. Daniel Davis,Neurology,Consultant,21,H05,143267,False,0.21
+277,DR00278,Dr. Michael White,Emergency,Registrar,3,H04,61024,False,0.43
+278,DR00279,Dr. Christopher Jones,Oncology,Consultant,14,H04,143794,False,0.56
+279,DR00280,Dr. Thomas Thomas,Neurology,Senior Registrar,9,H06,87285,False,0.26
+280,DR00281,Dr. Daniel Martin,Orthopedics,Foundation Year 2,2,H08,42949,False,0.32
+281,DR00282,Dr. Amanda Anderson,Orthopedics,Registrar,8,H01,72000,False,0.28
+282,DR00283,Dr. Andrew Wilson,Emergency,Foundation Year 1,0,H03,37521,True,0.49
+283,DR00284,Dr. Amelia Jackson,Cardiology,Senior Registrar,7,H07,84825,False,0.25
+284,DR00285,Dr. Jessica Thompson,Orthopedics,Senior House Officer,2,H02,55643,True,0.69
+285,DR00286,Dr. Thomas Anderson,Neurology,Senior Registrar,7,H08,88132,False,0.27
+286,DR00287,Dr. Thomas Allen,Emergency,Consultant,35,H04,109571,False,0.53
+287,DR00288,Dr. David Williams,Orthopedics,Senior Registrar,11,H03,81192,False,0.3
+288,DR00289,Dr. Nina Kim,Neurology,Consultant,20,H01,121668,False,0.3
+289,DR00290,Dr. Sarah Johnson,Neurology,Consultant,10,H02,140597,False,0.4
+290,DR00291,Dr. Amelia White,Oncology,Registrar,3,H01,66500,True,0.54
+291,DR00292,Dr. Christopher Martin,Pediatrics,Senior Registrar,8,H03,77919,True,0.44
+292,DR00293,Dr. Rajesh Kim,Emergency,Registrar,7,H02,58704,True,0.34
+293,DR00294,Dr. Amanda Thompson,Cardiology,Foundation Year 2,2,H06,35384,False,0.46
+294,DR00295,Dr. Jessica Nguyen,ICU,Senior House Officer,5,H05,53723,False,0.47
+295,DR00296,Dr. Aisha Davis,Pediatrics,Consultant,11,H02,114959,False,0.35
+296,DR00297,Dr. Jessica Lewis,Cardiology,Consultant,19,H05,122472,True,0.61
+297,DR00298,Dr. Rajesh Singh,Pediatrics,Consultant,24,H01,129146,False,0.26
+298,DR00299,Dr. David Rodriguez,Emergency,Foundation Year 2,1,H04,43550,False,0.68
+299,DR00300,Dr. Sophie Williams,Cardiology,Consultant,10,H04,118205,False,0.46
+300,DR00301,Dr. Christopher Lewis,Pediatrics,Senior Registrar,8,H03,90302,False,0.39
+301,DR00302,Dr. Emma Martin,ICU,Senior Registrar,9,H07,94828,False,0.23
+302,DR00303,Dr. Daniel Williams,ICU,Registrar,4,H04,63327,False,0.27
+303,DR00304,Dr. Amelia White,Pediatrics,Senior House Officer,4,H02,56115,False,0.3
+304,DR00305,Dr. Andrew Martinez,Oncology,Foundation Year 1,0,H06,36182,True,0.24
+305,DR00306,Dr. Michael Rodriguez,Pediatrics,Senior House Officer,4,H01,54198,False,0.47
+306,DR00307,Dr. James Robinson,ICU,Registrar,3,H09,65024,False,0.35
+307,DR00308,Dr. William Smith,Emergency,Registrar,6,H02,77594,False,0.67
+308,DR00309,Dr. Mei Anderson,Pediatrics,Senior Registrar,12,H05,74367,False,0.49
+309,DR00310,Dr. Amelia Nguyen,ICU,Registrar,7,H06,70901,False,0.64
+310,DR00311,Dr. Priya Singh,Emergency,Registrar,6,H02,62801,False,0.6
+311,DR00312,Dr. Christopher Lewis,ICU,Registrar,4,H10,59447,False,0.6
+312,DR00313,Dr. David Rodriguez,Oncology,Registrar,6,H02,72127,True,0.52
+313,DR00314,Dr. Amanda Nguyen,Cardiology,Consultant,32,H01,132067,False,0.28
+314,DR00315,Dr. Samuel Jones,Pediatrics,Senior House Officer,4,H01,57163,False,0.59
+315,DR00316,Dr. Nina Lee,Neurology,Senior House Officer,2,H07,54456,False,0.6
+316,DR00317,Dr. Thomas Kim,Emergency,Senior Registrar,9,H01,96056,False,0.42
+317,DR00318,Dr. Liam Lee,Cardiology,Registrar,4,H08,61081,False,0.62
+318,DR00319,Dr. Michael Hall,Emergency,Senior Registrar,7,H08,75711,False,0.57
+319,DR00320,Dr. Amelia Harris,Emergency,Consultant,25,H04,141964,False,0.25
+320,DR00321,Dr. Aisha Lewis,Neurology,Registrar,5,H01,65695,False,0.46
+321,DR00322,Dr. Sophie Martinez,Emergency,Registrar,7,H03,66114,False,0.23
+322,DR00323,Dr. Jessica Williams,ICU,Consultant,24,H05,112057,False,0.36
+323,DR00324,Dr. Matthew Rodriguez,Oncology,Consultant,32,H07,124578,False,0.36
+324,DR00325,Dr. Andrew Jones,Pediatrics,Senior House Officer,4,H01,54190,True,0.45
+325,DR00326,Dr. Robert Wilson,Neurology,Registrar,3,H02,74100,True,0.39
+326,DR00327,Dr. Sarah Chen,Emergency,Consultant,15,H02,138526,True,0.39
+327,DR00328,Dr. Sarah Walker,Pediatrics,Registrar,3,H01,73550,False,0.68
+328,DR00329,Dr. David Thomas,Orthopedics,Registrar,8,H06,63627,False,0.29
+329,DR00330,Dr. Emma Lee,Cardiology,Senior Registrar,12,H05,85799,False,0.32
+330,DR00331,Dr. Charlotte Thomas,Oncology,Registrar,8,H04,65138,False,0.66
+331,DR00332,Dr. Mei Khan,ICU,Senior House Officer,2,H09,47866,False,0.25
+332,DR00333,Dr. Lauren Lee,Orthopedics,Consultant,21,H07,108684,False,0.41
+333,DR00334,Dr. William Smith,Neurology,Senior House Officer,2,H09,55654,False,0.42
+334,DR00335,Dr. Christopher Garcia,Emergency,Foundation Year 1,0,H04,36292,False,0.6
+335,DR00336,Dr. Charlotte Davis,ICU,Consultant,16,H05,131133,False,0.44
+336,DR00337,Dr. Christopher Thompson,Cardiology,Registrar,8,H02,73153,True,0.46
+337,DR00338,Dr. Thomas Anderson,ICU,Registrar,6,H02,73114,True,0.24
+338,DR00339,Dr. Andrew Rodriguez,Pediatrics,Foundation Year 1,1,H01,36462,False,0.28
+339,DR00340,Dr. Nina Young,Cardiology,Senior House Officer,3,H01,56742,False,0.54
+340,DR00341,Dr. Nina Brown,ICU,Senior Registrar,6,H01,79628,False,0.43
+341,DR00342,Dr. Olivia Thompson,Pediatrics,Registrar,5,H03,60424,False,0.64
+342,DR00343,Dr. Olivia Walker,Cardiology,Consultant,22,H01,137730,False,0.51
+343,DR00344,Dr. Matthew Wilson,Pediatrics,Registrar,7,H04,67635,False,0.23
+344,DR00345,Dr. Michael Thomas,Oncology,Senior House Officer,3,H04,51128,False,0.25
+345,DR00346,Dr. Lauren Rodriguez,Emergency,Consultant,17,H09,138051,False,0.32
+346,DR00347,Dr. Samuel Anderson,Oncology,Registrar,6,H04,75839,False,0.53
+347,DR00348,Dr. Christopher Rodriguez,Neurology,Consultant,23,H02,125800,False,0.32
+348,DR00349,Dr. Amanda Wilson,Orthopedics,Senior Registrar,6,H02,93781,False,0.65
+349,DR00350,Dr. Samuel Jackson,Orthopedics,Consultant,20,H09,138893,False,0.67
+350,DR00351,Dr. Patrick Clark,Oncology,Senior Registrar,9,H05,90435,False,0.57
+351,DR00352,Dr. Michael Martinez,Orthopedics,Senior House Officer,4,H04,57398,True,0.66
+352,DR00353,Dr. Amelia Williams,Neurology,Senior Registrar,8,H06,97649,False,0.5
+353,DR00354,Dr. William Rodriguez,Neurology,Senior House Officer,5,H03,56660,False,0.36
+354,DR00355,Dr. David Patel,Cardiology,Foundation Year 2,1,H08,43542,False,0.57
+355,DR00356,Dr. Lauren Taylor,ICU,Senior Registrar,7,H05,78967,True,0.65
+356,DR00357,Dr. Christopher Young,Neurology,Senior Registrar,11,H03,88753,False,0.61
+357,DR00358,Dr. Helen Anderson,Emergency,Senior Registrar,10,H09,85752,False,0.67
+358,DR00359,Dr. James White,ICU,Consultant,32,H08,137725,False,0.37
+359,DR00360,Dr. Daniel Miller,Emergency,Senior Registrar,6,H04,90950,False,0.39
+360,DR00361,Dr. Olivia Lewis,ICU,Consultant,29,H03,137792,False,0.44
+361,DR00362,Dr. Samuel Lee,Cardiology,Senior House Officer,3,H03,51696,False,0.54
+362,DR00363,Dr. David Jones,Pediatrics,Consultant,16,H01,115516,False,0.64
+363,DR00364,Dr. Carlos Brown,Neurology,Consultant,17,H01,110284,False,0.52
+364,DR00365,Dr. Emma Jones,Pediatrics,Consultant,28,H11,133915,True,0.34
+365,DR00366,Dr. Michael Lee,Emergency,Senior House Officer,2,H04,44320,False,0.44
+366,DR00367,Dr. Matthew Martinez,Oncology,Consultant,12,H01,124652,False,0.21
+367,DR00368,Dr. Aisha Martin,Orthopedics,Consultant,20,H02,128845,False,0.66
+368,DR00369,Dr. Rachel Miller,Pediatrics,Foundation Year 2,1,H02,41093,False,0.35
+369,DR00370,Dr. Emma Taylor,Neurology,Consultant,23,H01,141659,False,0.46
+370,DR00371,Dr. Samuel White,Oncology,Senior House Officer,5,H08,49169,False,0.27
+371,DR00372,Dr. Michael Singh,Orthopedics,Senior Registrar,6,H03,81113,True,0.59
+372,DR00373,Dr. Lauren Rodriguez,Orthopedics,Senior House Officer,2,H03,53398,False,0.26
+373,DR00374,Dr. Daniel Anderson,Pediatrics,Senior Registrar,12,H03,89085,False,0.42
+374,DR00375,Dr. Amelia Davis,ICU,Consultant,26,H02,129801,False,0.69
+375,DR00376,Dr. Patrick Davis,ICU,Foundation Year 2,1,H01,40084,False,0.26
+376,DR00377,Dr. James Martin,Emergency,Consultant,32,H01,122581,False,0.5
+377,DR00378,Dr. James Singh,Orthopedics,Foundation Year 2,2,H06,44684,False,0.35
+378,DR00379,Dr. Charlotte Hall,Orthopedics,Consultant,29,H11,108053,False,0.51
+379,DR00380,Dr. Rachel Allen,Neurology,Foundation Year 2,2,H03,36623,False,0.38
+380,DR00381,Dr. Olivia Anderson,Emergency,Senior Registrar,9,H06,76349,True,0.6
+381,DR00382,Dr. Daniel Garcia,Orthopedics,Senior House Officer,4,H05,54505,False,0.53
+382,DR00383,Dr. Amelia Park,Oncology,Senior House Officer,2,H01,51738,True,0.3
+383,DR00384,Dr. David Martin,Pediatrics,Registrar,3,H01,71111,False,0.52
+384,DR00385,Dr. William Clark,Cardiology,Senior House Officer,4,H05,43557,False,0.35
+385,DR00386,Dr. Nina Smith,Cardiology,Consultant,33,H05,138581,False,0.29
+386,DR00387,Dr. Nina Kim,Neurology,Senior Registrar,8,H02,90517,False,0.59
+387,DR00388,Dr. Nina Jackson,Neurology,Senior Registrar,8,H03,77886,False,0.7
+388,DR00389,Dr. Jessica Jones,Pediatrics,Consultant,11,H02,130379,False,0.32
+389,DR00390,Dr. Priya Taylor,Orthopedics,Consultant,25,H05,133407,False,0.46
+390,DR00391,Dr. Rachel Davis,Oncology,Senior Registrar,12,H01,86995,False,0.28
+391,DR00392,Dr. Thomas Smith,Cardiology,Registrar,7,H05,74206,False,0.32
+392,DR00393,Dr. Charlotte Chen,Emergency,Consultant,20,H03,142134,False,0.31
+393,DR00394,Dr. Sophie Martin,Neurology,Foundation Year 1,0,H10,30283,False,0.31
+394,DR00395,Dr. Carlos Nguyen,Pediatrics,Foundation Year 1,0,H02,33193,False,0.66
+395,DR00396,Dr. William Clark,Oncology,Consultant,28,H03,125033,False,0.66
+396,DR00397,Dr. Priya Garcia,Emergency,Senior Registrar,7,H03,87882,False,0.54
+397,DR00398,Dr. Sarah Nguyen,ICU,Registrar,5,H09,76024,False,0.39
+398,DR00399,Dr. Thomas Chen,Neurology,Registrar,3,H03,64741,False,0.64
+399,DR00400,Dr. Andrew Young,Neurology,Senior Registrar,7,H03,96585,False,0.24
+400,DR00401,Dr. Emma Hall,Neurology,Registrar,5,H02,67629,True,0.58
+401,DR00402,Dr. Olivia Robinson,Emergency,Foundation Year 2,2,H01,37928,False,0.66
+402,DR00403,Dr. Priya Davis,ICU,Consultant,10,H02,115126,False,0.4
+403,DR00404,Dr. Emma Davis,Cardiology,Registrar,4,H01,70637,False,0.31
+404,DR00405,Dr. Jessica Jackson,Cardiology,Consultant,32,H09,143030,False,0.32
+405,DR00406,Dr. Robert Taylor,Emergency,Registrar,7,H01,70068,False,0.24
+406,DR00407,Dr. Sarah Martin,Emergency,Consultant,29,H07,138960,False,0.6
+407,DR00408,Dr. Jessica Robinson,Cardiology,Consultant,26,H02,111904,False,0.52
+408,DR00409,Dr. Mei Patel,Emergency,Senior House Officer,2,H10,49135,False,0.66
+409,DR00410,Dr. Amanda Robinson,Pediatrics,Senior House Officer,2,H07,56980,False,0.41
+410,DR00411,Dr. Patrick Thompson,Cardiology,Registrar,3,H11,76138,False,0.56
+411,DR00412,Dr. Christopher Lee,Neurology,Senior Registrar,10,H02,93999,False,0.49
+412,DR00413,Dr. Helen Nguyen,Oncology,Foundation Year 2,2,H02,35093,True,0.57
+413,DR00414,Dr. Priya Thompson,Orthopedics,Senior House Officer,4,H05,44108,False,0.37
+414,DR00415,Dr. Sophie Martinez,Pediatrics,Consultant,19,H06,137248,False,0.62
+415,DR00416,Dr. Nina Wilson,ICU,Consultant,19,H08,127017,False,0.53
+416,DR00417,Dr. Emma Lee,Neurology,Foundation Year 2,1,H03,43736,True,0.54
+417,DR00418,Dr. Amelia Park,Neurology,Consultant,25,H02,112402,False,0.22
+418,DR00419,Dr. Charlotte Anderson,Cardiology,Senior House Officer,5,H04,44606,False,0.36
+419,DR00420,Dr. Carlos Walker,Pediatrics,Senior House Officer,3,H05,48618,False,0.33
+420,DR00421,Dr. Aisha Wilson,Neurology,Senior Registrar,10,H01,93013,False,0.4
+421,DR00422,Dr. Jessica Patel,Orthopedics,Registrar,6,H03,72898,True,0.48
+422,DR00423,Dr. Christopher Miller,Oncology,Registrar,8,H08,61656,False,0.7
+423,DR00424,Dr. Amelia Taylor,ICU,Senior House Officer,4,H02,53539,False,0.2
+424,DR00425,Dr. Amanda Brown,Oncology,Consultant,10,H07,142187,False,0.4
+425,DR00426,Dr. Lauren Nguyen,Emergency,Senior Registrar,11,H01,76513,False,0.33
+426,DR00427,Dr. Sarah Park,Orthopedics,Senior Registrar,11,H02,90756,False,0.47
+427,DR00428,Dr. Matthew Johnson,Orthopedics,Foundation Year 2,2,H01,34707,True,0.36
+428,DR00429,Dr. Robert Lewis,ICU,Consultant,20,H05,124856,True,0.56
+429,DR00430,Dr. Michael White,Oncology,Consultant,16,H06,134243,False,0.37
+430,DR00431,Dr. Robert Robinson,Cardiology,Registrar,8,H04,69645,True,0.6
+431,DR00432,Dr. Thomas Singh,Neurology,Senior House Officer,5,H06,54087,False,0.59
+432,DR00433,Dr. Jessica Patel,Pediatrics,Consultant,18,H06,139980,False,0.65
+433,DR00434,Dr. Matthew Johnson,Orthopedics,Senior House Officer,3,H05,45761,False,0.21
+434,DR00435,Dr. Emma Nguyen,Cardiology,Registrar,5,H01,63020,False,0.56
+435,DR00436,Dr. Andrew Davis,ICU,Registrar,4,H05,63275,True,0.24
+436,DR00437,Dr. Thomas Nguyen,Oncology,Senior House Officer,4,H06,47226,False,0.25
+437,DR00438,Dr. Thomas Hall,ICU,Senior Registrar,9,H03,81194,False,0.69
+438,DR00439,Dr. Sophie Johnson,Oncology,Senior Registrar,7,H11,87712,True,0.32
+439,DR00440,Dr. Nina Kim,Cardiology,Registrar,3,H04,73706,False,0.38
+440,DR00441,Dr. Christopher Garcia,Cardiology,Consultant,30,H03,118819,False,0.34
+441,DR00442,Dr. Carlos Kim,Emergency,Senior House Officer,2,H04,54270,False,0.34
+442,DR00443,Dr. Aisha Davis,Neurology,Registrar,6,H02,74133,False,0.65
+443,DR00444,Dr. Lauren Thomas,Oncology,Foundation Year 2,1,H03,35127,True,0.58
+444,DR00445,Dr. William Williams,ICU,Registrar,7,H05,63431,False,0.56
+445,DR00446,Dr. Michael Jackson,Emergency,Consultant,18,H04,143694,False,0.52
+446,DR00447,Dr. Rajesh Jackson,Oncology,Consultant,15,H08,115022,False,0.43
+447,DR00448,Dr. Daniel Robinson,Cardiology,Senior House Officer,2,H08,56127,True,0.64
+448,DR00449,Dr. Mei Taylor,Oncology,Senior Registrar,10,H02,86293,False,0.28
+449,DR00450,Dr. Liam Miller,Cardiology,Consultant,21,H02,125909,False,0.56
+450,DR00451,Dr. Lauren Lewis,Emergency,Consultant,32,H06,117614,True,0.54
+451,DR00452,Dr. Helen Patel,ICU,Registrar,3,H05,68022,False,0.31
+452,DR00453,Dr. Emma Lewis,Cardiology,Foundation Year 1,1,H02,34486,False,0.29
+453,DR00454,Dr. Emma Walker,Cardiology,Consultant,19,H09,108649,False,0.29
+454,DR00455,Dr. Sophie Wilson,Orthopedics,Registrar,7,H01,62122,False,0.45
+455,DR00456,Dr. Amanda Khan,ICU,Consultant,28,H05,108209,True,0.68
+456,DR00457,Dr. James Martin,Neurology,Registrar,5,H01,77796,False,0.45
+457,DR00458,Dr. Rajesh Hall,Orthopedics,Senior House Officer,5,H07,44718,False,0.3
+458,DR00459,Dr. James Thompson,Cardiology,Consultant,10,H01,138726,False,0.27
+459,DR00460,Dr. Priya Kim,Cardiology,Senior House Officer,3,H04,50123,False,0.29
+460,DR00461,Dr. Jessica Smith,Oncology,Senior House Officer,3,H05,44399,True,0.31
+461,DR00462,Dr. Helen Martin,Pediatrics,Consultant,34,H02,136123,False,0.53
+462,DR00463,Dr. Michael Anderson,Orthopedics,Senior Registrar,10,H10,78709,False,0.43
+463,DR00464,Dr. Thomas Johnson,Cardiology,Consultant,11,H09,131532,False,0.65
+464,DR00465,Dr. Emma Thomas,Cardiology,Senior House Officer,4,H05,48210,False,0.24
+465,DR00466,Dr. Matthew Park,Emergency,Senior Registrar,6,H05,96434,False,0.59
+466,DR00467,Dr. Olivia Singh,Oncology,Consultant,17,H04,108970,False,0.24
+467,DR00468,Dr. Lauren Brown,Emergency,Consultant,27,H03,133534,False,0.2
+468,DR00469,Dr. Rajesh Allen,Emergency,Senior House Officer,5,H01,54726,False,0.66
+469,DR00470,Dr. Carlos Singh,Emergency,Senior Registrar,9,H09,76997,False,0.58
+470,DR00471,Dr. Carlos Harris,Pediatrics,Consultant,24,H01,118656,True,0.39
+471,DR00472,Dr. Amanda Hall,Oncology,Senior House Officer,3,H01,52535,False,0.64
+472,DR00473,Dr. Olivia Walker,ICU,Registrar,3,H07,67884,False,0.22
+473,DR00474,Dr. Sophie Patel,ICU,Foundation Year 2,1,H04,42179,False,0.65
+474,DR00475,Dr. Mei Lee,Emergency,Consultant,27,H02,114407,True,0.24
+475,DR00476,Dr. Carlos Martin,Neurology,Registrar,7,H01,60138,False,0.53
+476,DR00477,Dr. David Lewis,Neurology,Consultant,21,H03,136134,False,0.22
+477,DR00478,Dr. Thomas Martinez,ICU,Senior Registrar,9,H06,93880,False,0.7
+478,DR00479,Dr. Priya White,Orthopedics,Registrar,5,H01,69508,False,0.33
+479,DR00480,Dr. Christopher Chen,Neurology,Foundation Year 2,1,H04,36692,False,0.39
+480,DR00481,Dr. Robert Hall,Oncology,Consultant,27,H06,137877,False,0.52
+481,DR00482,Dr. Charlotte White,Orthopedics,Senior Registrar,7,H02,90856,False,0.6
+482,DR00483,Dr. Amelia Kim,Neurology,Registrar,7,H02,75939,False,0.68
+483,DR00484,Dr. Christopher Park,Pediatrics,Consultant,34,H02,115779,False,0.51
+484,DR00485,Dr. David Lewis,Neurology,Registrar,6,H04,70046,False,0.6
+485,DR00486,Dr. William Clark,Neurology,Consultant,21,H04,114218,False,0.48
+486,DR00487,Dr. Daniel Chen,Emergency,Registrar,7,H05,67486,False,0.36
+487,DR00488,Dr. Nina Robinson,Neurology,Foundation Year 2,1,H10,41706,False,0.53
+488,DR00489,Dr. James Khan,Cardiology,Consultant,26,H05,134373,False,0.41
+489,DR00490,Dr. Aisha Kim,Pediatrics,Senior House Officer,2,H07,56912,False,0.59
+490,DR00491,Dr. David Martin,ICU,Foundation Year 2,1,H01,41309,False,0.59
+491,DR00492,Dr. Rajesh Jones,Orthopedics,Senior Registrar,6,H01,90222,False,0.58
+492,DR00493,Dr. Amanda Lewis,Neurology,Consultant,31,H02,126446,False,0.65
+493,DR00494,Dr. Emma Khan,ICU,Consultant,13,H04,132389,False,0.55
+494,DR00495,Dr. Michael Miller,Emergency,Senior House Officer,4,H03,46494,False,0.31
+495,DR00496,Dr. Michael Thompson,Oncology,Registrar,4,H07,62130,False,0.46
+496,DR00497,Dr. Patrick Garcia,Neurology,Consultant,15,H01,122403,False,0.56
+497,DR00498,Dr. Olivia Patel,Orthopedics,Consultant,21,H02,120842,False,0.26
+498,DR00499,Dr. William Rodriguez,Pediatrics,Foundation Year 2,2,H02,43056,False,0.41
+499,DR00500,Dr. Daniel Nguyen,Cardiology,Foundation Year 1,1,H02,30754,False,0.28
+500,DR00501,Dr. Carlos Jackson,Pediatrics,Senior House Officer,5,H11,50454,False,0.26
+501,DR00502,Dr. Charlotte Patel,Emergency,Senior House Officer,4,H04,44213,False,0.57
+502,DR00503,Dr. Rajesh Young,Pediatrics,Consultant,10,H05,125852,False,0.54
+503,DR00504,Dr. Jessica Wilson,Emergency,Senior Registrar,7,H07,79102,False,0.27
+504,DR00505,Dr. James Chen,Neurology,Senior Registrar,8,H04,93037,False,0.33
+505,DR00506,Dr. Aisha Anderson,Neurology,Senior Registrar,11,H01,80840,False,0.56
+506,DR00507,Dr. Andrew Miller,ICU,Senior Registrar,9,H01,83847,False,0.45
+507,DR00508,Dr. Mei Walker,Orthopedics,Registrar,8,H02,62608,False,0.47
+508,DR00509,Dr. Amanda Wilson,Orthopedics,Senior House Officer,3,H04,50271,False,0.66
+509,DR00510,Dr. Andrew Smith,Pediatrics,Foundation Year 2,1,H04,42157,False,0.25
+510,DR00511,Dr. Priya Singh,Emergency,Senior Registrar,11,H03,83997,True,0.57
+511,DR00512,Dr. Patrick Nguyen,ICU,Senior House Officer,4,H02,48645,False,0.58
+512,DR00513,Dr. Nina Allen,Orthopedics,Consultant,13,H07,143535,False,0.2
+513,DR00514,Dr. Patrick Smith,Pediatrics,Consultant,21,H01,125375,False,0.28
+514,DR00515,Dr. Olivia Patel,Emergency,Foundation Year 1,0,H02,37922,True,0.26
+515,DR00516,Dr. Liam Thomas,Neurology,Consultant,20,H05,121731,False,0.21
+516,DR00517,Dr. Sophie Smith,Pediatrics,Registrar,8,H05,74732,True,0.56
+517,DR00518,Dr. Sophie Park,Cardiology,Senior House Officer,3,H06,47039,False,0.23
+518,DR00519,Dr. Matthew Kim,ICU,Consultant,26,H05,134140,False,0.51
+519,DR00520,Dr. Sarah Thompson,Emergency,Senior Registrar,7,H02,87824,False,0.61
+520,DR00521,Dr. Helen Nguyen,Cardiology,Consultant,21,H05,141832,False,0.56
+521,DR00522,Dr. Sarah Harris,Orthopedics,Registrar,4,H02,74376,False,0.43
+522,DR00523,Dr. Rajesh Brown,Neurology,Consultant,10,H02,110268,False,0.35
+523,DR00524,Dr. David Garcia,Neurology,Consultant,27,H01,129400,False,0.36
+524,DR00525,Dr. Robert Thompson,ICU,Foundation Year 1,0,H04,31065,True,0.45
+525,DR00526,Dr. Emma Davis,Neurology,Registrar,5,H01,64404,False,0.54
+526,DR00527,Dr. Helen Patel,Cardiology,Senior Registrar,6,H01,76628,False,0.68
+527,DR00528,Dr. Michael Garcia,ICU,Consultant,18,H07,143157,True,0.51
+528,DR00529,Dr. Helen Allen,Emergency,Consultant,30,H03,125056,True,0.24
+529,DR00530,Dr. Sarah Walker,Oncology,Senior House Officer,2,H03,50013,True,0.68
+530,DR00531,Dr. Robert Brown,Neurology,Consultant,32,H06,116060,False,0.58
+531,DR00532,Dr. Sophie Davis,Cardiology,Senior Registrar,6,H03,98287,False,0.68
+532,DR00533,Dr. Mei Garcia,Neurology,Senior House Officer,2,H04,48020,True,0.62
+533,DR00534,Dr. Rajesh Allen,Pediatrics,Senior House Officer,3,H01,49882,False,0.61
+534,DR00535,Dr. Nina Miller,Emergency,Consultant,26,H01,130397,False,0.67
+535,DR00536,Dr. Nina Brown,Oncology,Registrar,4,H01,64669,False,0.4
+536,DR00537,Dr. Priya Williams,Emergency,Senior House Officer,4,H10,55171,False,0.51
+537,DR00538,Dr. James Walker,Pediatrics,Senior House Officer,5,H09,55167,False,0.6
+538,DR00539,Dr. Helen Clark,Orthopedics,Foundation Year 1,0,H03,32813,False,0.37
+539,DR00540,Dr. Amelia Anderson,Emergency,Senior Registrar,10,H10,77534,False,0.66
+540,DR00541,Dr. Matthew Anderson,Emergency,Registrar,3,H03,60903,False,0.6
+541,DR00542,Dr. Charlotte Young,Emergency,Senior House Officer,5,H01,54766,False,0.23
+542,DR00543,Dr. Mei Singh,Pediatrics,Consultant,16,H02,112031,False,0.43
+543,DR00544,Dr. Matthew Khan,Orthopedics,Consultant,27,H10,135598,False,0.4
+544,DR00545,Dr. Samuel Jackson,Cardiology,Senior House Officer,4,H05,47096,False,0.37
+545,DR00546,Dr. Emma Clark,Cardiology,Registrar,8,H08,65516,False,0.26
+546,DR00547,Dr. Sophie Allen,Orthopedics,Foundation Year 1,1,H01,35294,False,0.41
+547,DR00548,Dr. Michael Clark,Cardiology,Consultant,26,H09,131986,False,0.26
+548,DR00549,Dr. Liam Williams,Emergency,Foundation Year 2,1,H09,40873,False,0.53
+549,DR00550,Dr. Nina Clark,Cardiology,Senior House Officer,4,H01,49673,False,0.58
+550,DR00551,Dr. William Allen,Emergency,Foundation Year 1,0,H02,37641,False,0.43
+551,DR00552,Dr. Rajesh Patel,ICU,Registrar,7,H09,74976,False,0.57
+552,DR00553,Dr. Matthew Lee,Emergency,Consultant,10,H02,125827,False,0.45
+553,DR00554,Dr. David Robinson,Emergency,Registrar,3,H01,64696,False,0.42
+554,DR00555,Dr. Rajesh Nguyen,Pediatrics,Foundation Year 1,1,H07,34372,False,0.29
+555,DR00556,Dr. Christopher Davis,Orthopedics,Senior House Officer,3,H03,53701,False,0.38
+556,DR00557,Dr. Aisha Garcia,Orthopedics,Consultant,14,H02,111684,False,0.63
+557,DR00558,Dr. David Miller,Oncology,Foundation Year 2,2,H01,40279,False,0.67
+558,DR00559,Dr. Sophie Wilson,Oncology,Foundation Year 2,2,H07,37719,False,0.36
+559,DR00560,Dr. Sarah Brown,Cardiology,Senior Registrar,8,H04,92793,False,0.46
+560,DR00561,Dr. Priya Davis,Oncology,Registrar,5,H02,59774,False,0.28
+561,DR00562,Dr. Rajesh Johnson,Emergency,Senior Registrar,10,H03,90466,False,0.7
+562,DR00563,Dr. Nina Walker,ICU,Senior House Officer,5,H05,43371,False,0.45
+563,DR00564,Dr. Rachel Chen,Oncology,Registrar,7,H01,67584,False,0.51
+564,DR00565,Dr. Daniel Thomas,ICU,Senior Registrar,7,H08,76211,False,0.36
+565,DR00566,Dr. Rajesh Khan,Oncology,Senior House Officer,2,H06,45374,False,0.29
+566,DR00567,Dr. Lauren Park,Emergency,Registrar,8,H01,61827,False,0.61
+567,DR00568,Dr. Charlotte Thompson,Orthopedics,Foundation Year 1,1,H07,36761,False,0.2
+568,DR00569,Dr. Rajesh Davis,Emergency,Registrar,3,H06,69376,True,0.67
+569,DR00570,Dr. Lauren Miller,Orthopedics,Senior House Officer,5,H02,45255,True,0.33
+570,DR00571,Dr. Mei Garcia,Pediatrics,Foundation Year 2,1,H05,45339,False,0.53
+571,DR00572,Dr. Emma Nguyen,ICU,Consultant,17,H02,136585,False,0.69
+572,DR00573,Dr. Christopher Robinson,Pediatrics,Consultant,12,H02,131050,False,0.28
+573,DR00574,Dr. Priya Lee,Oncology,Consultant,17,H04,119694,False,0.43
+574,DR00575,Dr. Aisha Anderson,Pediatrics,Senior House Officer,4,H02,43821,False,0.34
+575,DR00576,Dr. Matthew Khan,Neurology,Consultant,11,H04,124982,False,0.46
+576,DR00577,Dr. Liam Park,Pediatrics,Senior House Officer,5,H04,48597,False,0.39
+577,DR00578,Dr. David Jackson,Emergency,Consultant,19,H04,134000,False,0.6
+578,DR00579,Dr. Matthew Jackson,ICU,Senior House Officer,5,H04,46685,False,0.26
+579,DR00580,Dr. Charlotte Robinson,Pediatrics,Senior Registrar,6,H03,76941,False,0.21
+580,DR00581,Dr. Amanda Kim,ICU,Registrar,7,H02,71167,False,0.4
+581,DR00582,Dr. Robert Lewis,Oncology,Senior Registrar,12,H04,76328,True,0.45
+582,DR00583,Dr. Lauren White,Cardiology,Consultant,34,H08,142904,False,0.42
+583,DR00584,Dr. Priya Garcia,Pediatrics,Senior Registrar,9,H03,91507,False,0.46
+584,DR00585,Dr. Andrew Kim,Neurology,Consultant,19,H07,123784,False,0.43
+585,DR00586,Dr. Rachel Davis,Oncology,Registrar,6,H01,58562,True,0.48
+586,DR00587,Dr. Michael Miller,Neurology,Consultant,18,H06,125710,False,0.39
+587,DR00588,Dr. Sophie Clark,Oncology,Registrar,8,H05,58608,False,0.24
+588,DR00589,Dr. Charlotte Jackson,Neurology,Foundation Year 2,1,H03,39844,True,0.57
+589,DR00590,Dr. Liam Jackson,Emergency,Registrar,4,H02,75094,True,0.51
+590,DR00591,Dr. Emma Kim,Emergency,Senior Registrar,6,H01,97976,False,0.44
+591,DR00592,Dr. Sophie Allen,Emergency,Consultant,22,H01,119402,False,0.39
+592,DR00593,Dr. Thomas Brown,Orthopedics,Registrar,3,H03,73236,False,0.25
+593,DR00594,Dr. Samuel Taylor,Emergency,Registrar,8,H02,68365,False,0.59
+594,DR00595,Dr. Priya Harris,ICU,Senior Registrar,12,H01,94468,False,0.69
+595,DR00596,Dr. Michael Rodriguez,Orthopedics,Consultant,32,H01,132348,False,0.69
+596,DR00597,Dr. Liam Lewis,Neurology,Consultant,23,H02,119239,True,0.52
+597,DR00598,Dr. Helen Davis,Orthopedics,Consultant,16,H03,109186,True,0.35
+598,DR00599,Dr. Amanda Kim,Cardiology,Foundation Year 2,2,H05,39962,False,0.57
+599,DR00600,Dr. Christopher Garcia,Neurology,Senior Registrar,10,H04,74768,False,0.67
+600,DR00601,Dr. Liam Kim,ICU,Senior House Officer,4,H05,48798,False,0.65
+601,DR00602,Dr. Jessica Hall,Pediatrics,Registrar,5,H02,59812,False,0.24
+602,DR00603,Dr. Thomas Jones,Neurology,Senior House Officer,4,H04,48091,False,0.23
+603,DR00604,Dr. William Martinez,Orthopedics,Registrar,8,H03,61366,False,0.51
+604,DR00605,Dr. Samuel Jones,Orthopedics,Registrar,3,H02,75715,False,0.63
+605,DR00606,Dr. Amanda Patel,Neurology,Senior House Officer,4,H01,52191,False,0.39
+606,DR00607,Dr. Robert Hall,ICU,Consultant,33,H02,134061,True,0.35
+607,DR00608,Dr. Olivia Hall,Cardiology,Registrar,5,H06,58849,False,0.33
+608,DR00609,Dr. Liam Williams,Oncology,Senior Registrar,10,H08,95770,False,0.52
+609,DR00610,Dr. Michael Walker,ICU,Registrar,4,H05,61170,False,0.34
+610,DR00611,Dr. Christopher Rodriguez,Oncology,Consultant,26,H05,121968,False,0.61
+611,DR00612,Dr. Michael Lewis,Oncology,Foundation Year 2,2,H06,36955,True,0.28
+612,DR00613,Dr. Aisha Williams,Orthopedics,Consultant,33,H09,118785,False,0.59
+613,DR00614,Dr. Olivia Martin,Emergency,Consultant,30,H08,133516,False,0.63
+614,DR00615,Dr. Andrew Lee,Pediatrics,Senior House Officer,2,H10,46593,False,0.32
+615,DR00616,Dr. Robert Lee,ICU,Senior Registrar,6,H03,93421,False,0.61
+616,DR00617,Dr. Rachel Lee,Pediatrics,Consultant,20,H03,116081,False,0.48
+617,DR00618,Dr. Olivia Lewis,Orthopedics,Registrar,4,H08,76991,False,0.55
+618,DR00619,Dr. Christopher Clark,Neurology,Senior House Officer,4,H01,52468,True,0.58
+619,DR00620,Dr. Emma Harris,Cardiology,Foundation Year 1,1,H05,35993,False,0.26
+620,DR00621,Dr. Thomas Walker,Neurology,Registrar,7,H07,59962,False,0.58
+621,DR00622,Dr. Mei White,Pediatrics,Consultant,27,H03,125629,True,0.26
+622,DR00623,Dr. Sarah Anderson,Pediatrics,Senior House Officer,3,H07,43566,False,0.62
+623,DR00624,Dr. Mei Martin,Orthopedics,Registrar,3,H04,63618,False,0.67
+624,DR00625,Dr. Jessica Hall,Oncology,Consultant,10,H04,140566,False,0.7
+625,DR00626,Dr. Christopher Singh,Cardiology,Consultant,32,H09,132564,False,0.6
+626,DR00627,Dr. Charlotte Rodriguez,Pediatrics,Consultant,10,H01,139895,False,0.69
+627,DR00628,Dr. Carlos Garcia,Pediatrics,Consultant,31,H03,127459,False,0.22
+628,DR00629,Dr. Mei Smith,Neurology,Senior House Officer,2,H01,48064,False,0.29
+629,DR00630,Dr. Rajesh Rodriguez,Neurology,Registrar,7,H09,68363,False,0.48
+630,DR00631,Dr. Carlos Chen,Neurology,Senior Registrar,11,H06,85908,False,0.55
+631,DR00632,Dr. Lauren Rodriguez,Neurology,Foundation Year 2,2,H02,39066,False,0.43
+632,DR00633,Dr. Christopher White,Emergency,Senior Registrar,12,H05,95024,False,0.34
+633,DR00634,Dr. Matthew Nguyen,Orthopedics,Registrar,5,H09,73853,True,0.55
+634,DR00635,Dr. Amelia Lewis,Neurology,Consultant,28,H09,143926,False,0.63
+635,DR00636,Dr. Michael Walker,Pediatrics,Consultant,26,H03,119048,False,0.43
+636,DR00637,Dr. Lauren Rodriguez,Pediatrics,Senior House Officer,5,H01,51428,False,0.56
+637,DR00638,Dr. Michael Smith,Oncology,Consultant,35,H06,112424,True,0.55
+638,DR00639,Dr. Liam Brown,Emergency,Consultant,26,H02,122158,True,0.64
+639,DR00640,Dr. David Thompson,Orthopedics,Consultant,25,H02,139213,True,0.55
+640,DR00641,Dr. Patrick Miller,Oncology,Senior House Officer,3,H05,50494,True,0.61
+641,DR00642,Dr. Nina Kim,Pediatrics,Consultant,23,H06,114191,False,0.48
+642,DR00643,Dr. Andrew Jackson,Orthopedics,Senior House Officer,3,H04,52360,False,0.37
+643,DR00644,Dr. Carlos Nguyen,Neurology,Registrar,7,H01,71982,True,0.48
+644,DR00645,Dr. Priya Robinson,Emergency,Senior Registrar,10,H10,76619,False,0.56
+645,DR00646,Dr. Helen Wilson,ICU,Consultant,18,H11,112217,False,0.68
+646,DR00647,Dr. Sophie Brown,Pediatrics,Senior House Officer,5,H05,43607,False,0.31
+647,DR00648,Dr. Priya Williams,Emergency,Consultant,28,H09,143940,False,0.66
+648,DR00649,Dr. Rachel Clark,Cardiology,Registrar,5,H02,77896,False,0.56
+649,DR00650,Dr. Mei Nguyen,Oncology,Registrar,4,H03,62639,False,0.43
+650,DR00651,Dr. Sarah Jones,Cardiology,Senior Registrar,7,H08,75171,False,0.42
+651,DR00652,Dr. Helen Thompson,Oncology,Registrar,7,H05,77507,False,0.24
+652,DR00653,Dr. Robert Hall,Orthopedics,Foundation Year 1,0,H02,31265,False,0.58
+653,DR00654,Dr. Christopher White,Pediatrics,Foundation Year 2,2,H11,38927,False,0.48
+654,DR00655,Dr. Mei Robinson,Pediatrics,Senior Registrar,9,H03,94975,True,0.57
+655,DR00656,Dr. Helen Young,Neurology,Registrar,3,H03,63464,False,0.63
+656,DR00657,Dr. Sophie Thompson,Emergency,Foundation Year 1,1,H08,31776,False,0.49
+657,DR00658,Dr. Amanda Taylor,Oncology,Registrar,5,H03,70179,False,0.55
+658,DR00659,Dr. Thomas Lewis,Cardiology,Senior Registrar,12,H06,74044,False,0.34
+659,DR00660,Dr. James Chen,Pediatrics,Registrar,5,H01,76880,False,0.32
+660,DR00661,Dr. Sophie Brown,Oncology,Senior Registrar,11,H09,85927,False,0.39
+661,DR00662,Dr. Amelia Jones,Orthopedics,Senior Registrar,11,H05,80040,False,0.6
+662,DR00663,Dr. David Hall,Neurology,Consultant,32,H01,112866,False,0.37
+663,DR00664,Dr. Rajesh Smith,Cardiology,Senior House Officer,3,H07,48534,False,0.47
+664,DR00665,Dr. Emma Robinson,Oncology,Foundation Year 2,1,H01,43271,False,0.57
+665,DR00666,Dr. Helen Wilson,ICU,Consultant,30,H01,143653,False,0.45
+666,DR00667,Dr. Michael Brown,ICU,Consultant,27,H09,140697,False,0.29
+667,DR00668,Dr. Matthew Khan,Pediatrics,Senior Registrar,8,H05,74918,False,0.24
+668,DR00669,Dr. Christopher Jackson,ICU,Foundation Year 2,1,H05,43589,False,0.33
+669,DR00670,Dr. Charlotte Chen,Neurology,Consultant,28,H06,110951,False,0.63
+670,DR00671,Dr. Emma Young,Orthopedics,Consultant,35,H03,126348,False,0.43
+671,DR00672,Dr. Michael Park,Oncology,Senior Registrar,8,H05,82231,False,0.69
+672,DR00673,Dr. Aisha Harris,ICU,Consultant,30,H01,126612,True,0.62
+673,DR00674,Dr. Helen Clark,Cardiology,Senior House Officer,5,H03,55931,False,0.27
+674,DR00675,Dr. Emma Khan,Pediatrics,Senior Registrar,11,H03,98093,False,0.6
+675,DR00676,Dr. Lauren Brown,Pediatrics,Consultant,35,H03,134538,True,0.41
+676,DR00677,Dr. Jessica Thomas,Orthopedics,Consultant,32,H02,128922,False,0.46
+677,DR00678,Dr. William Park,Cardiology,Senior Registrar,9,H05,73961,False,0.51
+678,DR00679,Dr. Emma Singh,ICU,Foundation Year 1,0,H06,38069,True,0.32
+679,DR00680,Dr. Jessica Davis,Cardiology,Senior House Officer,2,H02,44890,False,0.45
+680,DR00681,Dr. Andrew Johnson,Neurology,Senior House Officer,2,H03,57569,False,0.25
+681,DR00682,Dr. David Walker,Orthopedics,Consultant,32,H01,115597,False,0.33
+682,DR00683,Dr. David Harris,Cardiology,Senior Registrar,11,H10,88831,False,0.69
+683,DR00684,Dr. Nina White,Emergency,Consultant,34,H03,129901,False,0.41
+684,DR00685,Dr. Rajesh Chen,Neurology,Senior House Officer,4,H05,56449,False,0.21
+685,DR00686,Dr. David Young,Oncology,Consultant,31,H07,142231,False,0.63
+686,DR00687,Dr. Robert Clark,Emergency,Registrar,3,H03,61455,False,0.61
+687,DR00688,Dr. David Thompson,Oncology,Foundation Year 2,1,H03,36375,True,0.53
+688,DR00689,Dr. Sarah Wilson,Emergency,Consultant,11,H01,126170,False,0.23
+689,DR00690,Dr. William Lee,Neurology,Consultant,21,H03,112597,False,0.3
+690,DR00691,Dr. James Williams,ICU,Senior House Officer,3,H01,45219,True,0.59
+691,DR00692,Dr. David Johnson,Pediatrics,Foundation Year 2,1,H01,41308,False,0.51
+692,DR00693,Dr. Liam Singh,Pediatrics,Senior House Officer,5,H06,55804,False,0.41
+693,DR00694,Dr. James Park,Emergency,Senior House Officer,2,H02,49781,False,0.67
+694,DR00695,Dr. Olivia Thomas,Neurology,Senior House Officer,4,H02,45916,False,0.63
+695,DR00696,Dr. Samuel Jones,Orthopedics,Registrar,5,H01,65703,True,0.4
+696,DR00697,Dr. Olivia Thompson,Pediatrics,Senior Registrar,10,H04,90181,False,0.46
+697,DR00698,Dr. James Wilson,Oncology,Senior Registrar,6,H09,95689,False,0.53
+698,DR00699,Dr. James Martinez,Oncology,Registrar,7,H06,58912,True,0.63
+699,DR00700,Dr. Olivia Park,Pediatrics,Senior Registrar,10,H02,82325,True,0.21
+700,DR00701,Dr. Michael Chen,Neurology,Senior Registrar,10,H03,98314,False,0.46
+701,DR00702,Dr. Sarah Johnson,Neurology,Senior Registrar,10,H02,92181,False,0.47
+702,DR00703,Dr. Daniel Rodriguez,Neurology,Consultant,27,H05,140901,False,0.25
+703,DR00704,Dr. Robert Chen,Pediatrics,Consultant,14,H04,135395,False,0.32
+704,DR00705,Dr. Daniel White,Pediatrics,Foundation Year 2,1,H01,43556,False,0.51
+705,DR00706,Dr. Carlos Brown,Emergency,Foundation Year 1,1,H02,32957,False,0.42
+706,DR00707,Dr. Thomas Khan,Neurology,Senior House Officer,2,H11,57450,False,0.42
+707,DR00708,Dr. Matthew Harris,Oncology,Senior Registrar,7,H08,82721,True,0.44
+708,DR00709,Dr. Michael Patel,Oncology,Senior Registrar,6,H04,87583,False,0.37
+709,DR00710,Dr. Amanda Hall,Pediatrics,Senior House Officer,2,H09,48256,True,0.31
+710,DR00711,Dr. Aisha Lee,Pediatrics,Senior Registrar,7,H05,97655,False,0.68
+711,DR00712,Dr. Samuel Lee,Orthopedics,Senior House Officer,3,H06,48540,False,0.37
+712,DR00713,Dr. Rajesh Smith,Oncology,Consultant,24,H03,119869,False,0.2
+713,DR00714,Dr. Matthew Thomas,Orthopedics,Foundation Year 1,1,H03,30355,False,0.62
+714,DR00715,Dr. Helen Harris,Neurology,Consultant,24,H04,138636,False,0.38
+715,DR00716,Dr. Sophie White,Neurology,Registrar,3,H05,68161,False,0.36
+716,DR00717,Dr. Lauren Martin,Neurology,Registrar,7,H04,68789,False,0.29
+717,DR00718,Dr. Helen Lewis,Orthopedics,Consultant,30,H01,142765,False,0.39
+718,DR00719,Dr. Thomas Johnson,Pediatrics,Consultant,35,H06,126438,False,0.39
+719,DR00720,Dr. Emma Robinson,Cardiology,Consultant,28,H07,136791,False,0.25
+720,DR00721,Dr. Michael Johnson,Orthopedics,Senior House Officer,2,H03,50562,False,0.37
+721,DR00722,Dr. Helen Jackson,Oncology,Senior House Officer,3,H04,44868,False,0.38
+722,DR00723,Dr. Emma Thomas,Neurology,Senior House Officer,5,H05,51208,False,0.63
+723,DR00724,Dr. Patrick Smith,Oncology,Foundation Year 1,0,H04,34983,False,0.63
+724,DR00725,Dr. Lauren Park,Neurology,Consultant,24,H07,124469,False,0.23
+725,DR00726,Dr. Aisha Young,Orthopedics,Senior House Officer,4,H05,54526,True,0.25
+726,DR00727,Dr. Daniel Brown,Oncology,Registrar,3,H04,61731,True,0.49
+727,DR00728,Dr. Patrick Martin,Oncology,Senior Registrar,12,H07,79830,False,0.4
+728,DR00729,Dr. Rajesh Rodriguez,Pediatrics,Consultant,10,H06,114274,False,0.45
+729,DR00730,Dr. Helen Nguyen,Neurology,Registrar,4,H06,70844,False,0.41
+730,DR00731,Dr. Michael Park,Emergency,Consultant,35,H09,134195,False,0.6
+731,DR00732,Dr. Charlotte Jones,Cardiology,Senior House Officer,5,H06,53119,False,0.36
+732,DR00733,Dr. Aisha Thompson,Orthopedics,Registrar,8,H11,77917,False,0.35
+733,DR00734,Dr. Samuel Martin,Cardiology,Foundation Year 2,2,H07,35944,False,0.65
+734,DR00735,Dr. Thomas Garcia,Emergency,Registrar,6,H04,68646,True,0.66
+735,DR00736,Dr. Nina Smith,Cardiology,Senior House Officer,4,H08,54234,False,0.21
+736,DR00737,Dr. David White,Cardiology,Senior Registrar,11,H01,79601,False,0.7
+737,DR00738,Dr. Aisha White,ICU,Foundation Year 1,1,H10,37320,False,0.29
+738,DR00739,Dr. Liam Robinson,Orthopedics,Senior House Officer,4,H08,43267,True,0.57
+739,DR00740,Dr. Amanda Johnson,Orthopedics,Senior House Officer,3,H07,52103,False,0.32
+740,DR00741,Dr. Helen Khan,Pediatrics,Registrar,4,H03,71134,False,0.5
+741,DR00742,Dr. Charlotte Rodriguez,Cardiology,Consultant,17,H06,140496,False,0.3
+742,DR00743,Dr. Thomas Thompson,Orthopedics,Consultant,27,H06,139103,False,0.3
+743,DR00744,Dr. Carlos Harris,Neurology,Consultant,20,H01,121367,False,0.52
+744,DR00745,Dr. Thomas Lee,Neurology,Foundation Year 2,2,H07,45326,False,0.29
+745,DR00746,Dr. Rajesh Davis,Emergency,Foundation Year 2,1,H04,41642,False,0.47
+746,DR00747,Dr. Aisha Lewis,Neurology,Registrar,3,H04,60261,False,0.34
+747,DR00748,Dr. Mei Johnson,Emergency,Senior House Officer,3,H06,54844,False,0.22
+748,DR00749,Dr. Liam Rodriguez,ICU,Consultant,34,H01,118925,False,0.28
+749,DR00750,Dr. Emma Kim,Orthopedics,Registrar,3,H08,66001,False,0.38
+750,DR00751,Dr. Thomas Robinson,Emergency,Senior House Officer,2,H03,55032,False,0.39
+751,DR00752,Dr. Thomas Anderson,Emergency,Registrar,4,H01,74426,False,0.67
+752,DR00753,Dr. Aisha Taylor,Oncology,Registrar,5,H07,68053,False,0.24
+753,DR00754,Dr. Rajesh Miller,Orthopedics,Senior Registrar,7,H02,87391,False,0.57
+754,DR00755,Dr. Sarah Lee,Emergency,Consultant,30,H11,114874,False,0.23
+755,DR00756,Dr. Emma Martin,Pediatrics,Consultant,30,H03,108296,True,0.24
+756,DR00757,Dr. Carlos Clark,Neurology,Consultant,13,H01,116071,False,0.69
+757,DR00758,Dr. Mei Anderson,Neurology,Consultant,31,H04,110967,True,0.53
+758,DR00759,Dr. Aisha Walker,Oncology,Consultant,34,H03,125968,False,0.5
+759,DR00760,Dr. Thomas Kim,Pediatrics,Consultant,19,H08,118729,False,0.43
+760,DR00761,Dr. Lauren Singh,Cardiology,Senior House Officer,2,H01,56612,True,0.61
+761,DR00762,Dr. Nina Smith,Pediatrics,Registrar,5,H06,74376,False,0.66
+762,DR00763,Dr. Mei Miller,ICU,Senior House Officer,4,H06,51036,False,0.36
+763,DR00764,Dr. Nina Williams,Pediatrics,Senior Registrar,12,H01,83089,True,0.36
+764,DR00765,Dr. Nina Lee,Neurology,Registrar,8,H06,69538,False,0.66
+765,DR00766,Dr. Samuel Thomas,Orthopedics,Foundation Year 2,1,H07,38055,False,0.54
+766,DR00767,Dr. Andrew Garcia,ICU,Consultant,33,H01,135505,True,0.28
+767,DR00768,Dr. Amanda Thompson,Pediatrics,Senior House Officer,2,H01,43665,False,0.38
+768,DR00769,Dr. Olivia Anderson,Pediatrics,Registrar,3,H09,60524,False,0.51
+769,DR00770,Dr. Michael Young,Neurology,Foundation Year 1,1,H02,37359,True,0.58
+770,DR00771,Dr. Helen Martin,ICU,Foundation Year 1,1,H08,29209,False,0.31
+771,DR00772,Dr. Jessica Walker,Orthopedics,Consultant,21,H11,135081,False,0.35
+772,DR00773,Dr. Andrew Jones,ICU,Consultant,33,H04,109654,False,0.55
+773,DR00774,Dr. Patrick Rodriguez,Oncology,Senior Registrar,11,H06,92691,True,0.65
+774,DR00775,Dr. Christopher White,Neurology,Registrar,7,H02,64211,False,0.43
+775,DR00776,Dr. Lauren Walker,Emergency,Registrar,6,H04,60773,False,0.67
+776,DR00777,Dr. Priya White,Orthopedics,Foundation Year 2,2,H02,45366,False,0.5
+777,DR00778,Dr. Michael Singh,ICU,Registrar,3,H08,67123,False,0.45
+778,DR00779,Dr. Nina Lee,Neurology,Registrar,6,H07,65331,False,0.47
+779,DR00780,Dr. Robert Chen,ICU,Registrar,3,H09,60106,False,0.5
+780,DR00781,Dr. Liam Rodriguez,Emergency,Senior House Officer,4,H05,48115,True,0.28
+781,DR00782,Dr. Christopher Taylor,Neurology,Registrar,3,H07,73768,False,0.63
+782,DR00783,Dr. Thomas Smith,Pediatrics,Registrar,8,H02,66256,False,0.55
+783,DR00784,Dr. Matthew Martin,ICU,Senior House Officer,4,H05,48379,False,0.23
+784,DR00785,Dr. Priya Patel,Neurology,Foundation Year 2,2,H02,41917,False,0.21
+785,DR00786,Dr. Olivia Kim,Cardiology,Foundation Year 2,1,H08,36838,True,0.49
+786,DR00787,Dr. Amanda Miller,Emergency,Senior House Officer,4,H01,54798,False,0.64
+787,DR00788,Dr. Christopher Smith,Pediatrics,Registrar,4,H02,69465,False,0.26
+788,DR00789,Dr. Liam Rodriguez,Cardiology,Foundation Year 1,0,H03,29901,False,0.54
+789,DR00790,Dr. Christopher Taylor,Pediatrics,Senior House Officer,2,H01,53104,False,0.59
+790,DR00791,Dr. Amelia Martinez,Neurology,Consultant,20,H02,121250,False,0.57
+791,DR00792,Dr. James Khan,Neurology,Consultant,32,H01,113980,False,0.49
+792,DR00793,Dr. Patrick Patel,Emergency,Registrar,6,H08,69710,False,0.37
+793,DR00794,Dr. David Khan,Cardiology,Senior House Officer,5,H08,43452,False,0.23
+794,DR00795,Dr. Olivia Lewis,Pediatrics,Registrar,7,H10,68193,False,0.5
+795,DR00796,Dr. Andrew Taylor,Pediatrics,Consultant,20,H02,119162,False,0.38
+796,DR00797,Dr. Aisha Wilson,Neurology,Consultant,26,H02,133991,False,0.69
+797,DR00798,Dr. Amanda Khan,Pediatrics,Senior House Officer,4,H05,56970,False,0.27
+798,DR00799,Dr. Rachel Lewis,Pediatrics,Consultant,22,H02,110011,False,0.29
+799,DR00800,Dr. Amanda Anderson,Cardiology,Registrar,7,H01,71558,False,0.53
+800,DR00801,Dr. Patrick Lewis,ICU,Foundation Year 2,2,H03,42489,False,0.37
+801,DR00802,Dr. Sarah Garcia,Orthopedics,Senior Registrar,11,H06,77920,False,0.51
+802,DR00803,Dr. Helen Robinson,Neurology,Registrar,7,H10,68713,False,0.53
+803,DR00804,Dr. Amanda Khan,Cardiology,Consultant,25,H03,119399,True,0.65
+804,DR00805,Dr. Olivia Clark,Cardiology,Consultant,33,H03,134453,False,0.42
+805,DR00806,Dr. Lauren Kim,Cardiology,Senior Registrar,6,H06,92257,False,0.43
+806,DR00807,Dr. Liam Singh,ICU,Senior Registrar,12,H10,81401,False,0.3
+807,DR00808,Dr. Nina Allen,Emergency,Registrar,8,H03,75501,True,0.45
+808,DR00809,Dr. Robert Williams,Pediatrics,Registrar,3,H08,66115,False,0.36
+809,DR00810,Dr. Christopher Lee,ICU,Consultant,13,H11,112399,True,0.55
+810,DR00811,Dr. Nina Smith,Orthopedics,Senior House Officer,3,H02,55129,False,0.51
+811,DR00812,Dr. Sophie Jackson,Cardiology,Foundation Year 2,1,H06,43657,False,0.34
+812,DR00813,Dr. Carlos Jones,Emergency,Registrar,6,H01,60832,False,0.24
+813,DR00814,Dr. Aisha Allen,Neurology,Registrar,6,H04,67580,False,0.46
+814,DR00815,Dr. Sarah Park,Pediatrics,Consultant,14,H02,118714,True,0.32
+815,DR00816,Dr. Olivia Allen,ICU,Foundation Year 2,1,H06,39825,False,0.21
+816,DR00817,Dr. Rajesh Rodriguez,Cardiology,Consultant,32,H02,116177,False,0.5
+817,DR00818,Dr. Aisha Garcia,Neurology,Senior Registrar,12,H03,85193,False,0.69
+818,DR00819,Dr. Christopher Thompson,Neurology,Registrar,3,H01,62000,False,0.23
+819,DR00820,Dr. Daniel Lewis,Orthopedics,Senior Registrar,12,H06,95051,False,0.23
+820,DR00821,Dr. Patrick Park,Emergency,Registrar,4,H01,74141,False,0.34
+821,DR00822,Dr. Jessica Singh,Neurology,Consultant,11,H04,142602,False,0.39
+822,DR00823,Dr. Samuel Chen,Cardiology,Consultant,28,H10,138927,False,0.58
+823,DR00824,Dr. Daniel Wilson,Orthopedics,Consultant,20,H04,136573,False,0.64
+824,DR00825,Dr. Christopher Hall,Orthopedics,Foundation Year 2,1,H05,35798,False,0.33
+825,DR00826,Dr. Liam Martin,Oncology,Registrar,7,H02,69613,False,0.42
+826,DR00827,Dr. Helen Garcia,Oncology,Consultant,33,H03,112273,True,0.29
+827,DR00828,Dr. Jessica Thomas,Cardiology,Registrar,5,H04,68771,False,0.58
+828,DR00829,Dr. Rachel Robinson,Emergency,Foundation Year 2,2,H01,36343,False,0.3
+829,DR00830,Dr. Rajesh Wilson,Orthopedics,Consultant,17,H10,141532,False,0.42
+830,DR00831,Dr. Mei Williams,Oncology,Senior Registrar,8,H03,78426,False,0.63
+831,DR00832,Dr. David Martin,ICU,Senior House Officer,5,H01,49069,False,0.35
+832,DR00833,Dr. Robert Rodriguez,Pediatrics,Consultant,24,H04,122876,True,0.48
+833,DR00834,Dr. Robert Garcia,Neurology,Senior House Officer,5,H08,56209,False,0.4
+834,DR00835,Dr. Michael Thompson,Orthopedics,Senior House Officer,4,H03,48199,False,0.59
+835,DR00836,Dr. Andrew Kim,Emergency,Registrar,4,H05,77851,True,0.45
+836,DR00837,Dr. Carlos Jackson,Emergency,Senior House Officer,3,H07,49243,False,0.52
+837,DR00838,Dr. Aisha Lee,Orthopedics,Consultant,13,H02,131780,False,0.67
+838,DR00839,Dr. Rachel Lee,Oncology,Registrar,7,H06,59096,False,0.48
+839,DR00840,Dr. Patrick Davis,Cardiology,Foundation Year 2,1,H04,35186,False,0.5
+840,DR00841,Dr. Aisha Patel,ICU,Foundation Year 2,1,H06,40935,False,0.53
+841,DR00842,Dr. William Brown,Neurology,Registrar,8,H05,60000,False,0.63
+842,DR00843,Dr. Amelia White,ICU,Senior Registrar,11,H01,76913,False,0.26
+843,DR00844,Dr. Charlotte Lee,Emergency,Registrar,7,H03,69977,False,0.34
+844,DR00845,Dr. Amelia Clark,Emergency,Consultant,15,H07,110525,True,0.31
+845,DR00846,Dr. Daniel Robinson,Orthopedics,Foundation Year 1,1,H07,34309,False,0.25
+846,DR00847,Dr. Thomas Martinez,Neurology,Senior Registrar,7,H01,75431,False,0.52
+847,DR00848,Dr. William Walker,Pediatrics,Foundation Year 2,2,H08,40142,False,0.53
+848,DR00849,Dr. Helen Johnson,ICU,Senior Registrar,9,H07,84707,False,0.21
+849,DR00850,Dr. Amelia Anderson,Pediatrics,Consultant,15,H04,119038,False,0.48
+850,DR00851,Dr. Matthew Rodriguez,Neurology,Registrar,6,H08,71243,True,0.55
+851,DR00852,Dr. Rachel Harris,Emergency,Consultant,32,H05,118375,False,0.38
+852,DR00853,Dr. Rachel Martin,Neurology,Consultant,16,H02,132781,False,0.23
+853,DR00854,Dr. Jessica Brown,Orthopedics,Foundation Year 2,1,H05,37339,False,0.26
+854,DR00855,Dr. Rajesh Brown,Oncology,Consultant,18,H01,121091,False,0.48
+855,DR00856,Dr. Sarah Khan,ICU,Senior House Officer,4,H06,48694,False,0.61
+856,DR00857,Dr. Jessica Lee,Emergency,Senior House Officer,5,H04,50645,True,0.2
+857,DR00858,Dr. Matthew Hall,Neurology,Consultant,13,H03,137337,False,0.28
+858,DR00859,Dr. Sarah Thomas,Emergency,Senior Registrar,11,H01,90327,False,0.47
+859,DR00860,Dr. Helen Thomas,Neurology,Consultant,29,H09,143665,False,0.22
+860,DR00861,Dr. Sophie Robinson,Emergency,Senior Registrar,6,H08,76988,False,0.47
+861,DR00862,Dr. Thomas Lewis,Oncology,Senior Registrar,6,H01,85938,False,0.5
+862,DR00863,Dr. Mei Anderson,Orthopedics,Consultant,11,H05,136655,False,0.23
+863,DR00864,Dr. Andrew Thomas,Orthopedics,Senior House Officer,4,H04,55996,False,0.5
+864,DR00865,Dr. Helen Hall,Emergency,Senior Registrar,11,H09,74296,False,0.67
+865,DR00866,Dr. Rajesh White,Cardiology,Registrar,3,H06,64130,False,0.66
+866,DR00867,Dr. Patrick Thomas,ICU,Senior House Officer,3,H01,44910,False,0.45
+867,DR00868,Dr. Christopher Young,Oncology,Senior Registrar,7,H02,96345,False,0.6
+868,DR00869,Dr. Liam Taylor,Pediatrics,Foundation Year 2,1,H02,43656,False,0.56
+869,DR00870,Dr. Olivia Nguyen,Oncology,Senior House Officer,3,H05,53600,False,0.43
+870,DR00871,Dr. Olivia Kim,Neurology,Consultant,15,H03,141787,False,0.58
+871,DR00872,Dr. Sarah Smith,Cardiology,Foundation Year 2,2,H01,43658,False,0.53
+872,DR00873,Dr. Aisha Martinez,ICU,Registrar,3,H04,66888,False,0.62
+873,DR00874,Dr. Samuel Nguyen,Emergency,Senior Registrar,8,H01,85870,False,0.33
+874,DR00875,Dr. Andrew Lewis,Orthopedics,Senior House Officer,5,H11,51015,False,0.3
+875,DR00876,Dr. Sophie Martin,Emergency,Registrar,4,H02,69532,False,0.44
+876,DR00877,Dr. Priya Wilson,Pediatrics,Registrar,7,H05,63359,False,0.36
+877,DR00878,Dr. Robert Kim,ICU,Consultant,10,H06,112936,False,0.6
+878,DR00879,Dr. William Young,Cardiology,Senior Registrar,9,H05,84385,False,0.69
+879,DR00880,Dr. Priya Martin,Neurology,Senior Registrar,10,H06,87013,False,0.5
+880,DR00881,Dr. James Allen,Orthopedics,Senior House Officer,2,H04,56526,True,0.55
+881,DR00882,Dr. Patrick Singh,Cardiology,Senior Registrar,12,H03,88133,False,0.38
+882,DR00883,Dr. Rajesh White,Cardiology,Registrar,8,H02,68731,False,0.24
+883,DR00884,Dr. Nina Davis,ICU,Consultant,34,H05,134345,False,0.56
+884,DR00885,Dr. David Harris,Pediatrics,Consultant,13,H02,133108,False,0.6
+885,DR00886,Dr. Charlotte Clark,Emergency,Consultant,17,H05,124036,False,0.65
+886,DR00887,Dr. Amelia Taylor,Oncology,Consultant,18,H07,116204,True,0.62
+887,DR00888,Dr. Amanda Garcia,Oncology,Senior House Officer,5,H09,55768,True,0.48
+888,DR00889,Dr. Mei Chen,Orthopedics,Consultant,18,H02,141286,False,0.34
+889,DR00890,Dr. Michael Martin,Oncology,Consultant,13,H04,120708,False,0.69
+890,DR00891,Dr. Jessica Hall,Emergency,Consultant,35,H06,114029,False,0.53
+891,DR00892,Dr. David Williams,Cardiology,Registrar,5,H05,61070,False,0.3
+892,DR00893,Dr. Priya Martinez,Cardiology,Consultant,31,H09,136835,True,0.35
+893,DR00894,Dr. Michael Nguyen,Cardiology,Consultant,19,H06,135128,False,0.24
+894,DR00895,Dr. Patrick Khan,Orthopedics,Foundation Year 2,1,H04,41188,False,0.6
+895,DR00896,Dr. James Chen,Pediatrics,Senior House Officer,3,H02,47662,False,0.48
+896,DR00897,Dr. Andrew Miller,Neurology,Registrar,7,H02,73320,False,0.39
+897,DR00898,Dr. Lauren Taylor,Neurology,Registrar,8,H01,71627,False,0.44
+898,DR00899,Dr. Michael Garcia,Neurology,Senior House Officer,5,H05,43981,False,0.34
+899,DR00900,Dr. David Robinson,Neurology,Senior Registrar,7,H03,84041,False,0.46
+900,DR00901,Dr. Amelia Thompson,Oncology,Foundation Year 2,2,H01,34796,False,0.26
+901,DR00902,Dr. Sophie Lewis,Neurology,Foundation Year 1,0,H08,32176,False,0.39
+902,DR00903,Dr. Christopher Nguyen,Pediatrics,Consultant,12,H04,125457,False,0.64
+903,DR00904,Dr. Robert Allen,Emergency,Senior House Officer,5,H06,45415,False,0.42
+904,DR00905,Dr. Charlotte Smith,Pediatrics,Foundation Year 1,1,H02,32460,False,0.47
+905,DR00906,Dr. Mei Martin,Cardiology,Senior House Officer,4,H05,43704,False,0.43
+906,DR00907,Dr. Andrew Davis,Emergency,Registrar,8,H04,72788,True,0.33
+907,DR00908,Dr. Matthew Miller,Emergency,Senior Registrar,10,H07,76120,False,0.39
+908,DR00909,Dr. David Jones,Oncology,Consultant,16,H01,143390,False,0.43
+909,DR00910,Dr. Jessica Walker,Cardiology,Registrar,8,H02,67417,False,0.47
+910,DR00911,Dr. Emma Jackson,Orthopedics,Registrar,3,H08,75161,False,0.46
+911,DR00912,Dr. Nina Johnson,Emergency,Registrar,8,H04,69624,False,0.36
+912,DR00913,Dr. Matthew Young,Orthopedics,Senior House Officer,3,H10,53118,True,0.55
+913,DR00914,Dr. Lauren Robinson,Cardiology,Senior Registrar,6,H04,80671,False,0.66
+914,DR00915,Dr. Charlotte Lee,Pediatrics,Senior Registrar,8,H01,78267,False,0.32
+915,DR00916,Dr. Emma Chen,Orthopedics,Consultant,12,H06,140838,False,0.63
+916,DR00917,Dr. Mei Miller,Pediatrics,Consultant,34,H05,109161,False,0.45
+917,DR00918,Dr. Liam Harris,Orthopedics,Senior Registrar,9,H10,86594,False,0.5
+918,DR00919,Dr. Charlotte Robinson,Oncology,Consultant,17,H11,136812,False,0.41
+919,DR00920,Dr. Jessica Johnson,Orthopedics,Consultant,17,H01,134949,False,0.69
+920,DR00921,Dr. Daniel Lee,Emergency,Senior House Officer,2,H07,45031,False,0.56
+921,DR00922,Dr. Mei Rodriguez,Emergency,Foundation Year 1,1,H02,33578,False,0.23
+922,DR00923,Dr. Amelia Smith,Pediatrics,Registrar,7,H05,73770,False,0.48
+923,DR00924,Dr. Olivia Johnson,Cardiology,Consultant,33,H03,128334,False,0.45
+924,DR00925,Dr. Matthew Hall,Emergency,Consultant,16,H04,111161,False,0.69
+925,DR00926,Dr. James Kim,Cardiology,Registrar,7,H09,76414,False,0.51
+926,DR00927,Dr. Emma Johnson,ICU,Foundation Year 1,1,H04,30191,True,0.33
+927,DR00928,Dr. Matthew Singh,Pediatrics,Consultant,24,H01,131796,False,0.29
+928,DR00929,Dr. Amanda Thompson,Cardiology,Consultant,19,H05,117960,False,0.43
+929,DR00930,Dr. Aisha Thomas,Cardiology,Registrar,8,H07,58843,False,0.51
+930,DR00931,Dr. Daniel Young,Orthopedics,Consultant,26,H10,130774,False,0.3
+931,DR00932,Dr. Patrick Nguyen,Cardiology,Consultant,19,H05,119044,False,0.45
+932,DR00933,Dr. Amelia Park,Orthopedics,Senior House Officer,4,H05,47632,False,0.25
+933,DR00934,Dr. Liam Thompson,Orthopedics,Senior Registrar,6,H01,95442,False,0.44
+934,DR00935,Dr. Nina Nguyen,Pediatrics,Senior Registrar,11,H02,92827,False,0.38
+935,DR00936,Dr. Christopher White,Cardiology,Senior Registrar,10,H03,85343,True,0.57
+936,DR00937,Dr. Sophie Rodriguez,Neurology,Registrar,8,H03,77989,False,0.57
+937,DR00938,Dr. Liam Smith,Pediatrics,Consultant,25,H05,122239,False,0.53
+938,DR00939,Dr. James Allen,ICU,Senior House Officer,4,H01,44292,False,0.69
+939,DR00940,Dr. William Singh,Oncology,Consultant,20,H02,134882,False,0.39
+940,DR00941,Dr. Rachel Wilson,Oncology,Senior House Officer,3,H04,53681,False,0.25
+941,DR00942,Dr. Helen Garcia,Cardiology,Registrar,4,H03,68164,False,0.35
+942,DR00943,Dr. Lauren Garcia,Orthopedics,Registrar,6,H10,58970,False,0.56
+943,DR00944,Dr. Carlos Singh,Pediatrics,Senior Registrar,8,H01,86595,True,0.33
+944,DR00945,Dr. Carlos Chen,ICU,Senior House Officer,3,H06,45604,False,0.6
+945,DR00946,Dr. Samuel Kim,Pediatrics,Senior House Officer,3,H04,49841,False,0.36
+946,DR00947,Dr. James Khan,Emergency,Registrar,5,H02,64542,False,0.53
+947,DR00948,Dr. Christopher Kim,Emergency,Foundation Year 1,0,H05,32350,False,0.23
+948,DR00949,Dr. David Miller,ICU,Foundation Year 1,0,H05,30913,True,0.6
+949,DR00950,Dr. Nina Robinson,Emergency,Consultant,15,H04,135644,False,0.29
+950,DR00951,Dr. Patrick Walker,ICU,Registrar,5,H03,59902,False,0.43
+951,DR00952,Dr. David Park,Emergency,Senior House Officer,4,H03,46302,False,0.27
+952,DR00953,Dr. Jessica Kim,Cardiology,Foundation Year 1,0,H02,36638,False,0.49
+953,DR00954,Dr. Mei Park,Cardiology,Senior House Officer,2,H04,47449,False,0.42
+954,DR00955,Dr. Patrick Martinez,Pediatrics,Foundation Year 2,1,H07,40962,True,0.27
+955,DR00956,Dr. Matthew Park,Oncology,Senior House Officer,3,H01,55586,False,0.22
+956,DR00957,Dr. Carlos Hall,Pediatrics,Registrar,5,H06,63705,False,0.35
+957,DR00958,Dr. Michael Anderson,Orthopedics,Senior House Officer,3,H01,48243,False,0.21
+958,DR00959,Dr. Thomas Chen,ICU,Senior House Officer,3,H05,47354,False,0.55
+959,DR00960,Dr. Amanda Clark,Neurology,Consultant,32,H08,109925,False,0.32
+960,DR00961,Dr. Christopher Miller,Neurology,Consultant,25,H04,120320,False,0.4
+961,DR00962,Dr. Thomas Smith,ICU,Registrar,5,H03,69311,True,0.39
+962,DR00963,Dr. Robert Martinez,Oncology,Senior House Officer,3,H09,48828,False,0.44
+963,DR00964,Dr. Priya Patel,Cardiology,Senior House Officer,2,H03,53573,False,0.51
+964,DR00965,Dr. Priya Clark,Emergency,Senior House Officer,2,H01,56844,False,0.23
+965,DR00966,Dr. Carlos Martinez,Pediatrics,Senior House Officer,2,H06,54210,False,0.31
+966,DR00967,Dr. Andrew Taylor,Neurology,Senior House Officer,3,H04,57546,False,0.54
+967,DR00968,Dr. Andrew Jackson,Oncology,Consultant,10,H03,127566,False,0.25
+968,DR00969,Dr. Liam Martin,Orthopedics,Senior Registrar,12,H04,94954,False,0.56
+969,DR00970,Dr. Olivia Jones,Oncology,Consultant,24,H03,120066,True,0.4
+970,DR00971,Dr. Andrew Johnson,Neurology,Consultant,35,H07,134765,False,0.46
+971,DR00972,Dr. James Nguyen,Emergency,Consultant,14,H07,118854,False,0.54
+972,DR00973,Dr. Mei Johnson,Pediatrics,Senior House Officer,3,H08,48889,False,0.43
+973,DR00974,Dr. Patrick Martinez,Neurology,Senior Registrar,8,H06,97779,False,0.37
+974,DR00975,Dr. Samuel Williams,Pediatrics,Senior Registrar,7,H05,77266,False,0.34
+975,DR00976,Dr. Jessica Nguyen,Oncology,Senior House Officer,3,H03,52574,False,0.42
+976,DR00977,Dr. Olivia Taylor,ICU,Senior Registrar,10,H05,93137,True,0.54
+977,DR00978,Dr. Robert Anderson,Cardiology,Registrar,3,H05,74300,False,0.59
+978,DR00979,Dr. Andrew Jackson,Orthopedics,Registrar,4,H01,72539,False,0.64
+979,DR00980,Dr. Rajesh Khan,ICU,Consultant,33,H02,125615,False,0.55
+980,DR00981,Dr. William Anderson,Neurology,Senior Registrar,10,H02,95860,False,0.37
+981,DR00982,Dr. Helen Chen,Emergency,Registrar,7,H05,75821,False,0.22
+982,DR00983,Dr. Patrick Singh,Cardiology,Senior Registrar,11,H01,82112,False,0.63
+983,DR00984,Dr. Patrick Jones,Emergency,Foundation Year 1,1,H03,38292,False,0.35
+984,DR00985,Dr. Thomas Anderson,Pediatrics,Senior Registrar,6,H01,77514,False,0.4
+985,DR00986,Dr. Amelia Walker,ICU,Senior Registrar,7,H03,87509,False,0.37
+986,DR00987,Dr. Helen Nguyen,Pediatrics,Consultant,10,H03,130983,False,0.69
+987,DR00988,Dr. Jessica Martinez,Neurology,Consultant,21,H06,118827,True,0.58
+988,DR00989,Dr. Helen Chen,Orthopedics,Senior Registrar,10,H01,82870,False,0.48
+989,DR00990,Dr. Helen White,ICU,Consultant,29,H09,126050,False,0.49
+990,DR00991,Dr. Amelia Martinez,Oncology,Senior House Officer,5,H03,54677,False,0.59
+991,DR00992,Dr. Andrew Martin,ICU,Senior House Officer,2,H01,45451,False,0.29
+992,DR00993,Dr. Christopher Singh,ICU,Registrar,4,H03,66429,False,0.47
+993,DR00994,Dr. Matthew Martin,Neurology,Foundation Year 2,1,H07,36636,False,0.6
+994,DR00995,Dr. Thomas Allen,Oncology,Senior House Officer,3,H04,55370,False,0.37
+995,DR00996,Dr. William Martin,Orthopedics,Registrar,3,H04,63653,False,0.68
+996,DR00997,Dr. Helen Kim,Pediatrics,Registrar,7,H01,68626,True,0.29
+997,DR00998,Dr. Robert Taylor,ICU,Consultant,24,H04,112081,False,0.52
+998,DR00999,Dr. Rajesh Nguyen,ICU,Foundation Year 1,1,H06,34126,False,0.57
+999,DR01000,Dr. Carlos Rodriguez,Neurology,Foundation Year 2,2,H02,43582,False,0.43
+1000,DR01001,Dr. Matthew Brown,ICU,Senior Registrar,11,H01,90129,False,0.46
+1001,DR01002,Dr. Priya Singh,Orthopedics,Senior House Officer,2,H09,51823,False,0.38
+1002,DR01003,Dr. Lauren Rodriguez,ICU,Senior House Officer,4,H01,45425,False,0.65
+1003,DR01004,Dr. Thomas White,Cardiology,Senior House Officer,3,H04,47750,False,0.31
+1004,DR01005,Dr. Michael Miller,Oncology,Senior Registrar,11,H05,94356,False,0.26
+1005,DR01006,Dr. Sarah Allen,Neurology,Senior House Officer,2,H02,45664,False,0.3
+1006,DR01007,Dr. Amanda Park,Neurology,Registrar,3,H06,75363,False,0.63
+1007,DR01008,Dr. Daniel Chen,Neurology,Foundation Year 2,2,H02,34860,False,0.41
+1008,DR01009,Dr. James Martin,Oncology,Registrar,3,H05,59044,False,0.5
+1009,DR01010,Dr. Amanda Thompson,Pediatrics,Registrar,6,H05,72568,False,0.68
+1010,DR01011,Dr. Mei Davis,ICU,Foundation Year 1,1,H05,33409,False,0.39
+1011,DR01012,Dr. Carlos Kim,Emergency,Registrar,4,H03,59152,False,0.41
+1012,DR01013,Dr. Priya Park,Pediatrics,Consultant,30,H04,132680,False,0.4
+1013,DR01014,Dr. David Rodriguez,Neurology,Registrar,7,H02,76731,False,0.46
+1014,DR01015,Dr. Samuel Walker,Orthopedics,Senior Registrar,9,H09,86955,False,0.23
+1015,DR01016,Dr. Priya Jones,Pediatrics,Consultant,35,H06,132429,False,0.52
+1016,DR01017,Dr. Olivia Patel,ICU,Senior Registrar,6,H02,93518,True,0.29
+1017,DR01018,Dr. Samuel Taylor,Emergency,Senior Registrar,12,H02,90497,True,0.28
+1018,DR01019,Dr. Emma Park,Cardiology,Senior Registrar,11,H09,91765,False,0.7
+1019,DR01020,Dr. Sarah Martinez,Neurology,Consultant,14,H04,132892,False,0.36
+1020,DR01021,Dr. Sarah Jackson,ICU,Senior House Officer,2,H01,44094,False,0.26
+1021,DR01022,Dr. Daniel Jones,ICU,Consultant,13,H01,136232,True,0.55
+1022,DR01023,Dr. Emma Patel,Oncology,Senior House Officer,5,H07,56486,False,0.69
+1023,DR01024,Dr. Mei Allen,Pediatrics,Senior Registrar,6,H08,78673,False,0.49
+1024,DR01025,Dr. Carlos Lewis,Cardiology,Senior Registrar,10,H05,90024,False,0.63
+1025,DR01026,Dr. Daniel Khan,Orthopedics,Consultant,31,H08,141386,False,0.62
+1026,DR01027,Dr. Amelia Hall,Emergency,Senior House Officer,2,H10,52612,True,0.53
+1027,DR01028,Dr. Lauren Jackson,Pediatrics,Senior House Officer,4,H03,56058,False,0.3
+1028,DR01029,Dr. Aisha Khan,ICU,Senior Registrar,9,H01,90645,False,0.32
+1029,DR01030,Dr. William Jackson,Orthopedics,Registrar,7,H04,64309,False,0.52
+1030,DR01031,Dr. Rajesh Harris,Orthopedics,Senior House Officer,4,H07,46845,False,0.55
+1031,DR01032,Dr. Liam White,Oncology,Foundation Year 2,1,H07,35884,False,0.3
+1032,DR01033,Dr. Carlos Thompson,Orthopedics,Consultant,35,H02,142556,False,0.4
+1033,DR01034,Dr. Lauren Taylor,ICU,Senior House Officer,2,H07,56659,False,0.52
+1034,DR01035,Dr. Christopher Clark,ICU,Senior House Officer,4,H01,51197,False,0.52
+1035,DR01036,Dr. Rachel Miller,ICU,Consultant,19,H01,130471,False,0.36
+1036,DR01037,Dr. Matthew Singh,Orthopedics,Senior Registrar,9,H03,76199,False,0.58
+1037,DR01038,Dr. Amanda Nguyen,Orthopedics,Registrar,5,H03,61042,False,0.47
+1038,DR01039,Dr. Liam Williams,Emergency,Senior Registrar,9,H01,93756,False,0.24
+1039,DR01040,Dr. Matthew Hall,ICU,Foundation Year 1,1,H03,36157,False,0.46
+1040,DR01041,Dr. Olivia Lee,Orthopedics,Registrar,4,H08,63037,False,0.33
+1041,DR01042,Dr. Robert Singh,Emergency,Senior Registrar,7,H07,92947,False,0.28
+1042,DR01043,Dr. Mei Khan,Oncology,Registrar,7,H01,77875,False,0.58
+1043,DR01044,Dr. Robert Lewis,Neurology,Senior Registrar,7,H03,89719,False,0.29
+1044,DR01045,Dr. Emma Jones,Oncology,Consultant,26,H07,127881,False,0.4
+1045,DR01046,Dr. Christopher Martin,ICU,Consultant,35,H04,141173,False,0.44
+1046,DR01047,Dr. Aisha Khan,Cardiology,Consultant,19,H03,135365,False,0.31
+1047,DR01048,Dr. Samuel Robinson,Orthopedics,Consultant,22,H08,137532,True,0.49
+1048,DR01049,Dr. Rajesh Anderson,Orthopedics,Consultant,32,H03,134940,False,0.34
+1049,DR01050,Dr. James Brown,Oncology,Consultant,30,H01,114579,True,0.44
+1050,DR01051,Dr. James Smith,Emergency,Consultant,33,H01,127308,False,0.67
+1051,DR01052,Dr. James Robinson,Emergency,Senior Registrar,6,H02,80130,False,0.24
+1052,DR01053,Dr. Samuel Wilson,Emergency,Senior House Officer,2,H07,44197,False,0.23
+1053,DR01054,Dr. Emma Robinson,Oncology,Senior Registrar,7,H04,86355,False,0.56
+1054,DR01055,Dr. Samuel Thomas,Cardiology,Foundation Year 2,1,H01,36569,False,0.58
+1055,DR01056,Dr. James Anderson,Neurology,Registrar,4,H04,75792,False,0.62
+1056,DR01057,Dr. David Lee,Oncology,Senior House Officer,4,H05,44471,False,0.64
+1057,DR01058,Dr. Carlos Nguyen,Pediatrics,Registrar,3,H08,63629,False,0.55
+1058,DR01059,Dr. Liam Johnson,Neurology,Consultant,34,H03,135521,False,0.59
+1059,DR01060,Dr. Samuel Park,ICU,Registrar,4,H09,77455,False,0.58
+1060,DR01061,Dr. Sarah Williams,Oncology,Senior Registrar,8,H08,76114,False,0.36
+1061,DR01062,Dr. Sophie Park,Cardiology,Registrar,4,H02,68342,False,0.68
+1062,DR01063,Dr. Emma Chen,ICU,Registrar,4,H06,62995,False,0.48
+1063,DR01064,Dr. Priya Clark,Cardiology,Registrar,5,H10,73345,True,0.38
+1064,DR01065,Dr. Priya Lee,Oncology,Senior House Officer,4,H04,53755,True,0.51
+1065,DR01066,Dr. Christopher Garcia,Emergency,Foundation Year 2,2,H08,36376,False,0.36
+1066,DR01067,Dr. David Thomas,Oncology,Senior Registrar,11,H04,76275,False,0.4
+1067,DR01068,Dr. Olivia Harris,Emergency,Consultant,16,H09,131349,False,0.28
+1068,DR01069,Dr. Charlotte Martinez,Cardiology,Consultant,20,H05,126783,False,0.49
+1069,DR01070,Dr. Rachel Clark,Neurology,Senior Registrar,11,H01,88591,False,0.38
+1070,DR01071,Dr. Christopher Robinson,Emergency,Senior Registrar,12,H05,81602,False,0.21
+1071,DR01072,Dr. Aisha Thomas,Neurology,Senior Registrar,6,H05,94381,True,0.54
+1072,DR01073,Dr. Daniel Miller,Oncology,Foundation Year 2,1,H10,43124,False,0.55
+1073,DR01074,Dr. Sophie Martinez,Pediatrics,Foundation Year 1,0,H05,37192,False,0.21
+1074,DR01075,Dr. Sarah Lee,Orthopedics,Registrar,3,H02,64684,False,0.66
+1075,DR01076,Dr. Rachel Jones,Oncology,Consultant,10,H05,109371,False,0.59
+1076,DR01077,Dr. James Kim,Cardiology,Consultant,31,H07,134390,False,0.66
+1077,DR01078,Dr. Charlotte Lewis,Cardiology,Consultant,24,H02,134918,False,0.29
+1078,DR01079,Dr. David Jones,Oncology,Registrar,5,H01,73619,False,0.67
+1079,DR01080,Dr. Olivia Brown,Orthopedics,Foundation Year 2,1,H07,43865,True,0.23
+1080,DR01081,Dr. Christopher Garcia,ICU,Consultant,29,H09,110165,False,0.3
+1081,DR01082,Dr. Michael Nguyen,Orthopedics,Senior House Officer,4,H07,55560,False,0.57
+1082,DR01083,Dr. Christopher Thomas,Pediatrics,Foundation Year 1,1,H06,36768,False,0.42
+1083,DR01084,Dr. Rachel Singh,Neurology,Consultant,20,H04,123740,False,0.35
+1084,DR01085,Dr. Liam Khan,Pediatrics,Consultant,18,H06,141613,False,0.61
+1085,DR01086,Dr. Amelia Chen,Cardiology,Senior House Officer,3,H01,54805,False,0.28
+1086,DR01087,Dr. Robert Patel,ICU,Consultant,24,H01,139165,True,0.52
+1087,DR01088,Dr. William Anderson,Neurology,Senior House Officer,2,H01,50976,False,0.67
+1088,DR01089,Dr. Patrick Thompson,Pediatrics,Consultant,10,H03,127538,True,0.59
+1089,DR01090,Dr. David Smith,Cardiology,Senior Registrar,7,H08,88309,False,0.56
+1090,DR01091,Dr. Samuel Williams,ICU,Senior House Officer,5,H02,50307,False,0.36
+1091,DR01092,Dr. Priya Thompson,Emergency,Foundation Year 2,2,H03,35072,True,0.24
+1092,DR01093,Dr. Liam Chen,Emergency,Senior Registrar,8,H02,93066,False,0.44
+1093,DR01094,Dr. Emma Martinez,Pediatrics,Senior House Officer,5,H07,49705,False,0.66
+1094,DR01095,Dr. Sarah Johnson,Orthopedics,Senior House Officer,2,H07,54484,False,0.57
+1095,DR01096,Dr. Michael Martin,Oncology,Senior Registrar,6,H11,89528,False,0.43
+1096,DR01097,Dr. Patrick Brown,Pediatrics,Consultant,31,H08,136715,False,0.27
+1097,DR01098,Dr. Rajesh Allen,Orthopedics,Registrar,8,H07,63061,False,0.29
+1098,DR01099,Dr. Amelia Wilson,Neurology,Consultant,15,H04,124658,True,0.23
+1099,DR01100,Dr. Mei Young,Cardiology,Foundation Year 2,2,H07,43235,True,0.53
+1100,DR01101,Dr. Amelia Chen,ICU,Registrar,5,H02,68998,False,0.34
+1101,DR01102,Dr. Lauren Walker,Cardiology,Registrar,7,H02,60540,False,0.26
+1102,DR01103,Dr. Lauren Davis,Oncology,Consultant,13,H01,114519,True,0.21
+1103,DR01104,Dr. Michael Rodriguez,Emergency,Consultant,29,H09,129823,False,0.6
+1104,DR01105,Dr. Thomas Robinson,Oncology,Foundation Year 1,0,H02,29111,False,0.54
+1105,DR01106,Dr. James Smith,Neurology,Consultant,27,H04,134831,False,0.53
+1106,DR01107,Dr. Christopher Anderson,Neurology,Foundation Year 2,1,H02,43773,True,0.36
+1107,DR01108,Dr. Sophie Williams,Neurology,Consultant,27,H01,123249,False,0.67
+1108,DR01109,Dr. Rachel Chen,ICU,Foundation Year 1,0,H07,32368,False,0.48
+1109,DR01110,Dr. Samuel Walker,Cardiology,Senior Registrar,7,H02,87192,False,0.67
+1110,DR01111,Dr. Christopher Park,Emergency,Foundation Year 2,2,H02,42956,False,0.31
+1111,DR01112,Dr. Matthew Garcia,Orthopedics,Consultant,19,H04,123672,False,0.23
+1112,DR01113,Dr. Amelia Johnson,ICU,Consultant,11,H04,114407,False,0.51
+1113,DR01114,Dr. Nina Johnson,ICU,Senior Registrar,6,H01,73970,False,0.22
+1114,DR01115,Dr. Olivia Allen,Neurology,Foundation Year 2,1,H08,41088,False,0.55
+1115,DR01116,Dr. Rachel White,Oncology,Foundation Year 2,1,H01,37766,False,0.47
+1116,DR01117,Dr. James Park,Orthopedics,Foundation Year 2,2,H11,39899,False,0.54
+1117,DR01118,Dr. Andrew Allen,Cardiology,Senior House Officer,3,H05,54615,False,0.62
+1118,DR01119,Dr. Sarah Brown,Cardiology,Foundation Year 2,2,H06,40817,False,0.6
+1119,DR01120,Dr. Aisha Wilson,Oncology,Senior Registrar,6,H06,87035,False,0.32
+1120,DR01121,Dr. Sarah Thomas,Cardiology,Senior Registrar,9,H01,88345,False,0.33
+1121,DR01122,Dr. Helen Brown,ICU,Foundation Year 1,0,H03,31479,False,0.61
+1122,DR01123,Dr. William Park,Emergency,Foundation Year 2,1,H03,35419,False,0.35
+1123,DR01124,Dr. Helen Robinson,ICU,Consultant,15,H04,112163,False,0.23
+1124,DR01125,Dr. Mei Kim,Oncology,Senior House Officer,5,H07,44037,False,0.64
+1125,DR01126,Dr. Carlos Allen,Orthopedics,Registrar,7,H05,76362,False,0.47
+1126,DR01127,Dr. Liam Davis,Oncology,Consultant,10,H01,112372,False,0.66
+1127,DR01128,Dr. Sophie Jones,Oncology,Consultant,18,H02,119769,False,0.65
+1128,DR01129,Dr. Nina Brown,Neurology,Consultant,19,H06,132352,False,0.36
+1129,DR01130,Dr. Amelia Kim,Emergency,Consultant,15,H06,125017,False,0.4
+1130,DR01131,Dr. Sophie White,Neurology,Consultant,26,H04,133472,False,0.63
+1131,DR01132,Dr. Rachel Clark,Cardiology,Senior Registrar,8,H07,93463,False,0.37
+1132,DR01133,Dr. Emma Smith,Emergency,Consultant,11,H01,134946,False,0.51
+1133,DR01134,Dr. Aisha White,Oncology,Foundation Year 1,0,H07,31443,False,0.44
+1134,DR01135,Dr. Sarah Khan,Oncology,Registrar,7,H07,77238,False,0.34
+1135,DR01136,Dr. Christopher Taylor,Oncology,Foundation Year 1,0,H07,29482,False,0.29
+1136,DR01137,Dr. Sophie Garcia,Orthopedics,Senior Registrar,11,H02,76682,False,0.44
+1137,DR01138,Dr. Robert Johnson,Pediatrics,Senior Registrar,12,H06,79531,False,0.23
+1138,DR01139,Dr. James Jackson,Pediatrics,Senior House Officer,5,H09,56472,True,0.23
+1139,DR01140,Dr. Emma Rodriguez,Orthopedics,Senior Registrar,9,H08,80429,False,0.35
+1140,DR01141,Dr. David Lewis,ICU,Registrar,7,H04,74496,False,0.38
+1141,DR01142,Dr. Thomas Martinez,Orthopedics,Senior Registrar,10,H07,87881,False,0.57
+1142,DR01143,Dr. Charlotte Taylor,Cardiology,Consultant,33,H10,128203,False,0.64
+1143,DR01144,Dr. Sophie Anderson,Orthopedics,Senior Registrar,10,H06,74980,True,0.4
+1144,DR01145,Dr. Nina Taylor,Pediatrics,Registrar,6,H04,67921,False,0.6
+1145,DR01146,Dr. Samuel Miller,Neurology,Registrar,3,H02,64277,False,0.57
+1146,DR01147,Dr. Michael Jones,Emergency,Registrar,4,H04,72552,False,0.41
+1147,DR01148,Dr. Priya Martinez,ICU,Senior Registrar,8,H07,77281,False,0.33
+1148,DR01149,Dr. Lauren Nguyen,ICU,Registrar,5,H02,66678,False,0.66
+1149,DR01150,Dr. Jessica Patel,ICU,Senior Registrar,8,H05,93918,False,0.57
+1150,DR01151,Dr. Amelia Jones,Neurology,Senior House Officer,3,H08,46399,False,0.49
+1151,DR01152,Dr. William Miller,Oncology,Registrar,8,H05,69892,False,0.43
+1152,DR01153,Dr. Mei Anderson,Emergency,Senior Registrar,7,H01,78931,False,0.55
+1153,DR01154,Dr. Lauren Lee,Orthopedics,Senior Registrar,8,H07,76563,False,0.48
+1154,DR01155,Dr. Charlotte Nguyen,ICU,Senior House Officer,3,H01,43509,False,0.29
+1155,DR01156,Dr. Sarah Johnson,Oncology,Registrar,8,H02,60168,False,0.46
+1156,DR01157,Dr. Sarah Singh,Orthopedics,Registrar,7,H02,62188,False,0.63
+1157,DR01158,Dr. Patrick Smith,Orthopedics,Registrar,7,H03,67761,False,0.33
+1158,DR01159,Dr. Samuel Hall,Oncology,Senior Registrar,6,H06,73862,False,0.68
+1159,DR01160,Dr. Christopher Rodriguez,Cardiology,Senior House Officer,5,H08,43618,False,0.31
+1160,DR01161,Dr. Priya Kim,Pediatrics,Senior House Officer,4,H04,56447,False,0.2
+1161,DR01162,Dr. Nina Jones,Cardiology,Consultant,14,H09,108034,False,0.61
+1162,DR01163,Dr. William Martin,Oncology,Senior House Officer,2,H04,53502,False,0.64
+1163,DR01164,Dr. Amelia Park,Orthopedics,Consultant,30,H11,110078,False,0.37
+1164,DR01165,Dr. Patrick Williams,Orthopedics,Consultant,15,H04,126430,True,0.33
+1165,DR01166,Dr. James Anderson,Pediatrics,Foundation Year 2,2,H04,38821,False,0.37
+1166,DR01167,Dr. Charlotte Singh,Emergency,Consultant,25,H01,127854,True,0.49
+1167,DR01168,Dr. Charlotte Nguyen,Emergency,Senior House Officer,3,H04,50244,True,0.22
+1168,DR01169,Dr. Sophie Brown,Pediatrics,Foundation Year 2,2,H04,41956,False,0.6
+1169,DR01170,Dr. Olivia Taylor,Cardiology,Registrar,6,H04,76327,False,0.38
+1170,DR01171,Dr. Rajesh Taylor,Pediatrics,Registrar,8,H08,58960,False,0.68
+1171,DR01172,Dr. Amelia Young,Cardiology,Foundation Year 1,1,H06,31191,False,0.51
+1172,DR01173,Dr. Andrew Khan,Pediatrics,Consultant,16,H09,143154,False,0.59
+1173,DR01174,Dr. Lauren Walker,ICU,Senior Registrar,6,H10,75105,True,0.62
+1174,DR01175,Dr. William Smith,Neurology,Senior House Officer,5,H04,45767,True,0.59
+1175,DR01176,Dr. James Singh,ICU,Registrar,5,H02,64831,False,0.6
+1176,DR01177,Dr. Olivia Thompson,Pediatrics,Senior House Officer,3,H10,48687,False,0.57
+1177,DR01178,Dr. Sarah Lee,Neurology,Registrar,4,H05,62771,False,0.4
+1178,DR01179,Dr. Sarah Kim,Orthopedics,Foundation Year 2,1,H01,36663,False,0.3
+1179,DR01180,Dr. Daniel Brown,Cardiology,Registrar,7,H02,65271,False,0.48
+1180,DR01181,Dr. Carlos Clark,Cardiology,Senior Registrar,8,H06,78866,False,0.33
+1181,DR01182,Dr. Carlos Davis,Neurology,Senior Registrar,10,H05,76812,False,0.61
+1182,DR01183,Dr. Carlos Nguyen,Pediatrics,Consultant,31,H08,133980,False,0.39
+1183,DR01184,Dr. Robert Martinez,ICU,Consultant,10,H01,137428,False,0.66
+1184,DR01185,Dr. Mei Clark,Pediatrics,Senior Registrar,10,H01,89809,False,0.37
+1185,DR01186,Dr. Nina Hall,Oncology,Senior House Officer,5,H05,57376,False,0.69
+1186,DR01187,Dr. Matthew Jones,Pediatrics,Registrar,4,H05,71538,False,0.48
+1187,DR01188,Dr. Priya Park,Pediatrics,Senior Registrar,10,H02,94814,False,0.28
+1188,DR01189,Dr. Lauren Brown,Pediatrics,Registrar,3,H02,61320,False,0.44
+1189,DR01190,Dr. David Brown,Orthopedics,Senior House Officer,3,H05,56982,False,0.25
+1190,DR01191,Dr. Amanda Davis,Neurology,Foundation Year 1,1,H03,28898,False,0.69
+1191,DR01192,Dr. Matthew Patel,ICU,Registrar,6,H02,72424,False,0.59
+1192,DR01193,Dr. Andrew Anderson,Oncology,Foundation Year 1,0,H08,32820,False,0.42
+1193,DR01194,Dr. Nina Davis,ICU,Foundation Year 2,2,H05,39598,False,0.33
+1194,DR01195,Dr. Jessica Thompson,Neurology,Senior Registrar,10,H06,91997,False,0.26
+1195,DR01196,Dr. Amanda Taylor,Emergency,Consultant,14,H01,112408,True,0.42
+1196,DR01197,Dr. Amelia Thomas,Pediatrics,Registrar,7,H07,64270,False,0.3
+1197,DR01198,Dr. Charlotte Johnson,Orthopedics,Foundation Year 1,0,H07,33204,False,0.38
+1198,DR01199,Dr. Sarah Davis,Pediatrics,Registrar,8,H09,72683,True,0.64
+1199,DR01200,Dr. Charlotte Garcia,ICU,Consultant,24,H09,140668,False,0.31
+1200,DR01201,Dr. William Wilson,Cardiology,Senior Registrar,7,H04,77185,False,0.5
+1201,DR01202,Dr. Andrew Clark,Oncology,Senior House Officer,4,H05,48729,False,0.43
+1202,DR01203,Dr. Christopher Martinez,Oncology,Registrar,6,H03,74043,False,0.21
+1203,DR01204,Dr. Sarah Patel,Emergency,Senior House Officer,3,H05,43939,False,0.49
+1204,DR01205,Dr. Thomas Martin,Neurology,Foundation Year 1,0,H09,37708,False,0.57
+1205,DR01206,Dr. James Clark,Cardiology,Registrar,3,H08,65738,False,0.34
+1206,DR01207,Dr. Matthew Lee,Cardiology,Senior Registrar,7,H03,94617,False,0.26
+1207,DR01208,Dr. Mei Young,Pediatrics,Registrar,5,H02,75305,False,0.63
+1208,DR01209,Dr. Lauren Young,Emergency,Registrar,4,H04,74861,False,0.38
+1209,DR01210,Dr. Emma Jones,Oncology,Registrar,4,H02,60272,False,0.44
+1210,DR01211,Dr. Daniel Martinez,Oncology,Foundation Year 2,2,H07,41967,False,0.46
+1211,DR01212,Dr. Olivia Taylor,Pediatrics,Senior Registrar,12,H02,95096,False,0.24
+1212,DR01213,Dr. Lauren Taylor,Neurology,Registrar,7,H08,63930,False,0.46
+1213,DR01214,Dr. Emma Jackson,Emergency,Consultant,34,H05,133527,False,0.48
+1214,DR01215,Dr. Patrick Khan,Cardiology,Registrar,4,H10,70428,False,0.68
+1215,DR01216,Dr. Rajesh Smith,Emergency,Consultant,15,H08,140140,False,0.46
+1216,DR01217,Dr. Rachel Kim,Orthopedics,Registrar,4,H03,62849,False,0.36
+1217,DR01218,Dr. Thomas Patel,Pediatrics,Senior House Officer,2,H03,51621,False,0.24
+1218,DR01219,Dr. Michael Brown,Emergency,Consultant,10,H06,138352,False,0.37
+1219,DR01220,Dr. Samuel Smith,Cardiology,Consultant,23,H01,142355,False,0.32
+1220,DR01221,Dr. Sarah Taylor,Oncology,Consultant,21,H05,135031,False,0.56
+1221,DR01222,Dr. Sarah Taylor,Oncology,Registrar,6,H07,67928,False,0.52
+1222,DR01223,Dr. Rachel Taylor,Emergency,Foundation Year 1,1,H03,33186,False,0.48
+1223,DR01224,Dr. James Young,Cardiology,Consultant,30,H01,141551,False,0.28
+1224,DR01225,Dr. Carlos Allen,Orthopedics,Senior Registrar,11,H01,85208,False,0.42
+1225,DR01226,Dr. Sophie Taylor,Emergency,Consultant,12,H05,143218,False,0.63
+1226,DR01227,Dr. Sophie Brown,Neurology,Senior Registrar,8,H09,74084,False,0.2
+1227,DR01228,Dr. Robert White,Emergency,Consultant,17,H06,133628,False,0.67
+1228,DR01229,Dr. Mei Davis,Oncology,Foundation Year 2,1,H01,35915,True,0.69
+1229,DR01230,Dr. James Wilson,Cardiology,Registrar,7,H01,64080,False,0.38
+1230,DR01231,Dr. Robert Davis,Cardiology,Senior House Officer,2,H02,46699,True,0.28
+1231,DR01232,Dr. Carlos Garcia,Neurology,Senior Registrar,11,H04,75723,False,0.6
+1232,DR01233,Dr. Mei Thompson,Oncology,Consultant,10,H01,129642,False,0.3
+1233,DR01234,Dr. Olivia Young,Pediatrics,Foundation Year 1,1,H05,36681,True,0.47
+1234,DR01235,Dr. Sarah Clark,Oncology,Consultant,12,H07,131347,True,0.52
+1235,DR01236,Dr. Amelia Walker,Cardiology,Senior House Officer,5,H04,55413,False,0.51
+1236,DR01237,Dr. Rachel Nguyen,Emergency,Senior Registrar,8,H04,93049,False,0.37
+1237,DR01238,Dr. Rachel Thomas,Oncology,Senior Registrar,12,H01,90231,True,0.65
+1238,DR01239,Dr. Sophie Johnson,Cardiology,Consultant,25,H02,119178,False,0.63
+1239,DR01240,Dr. Patrick Singh,Neurology,Registrar,3,H08,77367,False,0.62
+1240,DR01241,Dr. Rachel Park,Orthopedics,Registrar,5,H07,65065,False,0.57
+1241,DR01242,Dr. David Wilson,Neurology,Foundation Year 2,1,H01,42008,False,0.68
+1242,DR01243,Dr. Matthew Lee,Orthopedics,Consultant,11,H08,110923,False,0.47
+1243,DR01244,Dr. Olivia Hall,ICU,Senior House Officer,3,H02,52424,False,0.67
+1244,DR01245,Dr. Daniel Martin,Oncology,Senior Registrar,7,H01,86590,False,0.67
+1245,DR01246,Dr. William Williams,Cardiology,Senior House Officer,5,H02,51148,False,0.26
+1246,DR01247,Dr. Nina Lewis,Neurology,Registrar,7,H02,60392,False,0.52
+1247,DR01248,Dr. Christopher Brown,Cardiology,Consultant,28,H02,111982,False,0.45
+1248,DR01249,Dr. Rajesh Nguyen,Cardiology,Registrar,6,H03,64221,False,0.32
+1249,DR01250,Dr. David Patel,Pediatrics,Consultant,16,H02,129438,False,0.38
+1250,DR01251,Dr. Sarah Young,Oncology,Registrar,6,H05,74537,False,0.36
+1251,DR01252,Dr. Lauren Martinez,Emergency,Consultant,12,H02,139887,False,0.21
+1252,DR01253,Dr. Rajesh Young,Pediatrics,Senior House Officer,2,H04,50463,False,0.43
+1253,DR01254,Dr. Aisha Miller,Neurology,Consultant,33,H08,116123,False,0.59
+1254,DR01255,Dr. Robert Patel,Orthopedics,Senior House Officer,3,H01,46683,True,0.67
+1255,DR01256,Dr. Sarah Thomas,Neurology,Registrar,3,H08,63347,False,0.54
+1256,DR01257,Dr. Matthew Miller,Emergency,Consultant,34,H07,142150,True,0.6
+1257,DR01258,Dr. Christopher Jones,ICU,Consultant,35,H04,130070,True,0.3
+1258,DR01259,Dr. Sophie Martinez,Orthopedics,Registrar,8,H02,77472,False,0.29
+1259,DR01260,Dr. Matthew Kim,Orthopedics,Foundation Year 1,1,H06,34020,True,0.54
+1260,DR01261,Dr. Carlos Chen,Neurology,Senior Registrar,8,H07,79222,False,0.48
+1261,DR01262,Dr. Nina White,Neurology,Registrar,6,H02,63036,False,0.31
+1262,DR01263,Dr. Lauren Garcia,Neurology,Consultant,32,H11,131947,False,0.25
+1263,DR01264,Dr. Rachel Clark,Emergency,Foundation Year 1,0,H07,38290,True,0.48
+1264,DR01265,Dr. Matthew Chen,Neurology,Registrar,3,H01,59894,False,0.33
+1265,DR01266,Dr. Mei Wilson,Pediatrics,Senior House Officer,2,H02,47050,True,0.62
+1266,DR01267,Dr. Nina Williams,Neurology,Senior Registrar,6,H04,84781,False,0.36
+1267,DR01268,Dr. Patrick Smith,Cardiology,Consultant,10,H02,116787,False,0.27
+1268,DR01269,Dr. James Patel,Orthopedics,Consultant,31,H03,138218,False,0.28
+1269,DR01270,Dr. Rachel Singh,Pediatrics,Registrar,7,H05,59906,False,0.54
+1270,DR01271,Dr. Priya Allen,Cardiology,Senior Registrar,12,H03,81536,False,0.53
+1271,DR01272,Dr. Andrew White,Pediatrics,Consultant,22,H04,142274,False,0.33
+1272,DR01273,Dr. Sophie Thomas,Pediatrics,Senior Registrar,8,H01,84119,False,0.53
+1273,DR01274,Dr. James Jones,Emergency,Senior Registrar,8,H08,94687,False,0.21
+1274,DR01275,Dr. Lauren Johnson,Emergency,Senior Registrar,6,H05,74330,False,0.26
+1275,DR01276,Dr. Andrew Wilson,Neurology,Foundation Year 1,1,H02,31098,False,0.52
+1276,DR01277,Dr. Jessica Clark,Neurology,Consultant,12,H02,125248,False,0.62
+1277,DR01278,Dr. Christopher Patel,ICU,Consultant,22,H01,141906,False,0.65
+1278,DR01279,Dr. Jessica Martin,Cardiology,Consultant,25,H04,122613,False,0.4
+1279,DR01280,Dr. Sophie Singh,Cardiology,Consultant,24,H04,124535,False,0.26
+1280,DR01281,Dr. Mei Khan,Cardiology,Consultant,19,H02,134174,True,0.29
+1281,DR01282,Dr. Priya White,Neurology,Registrar,3,H07,70416,False,0.53
+1282,DR01283,Dr. Rachel Clark,Pediatrics,Registrar,3,H11,73106,False,0.24
+1283,DR01284,Dr. Thomas Anderson,Oncology,Consultant,32,H09,117936,False,0.66
+1284,DR01285,Dr. Thomas Smith,ICU,Consultant,24,H02,125785,False,0.65
+1285,DR01286,Dr. Sophie Khan,Cardiology,Senior House Officer,3,H03,49614,False,0.23
+1286,DR01287,Dr. Robert Rodriguez,Neurology,Registrar,4,H05,59876,False,0.5
+1287,DR01288,Dr. Olivia White,Neurology,Senior House Officer,3,H05,52976,False,0.51
+1288,DR01289,Dr. Matthew Rodriguez,Pediatrics,Registrar,8,H04,63309,True,0.44
+1289,DR01290,Dr. Jessica Anderson,Oncology,Consultant,17,H02,141738,False,0.39
+1290,DR01291,Dr. Daniel Young,Cardiology,Foundation Year 1,0,H07,30780,True,0.41
+1291,DR01292,Dr. Christopher Garcia,ICU,Consultant,14,H05,143506,False,0.52
+1292,DR01293,Dr. Aisha Miller,ICU,Consultant,17,H06,132239,True,0.64
+1293,DR01294,Dr. Robert Patel,Neurology,Senior House Officer,2,H02,48901,False,0.26
+1294,DR01295,Dr. Amanda Davis,Oncology,Senior Registrar,6,H04,79661,False,0.41
+1295,DR01296,Dr. Priya Garcia,Emergency,Registrar,3,H02,61633,False,0.26
+1296,DR01297,Dr. David Anderson,Cardiology,Foundation Year 1,1,H05,36579,True,0.32
+1297,DR01298,Dr. Matthew Khan,Oncology,Senior House Officer,2,H01,50444,False,0.57
+1298,DR01299,Dr. Emma Patel,Pediatrics,Registrar,8,H03,61533,False,0.29
+1299,DR01300,Dr. James Lee,Cardiology,Senior House Officer,3,H09,48549,False,0.54
+1300,DR01301,Dr. Nina Jones,ICU,Senior House Officer,3,H02,44341,False,0.6
+1301,DR01302,Dr. Andrew Martin,Pediatrics,Senior House Officer,2,H04,55244,False,0.49
+1302,DR01303,Dr. Sarah Young,Orthopedics,Foundation Year 2,1,H08,34385,True,0.27
+1303,DR01304,Dr. Daniel Khan,ICU,Senior House Officer,5,H10,55081,False,0.55
+1304,DR01305,Dr. Carlos Rodriguez,Neurology,Senior Registrar,12,H05,77421,False,0.48
+1305,DR01306,Dr. Samuel Allen,Cardiology,Consultant,30,H04,141138,False,0.66
+1306,DR01307,Dr. Charlotte Williams,Oncology,Registrar,8,H01,64206,False,0.52
+1307,DR01308,Dr. Samuel Walker,Orthopedics,Senior Registrar,11,H04,89980,False,0.6
+1308,DR01309,Dr. Priya Walker,Neurology,Senior Registrar,12,H02,95693,False,0.53
+1309,DR01310,Dr. Amelia Walker,ICU,Foundation Year 1,0,H02,31985,True,0.42
+1310,DR01311,Dr. James Singh,Emergency,Registrar,4,H01,66354,False,0.55
+1311,DR01312,Dr. Priya Jackson,Emergency,Registrar,6,H02,77609,False,0.69
+1312,DR01313,Dr. Mei Robinson,ICU,Senior Registrar,8,H06,82204,False,0.64
+1313,DR01314,Dr. Sarah Thomas,Orthopedics,Foundation Year 2,1,H06,38846,False,0.61
+1314,DR01315,Dr. Matthew Rodriguez,Emergency,Registrar,5,H06,68818,False,0.55
+1315,DR01316,Dr. Christopher Brown,Emergency,Consultant,19,H07,136138,True,0.61
+1316,DR01317,Dr. Amelia Wilson,Neurology,Senior Registrar,9,H05,83744,False,0.28
+1317,DR01318,Dr. Mei Taylor,Oncology,Senior Registrar,12,H08,92843,False,0.67
+1318,DR01319,Dr. Charlotte Walker,ICU,Consultant,25,H03,117761,False,0.63
+1319,DR01320,Dr. Carlos Martin,Neurology,Registrar,7,H01,63068,True,0.4
+1320,DR01321,Dr. Patrick Walker,Orthopedics,Foundation Year 2,1,H04,43155,False,0.23
+1321,DR01322,Dr. Michael Park,Emergency,Senior Registrar,12,H06,97836,False,0.42
+1322,DR01323,Dr. Christopher Miller,Emergency,Registrar,5,H04,77402,True,0.58
+1323,DR01324,Dr. Charlotte Singh,Pediatrics,Senior Registrar,7,H08,78306,False,0.55
+1324,DR01325,Dr. Rachel Brown,Oncology,Registrar,5,H01,77838,False,0.24
+1325,DR01326,Dr. Mei Jackson,Pediatrics,Senior Registrar,12,H06,74095,False,0.46
+1326,DR01327,Dr. Patrick Miller,Emergency,Senior Registrar,11,H04,88519,False,0.33
+1327,DR01328,Dr. Patrick Patel,Neurology,Senior Registrar,7,H07,96635,False,0.27
+1328,DR01329,Dr. Matthew Davis,Neurology,Consultant,33,H07,111124,False,0.69
+1329,DR01330,Dr. Lauren Clark,Pediatrics,Registrar,8,H02,59654,False,0.25
+1330,DR01331,Dr. Jessica Anderson,Emergency,Senior House Officer,3,H06,56136,False,0.27
+1331,DR01332,Dr. Robert Clark,Neurology,Senior House Officer,2,H01,48888,False,0.31
+1332,DR01333,Dr. Christopher Robinson,Pediatrics,Senior House Officer,4,H08,44083,False,0.67
+1333,DR01334,Dr. David Clark,Oncology,Foundation Year 2,1,H06,35711,False,0.24
+1334,DR01335,Dr. Michael White,Emergency,Senior Registrar,6,H01,85622,False,0.48
+1335,DR01336,Dr. Amanda Chen,ICU,Consultant,29,H03,125224,False,0.41
+1336,DR01337,Dr. Helen Williams,Neurology,Foundation Year 2,2,H02,39854,False,0.56
+1337,DR01338,Dr. Amelia Taylor,Oncology,Senior Registrar,9,H02,87728,False,0.41
+1338,DR01339,Dr. Amelia Park,Pediatrics,Registrar,8,H03,77795,False,0.6
+1339,DR01340,Dr. Lauren Kim,Orthopedics,Foundation Year 2,2,H04,35397,False,0.44
+1340,DR01341,Dr. Michael Thompson,Emergency,Senior House Officer,5,H04,52680,True,0.5
+1341,DR01342,Dr. Sophie Miller,Cardiology,Consultant,14,H04,138586,False,0.36
+1342,DR01343,Dr. Sophie White,Pediatrics,Senior Registrar,10,H07,76281,False,0.54
+1343,DR01344,Dr. David Martinez,ICU,Registrar,7,H03,59169,False,0.69
+1344,DR01345,Dr. Lauren Walker,ICU,Consultant,31,H07,126134,False,0.61
+1345,DR01346,Dr. Aisha Rodriguez,Orthopedics,Senior Registrar,11,H01,96563,False,0.44
+1346,DR01347,Dr. Amanda Clark,Cardiology,Consultant,35,H09,114771,True,0.47
+1347,DR01348,Dr. Carlos Martinez,Cardiology,Registrar,6,H06,76857,False,0.69
+1348,DR01349,Dr. David Garcia,Neurology,Foundation Year 2,1,H05,35226,False,0.66
+1349,DR01350,Dr. Olivia Rodriguez,Emergency,Foundation Year 2,2,H03,43962,True,0.25
+1350,DR01351,Dr. Patrick Patel,Oncology,Senior House Officer,4,H01,45932,True,0.28
+1351,DR01352,Dr. Amanda Robinson,ICU,Senior Registrar,9,H05,75954,False,0.52
+1352,DR01353,Dr. Mei Miller,Oncology,Consultant,30,H03,109108,False,0.46
+1353,DR01354,Dr. Amanda Brown,Emergency,Consultant,23,H03,123618,False,0.61
+1354,DR01355,Dr. Nina Hall,Orthopedics,Senior Registrar,8,H05,82966,False,0.34
+1355,DR01356,Dr. Amelia Taylor,ICU,Foundation Year 1,1,H07,35410,False,0.31
+1356,DR01357,Dr. Sarah Hall,Pediatrics,Consultant,16,H07,135245,False,0.46
+1357,DR01358,Dr. Amelia Anderson,Emergency,Foundation Year 1,0,H02,32940,True,0.4
+1358,DR01359,Dr. Aisha Jackson,Cardiology,Registrar,6,H06,74648,False,0.66
+1359,DR01360,Dr. Patrick Johnson,Oncology,Registrar,5,H08,67334,False,0.4
+1360,DR01361,Dr. Jessica Harris,Orthopedics,Registrar,7,H02,76623,False,0.54
+1361,DR01362,Dr. Mei Brown,Emergency,Registrar,5,H02,61298,False,0.28
+1362,DR01363,Dr. Daniel White,ICU,Registrar,6,H08,59328,False,0.55
+1363,DR01364,Dr. Matthew White,Cardiology,Registrar,8,H08,64548,False,0.34
+1364,DR01365,Dr. Amelia Chen,Orthopedics,Registrar,6,H06,63768,False,0.29
+1365,DR01366,Dr. Thomas Johnson,Oncology,Foundation Year 2,1,H04,36127,True,0.68
+1366,DR01367,Dr. Lauren Nguyen,Oncology,Consultant,16,H02,142084,False,0.27
+1367,DR01368,Dr. Michael Brown,Pediatrics,Registrar,3,H05,67597,False,0.47
+1368,DR01369,Dr. Sophie Singh,Pediatrics,Registrar,3,H02,73975,False,0.69
+1369,DR01370,Dr. Daniel Miller,Oncology,Senior House Officer,2,H08,45569,False,0.33
+1370,DR01371,Dr. Amanda Brown,Oncology,Senior Registrar,6,H08,94553,False,0.48
+1371,DR01372,Dr. Jessica Robinson,ICU,Consultant,17,H05,136201,False,0.35
+1372,DR01373,Dr. William Thomas,Cardiology,Registrar,3,H08,75170,False,0.63
+1373,DR01374,Dr. Thomas Chen,Orthopedics,Foundation Year 1,0,H08,34398,False,0.64
+1374,DR01375,Dr. Aisha Jackson,Oncology,Senior Registrar,11,H01,84281,False,0.68
+1375,DR01376,Dr. Lauren Patel,Oncology,Consultant,15,H01,116132,False,0.61
+1376,DR01377,Dr. Thomas Park,Orthopedics,Consultant,22,H01,137780,False,0.39
+1377,DR01378,Dr. Helen Thompson,ICU,Senior House Officer,2,H04,47952,False,0.25
+1378,DR01379,Dr. Olivia Jones,Oncology,Registrar,5,H01,60131,False,0.66
+1379,DR01380,Dr. Christopher Clark,Orthopedics,Registrar,3,H07,72289,False,0.39
+1380,DR01381,Dr. Sarah Patel,Orthopedics,Consultant,35,H07,136060,False,0.46
+1381,DR01382,Dr. Thomas Garcia,Oncology,Senior Registrar,8,H02,88970,False,0.63
+1382,DR01383,Dr. Rajesh Kim,ICU,Foundation Year 2,1,H01,45379,False,0.36
+1383,DR01384,Dr. David Smith,Oncology,Senior House Officer,2,H05,45481,True,0.64
+1384,DR01385,Dr. Christopher Garcia,Orthopedics,Senior Registrar,12,H01,74501,False,0.31
+1385,DR01386,Dr. Sarah Harris,ICU,Senior Registrar,9,H11,75083,False,0.51
+1386,DR01387,Dr. Samuel Thompson,Cardiology,Registrar,6,H08,59898,False,0.41
+1387,DR01388,Dr. Charlotte Clark,Emergency,Registrar,4,H01,62609,True,0.47
+1388,DR01389,Dr. Nina Patel,Neurology,Consultant,19,H06,113357,False,0.5
+1389,DR01390,Dr. Amanda Park,Neurology,Foundation Year 2,2,H02,36799,False,0.51
+1390,DR01391,Dr. David Harris,Emergency,Consultant,11,H07,109040,False,0.61
+1391,DR01392,Dr. Daniel Jones,Pediatrics,Registrar,7,H02,60805,False,0.28
+1392,DR01393,Dr. Olivia Thompson,Emergency,Foundation Year 2,2,H03,42271,False,0.55
+1393,DR01394,Dr. Patrick Smith,Neurology,Senior House Officer,2,H08,44817,False,0.28
+1394,DR01395,Dr. Nina Martin,Neurology,Consultant,24,H02,113963,False,0.61
+1395,DR01396,Dr. Lauren Wilson,Cardiology,Foundation Year 2,1,H06,42880,True,0.53
+1396,DR01397,Dr. David Robinson,Orthopedics,Consultant,28,H01,117846,False,0.64
+1397,DR01398,Dr. Matthew Wilson,Cardiology,Senior House Officer,5,H04,46687,False,0.24
+1398,DR01399,Dr. Matthew Lewis,Neurology,Registrar,4,H03,67803,False,0.22
+1399,DR01400,Dr. Olivia Anderson,Emergency,Consultant,27,H03,122545,False,0.63
+1400,DR01401,Dr. Olivia Khan,ICU,Consultant,25,H08,118110,False,0.6
+1401,DR01402,Dr. William Harris,Emergency,Senior Registrar,7,H02,77135,False,0.65
+1402,DR01403,Dr. Liam Martin,Emergency,Registrar,7,H01,69068,True,0.67
+1403,DR01404,Dr. Robert Park,Neurology,Registrar,5,H08,71469,False,0.25
+1404,DR01405,Dr. Sarah Williams,Neurology,Consultant,14,H03,138071,False,0.22
+1405,DR01406,Dr. Amelia Wilson,Orthopedics,Senior Registrar,12,H08,79671,False,0.33
+1406,DR01407,Dr. Jessica Patel,Emergency,Senior House Officer,2,H02,52163,False,0.34
+1407,DR01408,Dr. Thomas Patel,ICU,Registrar,6,H05,59123,False,0.28
+1408,DR01409,Dr. Lauren Williams,Emergency,Senior House Officer,3,H05,53586,False,0.37
+1409,DR01410,Dr. James Khan,Oncology,Foundation Year 2,2,H05,38893,False,0.4
+1410,DR01411,Dr. Carlos Allen,Oncology,Senior House Officer,5,H02,54638,True,0.48
+1411,DR01412,Dr. Lauren White,Pediatrics,Foundation Year 1,0,H02,29838,False,0.63
+1412,DR01413,Dr. Andrew Allen,Orthopedics,Foundation Year 2,1,H01,45320,False,0.5
+1413,DR01414,Dr. Robert Kim,Oncology,Foundation Year 2,2,H02,41708,False,0.33
+1414,DR01415,Dr. Mei Davis,Oncology,Senior House Officer,2,H02,53229,False,0.44
+1415,DR01416,Dr. Charlotte Martinez,Neurology,Senior Registrar,6,H03,89061,False,0.45
+1416,DR01417,Dr. Samuel Thompson,Pediatrics,Senior House Officer,3,H03,54461,False,0.55
+1417,DR01418,Dr. Samuel Martin,Emergency,Registrar,5,H01,66361,False,0.46
+1418,DR01419,Dr. William Anderson,Oncology,Senior House Officer,5,H04,46585,False,0.37
+1419,DR01420,Dr. Rachel Clark,Oncology,Consultant,21,H03,111299,False,0.33
+1420,DR01421,Dr. Sarah Allen,Oncology,Foundation Year 2,1,H04,34366,False,0.47
+1421,DR01422,Dr. Thomas Anderson,Pediatrics,Senior Registrar,6,H01,83876,False,0.26
+1422,DR01423,Dr. Sophie Jackson,Emergency,Senior Registrar,8,H10,91293,False,0.47
+1423,DR01424,Dr. Helen Wilson,ICU,Registrar,4,H05,71835,False,0.4
+1424,DR01425,Dr. Andrew Patel,Neurology,Registrar,6,H07,70473,False,0.58
+1425,DR01426,Dr. Priya Park,Pediatrics,Foundation Year 2,1,H08,42235,False,0.54
+1426,DR01427,Dr. Olivia Hall,Cardiology,Registrar,6,H02,73991,True,0.37
+1427,DR01428,Dr. David Martinez,Orthopedics,Consultant,19,H06,115148,False,0.51
+1428,DR01429,Dr. Emma Young,Pediatrics,Consultant,18,H06,133442,False,0.34
+1429,DR01430,Dr. Patrick Rodriguez,Oncology,Consultant,23,H03,142700,False,0.4
+1430,DR01431,Dr. Charlotte Patel,Neurology,Senior Registrar,6,H01,85345,False,0.43
+1431,DR01432,Dr. Mei Young,Orthopedics,Consultant,11,H09,134394,False,0.55
+1432,DR01433,Dr. Daniel Martinez,Cardiology,Senior Registrar,12,H01,85076,False,0.52
+1433,DR01434,Dr. Rachel Johnson,Neurology,Registrar,8,H06,70447,False,0.4
+1434,DR01435,Dr. Helen Miller,ICU,Senior House Officer,4,H06,52393,False,0.41
+1435,DR01436,Dr. Charlotte Johnson,ICU,Foundation Year 2,2,H01,37766,False,0.23
+1436,DR01437,Dr. Liam Singh,Pediatrics,Consultant,32,H03,115530,False,0.61
+1437,DR01438,Dr. Andrew Thompson,Emergency,Senior Registrar,9,H01,75975,False,0.65
+1438,DR01439,Dr. Lauren Harris,Oncology,Consultant,31,H06,139867,False,0.38
+1439,DR01440,Dr. Emma Allen,ICU,Senior House Officer,3,H04,50514,True,0.36
+1440,DR01441,Dr. James Martin,Pediatrics,Consultant,31,H04,125775,False,0.55
+1441,DR01442,Dr. Sarah Martin,Cardiology,Foundation Year 1,1,H07,33569,True,0.27
+1442,DR01443,Dr. Rajesh Kim,ICU,Registrar,5,H06,68491,False,0.28
+1443,DR01444,Dr. Liam Allen,ICU,Senior Registrar,12,H02,75472,False,0.32
+1444,DR01445,Dr. Jessica Thomas,Pediatrics,Foundation Year 2,2,H08,41152,False,0.47
+1445,DR01446,Dr. Mei Khan,Pediatrics,Consultant,24,H01,142474,False,0.51
+1446,DR01447,Dr. Mei Robinson,ICU,Senior Registrar,12,H06,75806,True,0.35
+1447,DR01448,Dr. Thomas Brown,Pediatrics,Senior Registrar,7,H08,82016,False,0.47
+1448,DR01449,Dr. Jessica Chen,Cardiology,Registrar,6,H03,61622,False,0.69
+1449,DR01450,Dr. Rachel Miller,Oncology,Registrar,7,H03,64493,False,0.38
+1450,DR01451,Dr. Mei Brown,Oncology,Foundation Year 1,0,H09,34723,False,0.51
+1451,DR01452,Dr. Olivia Taylor,Pediatrics,Consultant,11,H01,142192,False,0.59
+1452,DR01453,Dr. Amanda Robinson,Neurology,Consultant,19,H01,123138,False,0.61
+1453,DR01454,Dr. Aisha Patel,Emergency,Registrar,4,H01,68243,False,0.38
+1454,DR01455,Dr. Robert Davis,Orthopedics,Foundation Year 1,0,H05,30772,False,0.32
+1455,DR01456,Dr. Rachel Rodriguez,ICU,Consultant,10,H03,120547,False,0.62
+1456,DR01457,Dr. Jessica Jones,Pediatrics,Senior Registrar,6,H03,79583,False,0.53
+1457,DR01458,Dr. Matthew Rodriguez,Emergency,Foundation Year 1,1,H11,30632,False,0.44
+1458,DR01459,Dr. Helen Lewis,Orthopedics,Registrar,4,H09,58655,False,0.44
+1459,DR01460,Dr. Amelia Chen,Pediatrics,Senior House Officer,3,H07,49231,False,0.29
+1460,DR01461,Dr. Emma Anderson,Orthopedics,Consultant,35,H08,123197,False,0.68
+1461,DR01462,Dr. Rachel Martinez,Oncology,Senior House Officer,4,H03,51489,False,0.38
+1462,DR01463,Dr. James Anderson,Oncology,Consultant,23,H03,120159,False,0.31
+1463,DR01464,Dr. Olivia Harris,Oncology,Foundation Year 1,0,H03,37177,False,0.31
+1464,DR01465,Dr. Michael Martinez,Emergency,Registrar,3,H04,60185,False,0.67
+1465,DR01466,Dr. Amelia Clark,Emergency,Consultant,17,H04,112409,False,0.32
+1466,DR01467,Dr. Priya Johnson,Emergency,Foundation Year 2,2,H07,40407,False,0.26
+1467,DR01468,Dr. Christopher Williams,Oncology,Foundation Year 2,2,H01,41744,False,0.4
+1468,DR01469,Dr. Rachel Walker,Orthopedics,Consultant,28,H08,122541,False,0.37
+1469,DR01470,Dr. Daniel Anderson,Cardiology,Senior House Officer,3,H05,55173,False,0.59
+1470,DR01471,Dr. Nina Martinez,Oncology,Registrar,7,H04,66686,False,0.38
+1471,DR01472,Dr. Robert Walker,Emergency,Registrar,6,H03,58990,False,0.52
+1472,DR01473,Dr. Lauren Park,ICU,Consultant,20,H04,116430,False,0.44
+1473,DR01474,Dr. Mei Robinson,Neurology,Foundation Year 1,0,H02,37865,False,0.53
+1474,DR01475,Dr. Sarah Chen,Neurology,Registrar,6,H04,69279,False,0.66
+1475,DR01476,Dr. James Chen,ICU,Consultant,32,H07,129093,False,0.54
+1476,DR01477,Dr. Amanda Hall,Oncology,Consultant,20,H03,142904,True,0.56
+1477,DR01478,Dr. Emma Johnson,Oncology,Consultant,24,H01,123533,False,0.35
+1478,DR01479,Dr. Patrick Brown,Cardiology,Consultant,12,H08,110885,False,0.65
+1479,DR01480,Dr. Lauren Khan,Neurology,Foundation Year 2,1,H04,34480,False,0.44
+1480,DR01481,Dr. Andrew Thomas,Cardiology,Senior Registrar,7,H01,97479,False,0.34
+1481,DR01482,Dr. Lauren White,Orthopedics,Consultant,10,H04,119045,False,0.54
+1482,DR01483,Dr. Sarah Harris,Neurology,Consultant,22,H06,113807,False,0.44
+1483,DR01484,Dr. James White,Orthopedics,Foundation Year 1,0,H02,33157,False,0.44
+1484,DR01485,Dr. David Brown,Neurology,Senior House Officer,5,H02,52699,False,0.23
+1485,DR01486,Dr. Lauren Martin,Emergency,Senior Registrar,10,H05,83161,False,0.64
+1486,DR01487,Dr. Liam Kim,ICU,Consultant,10,H04,124743,False,0.49
+1487,DR01488,Dr. Helen Young,Oncology,Consultant,13,H09,126329,False,0.63
+1488,DR01489,Dr. Mei White,Cardiology,Senior House Officer,4,H08,53262,False,0.62
+1489,DR01490,Dr. Rajesh Walker,Emergency,Senior Registrar,6,H08,78330,False,0.22
+1490,DR01491,Dr. Thomas Park,Emergency,Consultant,32,H03,120550,False,0.27
+1491,DR01492,Dr. Thomas Kim,Orthopedics,Registrar,7,H02,76296,False,0.59
+1492,DR01493,Dr. Patrick Brown,Neurology,Registrar,8,H02,75974,False,0.31
+1493,DR01494,Dr. Amanda Kim,Pediatrics,Senior House Officer,3,H04,44691,False,0.3
+1494,DR01495,Dr. Priya Anderson,Oncology,Consultant,12,H05,124535,False,0.45
+1495,DR01496,Dr. Nina Young,Neurology,Consultant,10,H04,131910,False,0.5
+1496,DR01497,Dr. Amanda Kim,Pediatrics,Senior House Officer,2,H01,51348,False,0.29
+1497,DR01498,Dr. Lauren Jackson,Oncology,Registrar,6,H07,70888,False,0.66
+1498,DR01499,Dr. Liam Hall,Emergency,Senior Registrar,9,H04,91994,False,0.52
+1499,DR01500,Dr. Emma Hall,Cardiology,Consultant,20,H01,117843,False,0.22
+1500,DR01501,Dr. Daniel Thompson,Orthopedics,Registrar,7,H02,62327,False,0.21
+1501,DR01502,Dr. Sarah Martin,Orthopedics,Senior House Officer,4,H08,55872,False,0.61
+1502,DR01503,Dr. William Miller,Cardiology,Senior Registrar,12,H01,80143,False,0.28
+1503,DR01504,Dr. David Patel,Neurology,Consultant,26,H10,137298,False,0.39
+1504,DR01505,Dr. Robert Lewis,Emergency,Registrar,8,H07,77858,True,0.3
+1505,DR01506,Dr. Olivia Rodriguez,ICU,Consultant,35,H05,138972,True,0.41
+1506,DR01507,Dr. Amanda Miller,Cardiology,Senior House Officer,4,H04,47877,False,0.61
+1507,DR01508,Dr. Emma Patel,Neurology,Foundation Year 2,2,H07,34297,False,0.64
+1508,DR01509,Dr. Robert Brown,Pediatrics,Foundation Year 2,1,H01,42374,False,0.66
+1509,DR01510,Dr. Matthew Allen,Orthopedics,Consultant,34,H04,124711,False,0.63
+1510,DR01511,Dr. Helen Lee,ICU,Senior House Officer,4,H03,56062,False,0.38
+1511,DR01512,Dr. Lauren Lewis,Emergency,Senior Registrar,12,H02,95221,False,0.55
+1512,DR01513,Dr. Andrew Garcia,Emergency,Registrar,4,H03,75168,False,0.2
+1513,DR01514,Dr. Amelia Martinez,Cardiology,Senior Registrar,6,H03,91602,False,0.6
+1514,DR01515,Dr. Rachel Clark,ICU,Senior House Officer,3,H06,49067,False,0.67
+1515,DR01516,Dr. Lauren Davis,Pediatrics,Consultant,23,H05,143104,False,0.63
+1516,DR01517,Dr. Helen Miller,ICU,Consultant,19,H05,129020,False,0.37
+1517,DR01518,Dr. Andrew Johnson,ICU,Senior Registrar,9,H07,92577,False,0.69
+1518,DR01519,Dr. Christopher Jackson,Orthopedics,Senior House Officer,3,H10,44605,False,0.27
+1519,DR01520,Dr. Daniel Jackson,ICU,Registrar,6,H04,66404,False,0.62
+1520,DR01521,Dr. David Smith,ICU,Foundation Year 2,2,H03,44873,True,0.68
+1521,DR01522,Dr. Daniel Park,Orthopedics,Consultant,30,H10,136200,False,0.59
+1522,DR01523,Dr. Amelia Wilson,Pediatrics,Consultant,25,H01,126089,False,0.68
+1523,DR01524,Dr. Matthew Walker,Oncology,Registrar,8,H01,74020,False,0.28
+1524,DR01525,Dr. Carlos Patel,Neurology,Consultant,32,H08,137063,False,0.5
+1525,DR01526,Dr. Amanda Lewis,Oncology,Senior Registrar,11,H05,97429,False,0.24
+1526,DR01527,Dr. Amelia Rodriguez,Cardiology,Senior Registrar,10,H02,83946,False,0.6
+1527,DR01528,Dr. Thomas Kim,Orthopedics,Consultant,25,H04,126859,True,0.7
+1528,DR01529,Dr. Christopher Walker,ICU,Senior Registrar,8,H03,93068,False,0.52
+1529,DR01530,Dr. William Lewis,Emergency,Registrar,8,H08,68515,False,0.57
+1530,DR01531,Dr. Lauren Nguyen,Emergency,Senior Registrar,6,H04,74681,False,0.28
+1531,DR01532,Dr. William Walker,Pediatrics,Senior Registrar,11,H03,86410,False,0.49
+1532,DR01533,Dr. Carlos Martinez,Neurology,Consultant,18,H01,110682,False,0.44
+1533,DR01534,Dr. Rachel Thomas,Pediatrics,Senior House Officer,4,H02,56393,False,0.32
+1534,DR01535,Dr. Priya White,ICU,Foundation Year 2,1,H03,35075,False,0.42
+1535,DR01536,Dr. Matthew Jackson,Neurology,Senior Registrar,10,H04,83438,False,0.29
+1536,DR01537,Dr. Patrick Singh,Emergency,Senior Registrar,7,H05,98185,False,0.35
+1537,DR01538,Dr. Rajesh Patel,Cardiology,Consultant,15,H05,129981,False,0.21
+1538,DR01539,Dr. Michael Johnson,Orthopedics,Consultant,28,H02,119620,False,0.36
+1539,DR01540,Dr. Samuel Park,Pediatrics,Senior House Officer,2,H06,51299,False,0.22
+1540,DR01541,Dr. Daniel Young,Neurology,Consultant,16,H04,122317,False,0.34
+1541,DR01542,Dr. Thomas Singh,Pediatrics,Registrar,8,H06,63206,False,0.64
+1542,DR01543,Dr. Amelia Hall,Neurology,Senior House Officer,4,H08,45419,False,0.32
+1543,DR01544,Dr. Andrew Brown,ICU,Registrar,8,H01,66525,False,0.24
+1544,DR01545,Dr. Matthew Thomas,Oncology,Consultant,34,H01,136407,False,0.7
+1545,DR01546,Dr. Mei Martinez,Orthopedics,Registrar,8,H01,75868,False,0.21
+1546,DR01547,Dr. Michael Nguyen,Oncology,Consultant,16,H01,126290,False,0.22
+1547,DR01548,Dr. Patrick Thomas,Orthopedics,Senior Registrar,7,H01,80616,False,0.6
+1548,DR01549,Dr. Sarah Kim,Pediatrics,Consultant,31,H05,109626,False,0.63
+1549,DR01550,Dr. Christopher Lee,Neurology,Senior House Officer,3,H08,44357,False,0.27
+1550,DR01551,Dr. Samuel Davis,Neurology,Senior Registrar,9,H04,94258,False,0.33
+1551,DR01552,Dr. Michael Nguyen,Orthopedics,Foundation Year 2,2,H05,34614,False,0.28
+1552,DR01553,Dr. Andrew Harris,Pediatrics,Foundation Year 1,0,H03,32948,False,0.53
+1553,DR01554,Dr. Matthew Thompson,Emergency,Registrar,7,H01,59310,False,0.51
+1554,DR01555,Dr. Patrick Williams,Emergency,Foundation Year 1,1,H05,37353,False,0.48
+1555,DR01556,Dr. William Smith,Cardiology,Consultant,16,H06,138928,True,0.54
+1556,DR01557,Dr. Amelia Khan,Oncology,Consultant,34,H08,141682,False,0.69
+1557,DR01558,Dr. Helen Singh,Cardiology,Foundation Year 2,2,H04,45367,False,0.24
+1558,DR01559,Dr. Lauren Nguyen,Oncology,Registrar,7,H06,60454,False,0.64
+1559,DR01560,Dr. Amelia Wilson,ICU,Foundation Year 2,1,H02,45374,True,0.4
+1560,DR01561,Dr. Thomas Thompson,Cardiology,Registrar,5,H01,60386,False,0.53
+1561,DR01562,Dr. Samuel Johnson,Oncology,Foundation Year 1,0,H02,35081,False,0.49
+1562,DR01563,Dr. Michael Hall,Orthopedics,Registrar,8,H01,68463,False,0.31
+1563,DR01564,Dr. Nina Lewis,Neurology,Senior House Officer,3,H03,56927,False,0.43
+1564,DR01565,Dr. Olivia Clark,Pediatrics,Foundation Year 2,2,H05,36481,True,0.49
+1565,DR01566,Dr. David Rodriguez,Oncology,Registrar,8,H04,73138,False,0.21
+1566,DR01567,Dr. Sophie Williams,Oncology,Consultant,15,H01,134389,False,0.53
+1567,DR01568,Dr. James Hall,Pediatrics,Senior House Officer,4,H06,56967,False,0.61
+1568,DR01569,Dr. William Allen,ICU,Consultant,14,H02,140212,False,0.28
+1569,DR01570,Dr. Lauren Garcia,Orthopedics,Senior Registrar,11,H08,73921,False,0.53
+1570,DR01571,Dr. Aisha Martin,Orthopedics,Foundation Year 1,0,H01,37579,False,0.4
+1571,DR01572,Dr. Christopher Lewis,Oncology,Registrar,4,H05,58713,False,0.22
+1572,DR01573,Dr. Patrick Khan,Cardiology,Consultant,18,H04,121251,False,0.52
+1573,DR01574,Dr. Patrick Walker,Orthopedics,Consultant,14,H03,130942,True,0.22
+1574,DR01575,Dr. William Jackson,Emergency,Consultant,31,H05,126269,False,0.39
+1575,DR01576,Dr. Sophie Brown,Oncology,Senior Registrar,8,H05,82208,False,0.55
+1576,DR01577,Dr. Rajesh Johnson,Orthopedics,Senior House Officer,4,H01,54852,True,0.51
+1577,DR01578,Dr. Thomas Kim,Orthopedics,Consultant,32,H05,109979,False,0.47
+1578,DR01579,Dr. Emma Harris,Oncology,Senior Registrar,6,H05,90071,True,0.25
+1579,DR01580,Dr. Priya Thomas,Neurology,Senior Registrar,7,H02,91362,False,0.54
+1580,DR01581,Dr. Thomas Park,Pediatrics,Consultant,33,H02,108039,False,0.28
+1581,DR01582,Dr. Christopher Wilson,Pediatrics,Senior Registrar,9,H02,97805,False,0.36
+1582,DR01583,Dr. Liam Williams,Emergency,Foundation Year 2,2,H05,39716,False,0.47
+1583,DR01584,Dr. Amanda White,Cardiology,Consultant,11,H08,108065,False,0.4
+1584,DR01585,Dr. Samuel Singh,Orthopedics,Senior House Officer,3,H11,55971,False,0.22
+1585,DR01586,Dr. Liam Brown,ICU,Consultant,30,H01,125406,False,0.4
+1586,DR01587,Dr. William Smith,Emergency,Senior House Officer,4,H09,56894,False,0.48
+1587,DR01588,Dr. Christopher Khan,Neurology,Senior Registrar,7,H03,96962,False,0.51
+1588,DR01589,Dr. Sarah Brown,ICU,Foundation Year 2,2,H03,44455,False,0.49
+1589,DR01590,Dr. Emma Singh,Cardiology,Senior House Officer,5,H02,53593,False,0.33
+1590,DR01591,Dr. Liam Anderson,Oncology,Consultant,21,H02,131991,False,0.66
+1591,DR01592,Dr. Rajesh Thomas,Orthopedics,Registrar,6,H01,77126,True,0.51
+1592,DR01593,Dr. Jessica Jones,Neurology,Registrar,8,H02,65271,False,0.57
+1593,DR01594,Dr. Sophie Johnson,ICU,Foundation Year 2,1,H10,37645,False,0.41
+1594,DR01595,Dr. Sophie Smith,Cardiology,Senior House Officer,2,H07,52594,False,0.51
+1595,DR01596,Dr. Nina Martinez,Orthopedics,Senior Registrar,11,H09,83930,True,0.48
+1596,DR01597,Dr. Nina Chen,ICU,Senior Registrar,8,H02,76120,False,0.47
+1597,DR01598,Dr. Christopher Davis,Emergency,Consultant,34,H04,143243,False,0.49
+1598,DR01599,Dr. Matthew Nguyen,Emergency,Registrar,5,H01,60517,False,0.28
+1599,DR01600,Dr. Robert Singh,Neurology,Registrar,6,H02,77780,True,0.3
+1600,DR01601,Dr. Rajesh Hall,Emergency,Consultant,30,H04,122428,False,0.52
+1601,DR01602,Dr. Nina White,Emergency,Consultant,19,H07,129474,False,0.41
+1602,DR01603,Dr. Mei Johnson,Orthopedics,Consultant,26,H01,132135,False,0.51
+1603,DR01604,Dr. Mei Park,Emergency,Senior House Officer,5,H01,46602,False,0.67
+1604,DR01605,Dr. Liam Kim,Orthopedics,Senior House Officer,2,H05,46904,False,0.35
+1605,DR01606,Dr. Sarah Williams,ICU,Registrar,4,H02,73323,False,0.42
+1606,DR01607,Dr. Daniel Jones,Cardiology,Senior House Officer,2,H06,45016,False,0.49
+1607,DR01608,Dr. Carlos Smith,Pediatrics,Registrar,5,H03,63651,False,0.56
+1608,DR01609,Dr. Helen Anderson,Oncology,Senior House Officer,2,H08,48753,False,0.47
+1609,DR01610,Dr. Sarah Miller,Orthopedics,Consultant,23,H05,130980,False,0.54
+1610,DR01611,Dr. Priya Patel,ICU,Senior House Officer,2,H01,53951,False,0.32
+1611,DR01612,Dr. Christopher Kim,Oncology,Registrar,8,H11,62602,False,0.52
+1612,DR01613,Dr. Mei Allen,Cardiology,Consultant,29,H02,141483,False,0.24
+1613,DR01614,Dr. Sophie Young,Emergency,Senior House Officer,3,H02,46024,False,0.54
+1614,DR01615,Dr. Amelia Young,ICU,Senior Registrar,11,H02,80893,False,0.68
+1615,DR01616,Dr. Olivia Thompson,Pediatrics,Senior Registrar,12,H10,96079,False,0.33
+1616,DR01617,Dr. James Allen,Cardiology,Senior Registrar,6,H09,81633,False,0.36
+1617,DR01618,Dr. William White,Oncology,Foundation Year 2,1,H06,38567,False,0.51
+1618,DR01619,Dr. Mei Young,Emergency,Senior House Officer,3,H06,52869,False,0.31
+1619,DR01620,Dr. Rachel Singh,Orthopedics,Registrar,5,H05,59630,False,0.63
+1620,DR01621,Dr. Matthew Thompson,Neurology,Senior Registrar,7,H01,79288,False,0.38
+1621,DR01622,Dr. Liam Rodriguez,Oncology,Foundation Year 1,1,H01,34979,False,0.62
+1622,DR01623,Dr. James Taylor,Pediatrics,Consultant,11,H02,115621,False,0.37
+1623,DR01624,Dr. Michael Smith,Neurology,Consultant,14,H01,141902,False,0.22
+1624,DR01625,Dr. Carlos Harris,Orthopedics,Consultant,25,H06,124465,False,0.43
+1625,DR01626,Dr. Priya Walker,Neurology,Senior Registrar,7,H05,78158,False,0.49
+1626,DR01627,Dr. Rachel Clark,Pediatrics,Consultant,12,H08,131926,False,0.29
+1627,DR01628,Dr. Lauren Martin,Neurology,Senior House Officer,3,H10,47952,True,0.36
+1628,DR01629,Dr. Charlotte Wilson,Pediatrics,Consultant,34,H01,130171,False,0.29
+1629,DR01630,Dr. Priya Davis,Oncology,Registrar,8,H04,71085,False,0.67
+1630,DR01631,Dr. Emma Jackson,Emergency,Consultant,17,H03,121921,False,0.49
+1631,DR01632,Dr. David Walker,Emergency,Senior House Officer,3,H05,47947,False,0.26
+1632,DR01633,Dr. Emma Davis,Emergency,Senior Registrar,7,H05,93853,False,0.52
+1633,DR01634,Dr. Nina Rodriguez,Neurology,Registrar,5,H04,73645,False,0.48
+1634,DR01635,Dr. Sarah Anderson,ICU,Registrar,7,H06,73337,False,0.23
+1635,DR01636,Dr. Robert Thomas,Neurology,Senior Registrar,9,H02,95617,False,0.28
+1636,DR01637,Dr. Thomas Thompson,Neurology,Consultant,30,H03,108858,False,0.26
+1637,DR01638,Dr. Lauren Nguyen,Cardiology,Senior House Officer,2,H05,52664,False,0.56
+1638,DR01639,Dr. Michael Jackson,Oncology,Senior House Officer,2,H10,56189,True,0.64
+1639,DR01640,Dr. Mei Young,Neurology,Consultant,11,H03,141947,False,0.58
+1640,DR01641,Dr. Sophie Williams,Orthopedics,Senior Registrar,7,H01,83640,False,0.67
+1641,DR01642,Dr. Priya Martin,Cardiology,Senior Registrar,6,H04,83618,True,0.63
+1642,DR01643,Dr. Sarah Singh,Emergency,Senior Registrar,8,H08,86899,False,0.5
+1643,DR01644,Dr. Jessica Wilson,Cardiology,Consultant,32,H06,137112,False,0.34
+1644,DR01645,Dr. Sarah Harris,Neurology,Foundation Year 1,0,H06,30083,False,0.45
+1645,DR01646,Dr. Jessica Lee,Cardiology,Senior House Officer,5,H02,46886,False,0.2
+1646,DR01647,Dr. Robert Lee,Pediatrics,Consultant,24,H09,120204,False,0.46
+1647,DR01648,Dr. Rajesh Patel,Orthopedics,Senior House Officer,4,H01,44499,False,0.55
+1648,DR01649,Dr. Charlotte Walker,Cardiology,Registrar,6,H01,73450,False,0.3
+1649,DR01650,Dr. James Martinez,Pediatrics,Senior House Officer,5,H06,48870,True,0.28
+1650,DR01651,Dr. Amelia Jones,ICU,Foundation Year 2,2,H08,44460,False,0.28
+1651,DR01652,Dr. Liam Khan,Emergency,Senior House Officer,5,H01,47054,False,0.67
+1652,DR01653,Dr. Thomas Kim,Emergency,Senior House Officer,3,H03,55273,False,0.65
+1653,DR01654,Dr. Michael Miller,ICU,Consultant,15,H05,117119,False,0.3
+1654,DR01655,Dr. Christopher Martinez,Emergency,Senior Registrar,10,H06,84389,False,0.35
+1655,DR01656,Dr. William Park,Orthopedics,Consultant,25,H02,119996,False,0.34
+1656,DR01657,Dr. Carlos Hall,Neurology,Consultant,21,H01,133787,False,0.33
+1657,DR01658,Dr. Priya Garcia,Orthopedics,Registrar,5,H05,73201,False,0.34
+1658,DR01659,Dr. Rajesh Kim,ICU,Foundation Year 1,0,H02,33940,False,0.2
+1659,DR01660,Dr. Olivia Young,Cardiology,Registrar,3,H02,71455,False,0.24
+1660,DR01661,Dr. James Park,Pediatrics,Senior Registrar,7,H03,78775,False,0.27
+1661,DR01662,Dr. Rajesh Patel,ICU,Registrar,3,H07,59721,False,0.65
+1662,DR01663,Dr. William Taylor,Oncology,Registrar,5,H08,67840,True,0.25
+1663,DR01664,Dr. Carlos Clark,Cardiology,Registrar,3,H03,74437,True,0.49
+1664,DR01665,Dr. Charlotte Park,Pediatrics,Senior Registrar,12,H07,93772,False,0.35
+1665,DR01666,Dr. William Young,ICU,Foundation Year 2,2,H01,44361,False,0.53
+1666,DR01667,Dr. Helen Johnson,Pediatrics,Registrar,4,H03,72976,False,0.64
+1667,DR01668,Dr. Sarah Allen,Pediatrics,Consultant,12,H04,131779,False,0.4
+1668,DR01669,Dr. Carlos Brown,Emergency,Senior House Officer,3,H03,48308,False,0.66
+1669,DR01670,Dr. Helen Martinez,Pediatrics,Senior Registrar,6,H10,93870,False,0.57
+1670,DR01671,Dr. William Garcia,Orthopedics,Consultant,23,H03,116949,False,0.23
+1671,DR01672,Dr. James Thomas,Orthopedics,Consultant,24,H04,138874,False,0.37
+1672,DR01673,Dr. Amelia Garcia,Emergency,Senior House Officer,2,H03,50679,False,0.46
+1673,DR01674,Dr. Patrick Garcia,Cardiology,Registrar,6,H06,71521,False,0.44
+1674,DR01675,Dr. Rajesh Williams,Oncology,Consultant,20,H02,121448,False,0.54
+1675,DR01676,Dr. Nina Jackson,Orthopedics,Consultant,16,H04,113298,False,0.4
+1676,DR01677,Dr. Priya Robinson,Cardiology,Registrar,4,H09,71901,False,0.28
+1677,DR01678,Dr. Amelia Patel,ICU,Registrar,3,H04,67738,False,0.41
+1678,DR01679,Dr. James Wilson,Oncology,Registrar,5,H02,69010,False,0.69
+1679,DR01680,Dr. Sarah Young,Cardiology,Registrar,6,H06,61193,False,0.66
+1680,DR01681,Dr. David Lee,ICU,Senior Registrar,9,H02,84770,False,0.58
+1681,DR01682,Dr. Christopher Park,Oncology,Senior House Officer,5,H02,57488,False,0.34
+1682,DR01683,Dr. Sophie Thompson,Emergency,Foundation Year 1,1,H11,38209,False,0.62
+1683,DR01684,Dr. Samuel Thomas,Pediatrics,Senior House Officer,3,H11,43426,False,0.29
+1684,DR01685,Dr. Carlos Brown,Pediatrics,Foundation Year 2,1,H02,43815,False,0.44
+1685,DR01686,Dr. Michael Kim,Orthopedics,Senior Registrar,12,H01,88243,False,0.59
+1686,DR01687,Dr. David Rodriguez,ICU,Foundation Year 2,2,H03,35556,False,0.28
+1687,DR01688,Dr. James Miller,Oncology,Senior Registrar,10,H03,81284,False,0.59
+1688,DR01689,Dr. Robert Clark,Oncology,Senior House Officer,5,H03,43551,False,0.59
+1689,DR01690,Dr. Emma White,Pediatrics,Senior House Officer,2,H04,54226,False,0.64
+1690,DR01691,Dr. Aisha Davis,Cardiology,Senior House Officer,4,H01,53422,False,0.42
+1691,DR01692,Dr. Liam Brown,Orthopedics,Senior House Officer,5,H03,57347,True,0.6
+1692,DR01693,Dr. Carlos Johnson,Orthopedics,Consultant,25,H03,128602,False,0.22
+1693,DR01694,Dr. Helen Park,Cardiology,Consultant,22,H02,116101,False,0.4
+1694,DR01695,Dr. Nina Jones,Neurology,Registrar,6,H05,77352,False,0.64
+1695,DR01696,Dr. Lauren Jackson,Pediatrics,Consultant,22,H07,118005,False,0.25
+1696,DR01697,Dr. Helen White,Emergency,Registrar,8,H06,64520,False,0.57
+1697,DR01698,Dr. Olivia Taylor,Pediatrics,Registrar,8,H03,70368,False,0.45
+1698,DR01699,Dr. Mei Brown,Pediatrics,Consultant,29,H02,108726,False,0.29
+1699,DR01700,Dr. Olivia Park,Emergency,Consultant,19,H07,108368,False,0.68
+1700,DR01701,Dr. Jessica Thomas,Emergency,Registrar,5,H05,73145,False,0.42
+1701,DR01702,Dr. Samuel Wilson,Cardiology,Consultant,28,H08,128601,True,0.42
+1702,DR01703,Dr. Liam Allen,Oncology,Senior Registrar,12,H09,80498,False,0.65
+1703,DR01704,Dr. Andrew Rodriguez,Pediatrics,Registrar,7,H03,76789,False,0.37
+1704,DR01705,Dr. Robert Taylor,Oncology,Registrar,3,H01,75036,True,0.37
+1705,DR01706,Dr. David Taylor,ICU,Senior Registrar,8,H07,76619,False,0.67
+1706,DR01707,Dr. Michael Jackson,Neurology,Senior House Officer,3,H02,52983,False,0.61
+1707,DR01708,Dr. Olivia Miller,Pediatrics,Registrar,7,H02,64621,False,0.45
+1708,DR01709,Dr. Samuel Khan,Pediatrics,Foundation Year 1,1,H02,30220,False,0.56
+1709,DR01710,Dr. Andrew Chen,Pediatrics,Consultant,21,H06,129343,False,0.38
+1710,DR01711,Dr. Olivia Thompson,ICU,Registrar,8,H08,61163,False,0.22
+1711,DR01712,Dr. Samuel Taylor,Oncology,Senior Registrar,6,H10,93562,False,0.28
+1712,DR01713,Dr. James Hall,Oncology,Registrar,4,H05,76705,True,0.42
+1713,DR01714,Dr. Daniel Anderson,ICU,Foundation Year 2,2,H07,42076,False,0.28
+1714,DR01715,Dr. Sarah Johnson,Pediatrics,Senior Registrar,10,H07,92718,False,0.4
+1715,DR01716,Dr. Matthew Johnson,Neurology,Senior House Officer,3,H10,47805,False,0.53
+1716,DR01717,Dr. William Kim,Neurology,Senior House Officer,2,H04,54565,True,0.52
+1717,DR01718,Dr. James Clark,Emergency,Foundation Year 1,0,H02,36299,False,0.51
+1718,DR01719,Dr. Olivia Miller,ICU,Senior Registrar,11,H01,84310,True,0.41
+1719,DR01720,Dr. Christopher Robinson,Neurology,Registrar,4,H04,65134,False,0.29
+1720,DR01721,Dr. Sarah Allen,Emergency,Registrar,8,H01,60240,False,0.34
+1721,DR01722,Dr. Matthew Martinez,Pediatrics,Consultant,10,H04,112660,False,0.52
+1722,DR01723,Dr. Thomas Davis,Orthopedics,Senior House Officer,4,H05,54396,False,0.31
+1723,DR01724,Dr. Emma Wilson,ICU,Senior Registrar,7,H10,83643,False,0.26
+1724,DR01725,Dr. Carlos Clark,Cardiology,Registrar,5,H09,70529,False,0.34
+1725,DR01726,Dr. Mei Anderson,Neurology,Foundation Year 1,1,H04,29151,False,0.43
+1726,DR01727,Dr. Andrew Martin,ICU,Senior House Officer,2,H05,50704,False,0.23
+1727,DR01728,Dr. Carlos Park,Oncology,Consultant,13,H06,108827,False,0.51
+1728,DR01729,Dr. Christopher Jackson,Oncology,Consultant,33,H06,121677,False,0.53
+1729,DR01730,Dr. Aisha Lewis,Oncology,Registrar,3,H02,67002,True,0.28
+1730,DR01731,Dr. Lauren Kim,Pediatrics,Registrar,4,H06,72054,False,0.48
+1731,DR01732,Dr. Charlotte Garcia,ICU,Foundation Year 2,1,H01,39993,False,0.28
+1732,DR01733,Dr. Sarah Nguyen,Orthopedics,Registrar,8,H06,62498,False,0.48
+1733,DR01734,Dr. James Singh,Oncology,Consultant,34,H06,111333,False,0.29
+1734,DR01735,Dr. Aisha Thomas,ICU,Consultant,24,H07,120378,False,0.57
+1735,DR01736,Dr. Sophie Singh,Oncology,Registrar,6,H02,76527,False,0.51
+1736,DR01737,Dr. Charlotte Lee,ICU,Senior Registrar,6,H06,96525,False,0.28
+1737,DR01738,Dr. Andrew Smith,Emergency,Consultant,26,H06,121449,False,0.57
+1738,DR01739,Dr. Amelia Harris,Pediatrics,Senior House Officer,2,H03,54695,False,0.38
+1739,DR01740,Dr. James Harris,ICU,Senior House Officer,4,H08,44012,False,0.62
+1740,DR01741,Dr. Sophie Robinson,Oncology,Consultant,11,H03,111476,False,0.64
+1741,DR01742,Dr. Amanda Nguyen,Neurology,Senior House Officer,5,H04,46572,False,0.64
+1742,DR01743,Dr. Rajesh Park,Emergency,Registrar,5,H03,61148,False,0.54
+1743,DR01744,Dr. Samuel Garcia,Orthopedics,Foundation Year 1,0,H02,33644,False,0.48
+1744,DR01745,Dr. Thomas Davis,Orthopedics,Registrar,7,H03,76039,False,0.24
+1745,DR01746,Dr. Emma Kim,Pediatrics,Registrar,5,H04,64327,False,0.28
+1746,DR01747,Dr. Robert Thomas,Cardiology,Consultant,14,H03,131287,False,0.2
+1747,DR01748,Dr. Andrew White,ICU,Registrar,8,H02,68935,False,0.49
+1748,DR01749,Dr. Mei Lewis,Pediatrics,Consultant,26,H01,118031,False,0.32
+1749,DR01750,Dr. Daniel Walker,Emergency,Registrar,5,H05,69706,False,0.52
+1750,DR01751,Dr. Aisha Allen,Cardiology,Consultant,25,H02,126983,False,0.64
+1751,DR01752,Dr. Aisha Kim,Emergency,Consultant,29,H02,119254,False,0.58
+1752,DR01753,Dr. Amelia Walker,Cardiology,Registrar,7,H01,65477,True,0.46
+1753,DR01754,Dr. Liam Wilson,ICU,Foundation Year 2,1,H02,40835,False,0.68
+1754,DR01755,Dr. Amanda Davis,Neurology,Registrar,6,H08,63424,False,0.28
+1755,DR01756,Dr. Nina Clark,ICU,Senior House Officer,4,H07,55951,False,0.35
+1756,DR01757,Dr. Patrick Anderson,Pediatrics,Consultant,34,H06,137856,False,0.39
+1757,DR01758,Dr. Robert Taylor,Pediatrics,Registrar,5,H02,67919,False,0.22
+1758,DR01759,Dr. Emma Johnson,Orthopedics,Registrar,3,H05,68370,False,0.2
+1759,DR01760,Dr. Priya Brown,Oncology,Consultant,26,H02,125574,False,0.27
+1760,DR01761,Dr. Liam Robinson,Emergency,Consultant,33,H03,122307,False,0.42
+1761,DR01762,Dr. Olivia Hall,Cardiology,Consultant,32,H01,121834,False,0.45
+1762,DR01763,Dr. Jessica Williams,Emergency,Registrar,5,H01,63938,False,0.65
+1763,DR01764,Dr. Samuel Wilson,Pediatrics,Senior Registrar,7,H07,94389,False,0.43
+1764,DR01765,Dr. Jessica Davis,Oncology,Senior Registrar,8,H01,97972,False,0.34
+1765,DR01766,Dr. William Wilson,Cardiology,Registrar,7,H04,69074,False,0.61
+1766,DR01767,Dr. Thomas Davis,Neurology,Registrar,6,H01,73425,True,0.59
+1767,DR01768,Dr. Jessica Singh,Emergency,Consultant,30,H04,127256,False,0.56
+1768,DR01769,Dr. William Taylor,ICU,Registrar,3,H06,72630,False,0.42
+1769,DR01770,Dr. Robert Davis,Cardiology,Registrar,7,H03,69212,False,0.6
+1770,DR01771,Dr. David Davis,Cardiology,Registrar,6,H04,59228,False,0.4
+1771,DR01772,Dr. Andrew Rodriguez,Neurology,Consultant,10,H03,109930,False,0.57
+1772,DR01773,Dr. Lauren Nguyen,ICU,Registrar,6,H03,62070,False,0.53
+1773,DR01774,Dr. Emma Lee,Emergency,Registrar,5,H01,74156,False,0.42
+1774,DR01775,Dr. Charlotte White,Pediatrics,Registrar,4,H06,66235,False,0.54
+1775,DR01776,Dr. Christopher Brown,Cardiology,Registrar,4,H05,60404,False,0.53
+1776,DR01777,Dr. Rajesh Walker,Pediatrics,Registrar,8,H05,72965,False,0.59
+1777,DR01778,Dr. Charlotte Lewis,Emergency,Consultant,25,H03,131673,True,0.5
+1778,DR01779,Dr. Matthew Johnson,Pediatrics,Consultant,24,H09,124653,False,0.32
+1779,DR01780,Dr. Helen Brown,ICU,Registrar,7,H07,60312,False,0.6
+1780,DR01781,Dr. Amelia Taylor,Neurology,Senior Registrar,11,H08,92464,False,0.29
+1781,DR01782,Dr. Robert Jones,Pediatrics,Consultant,24,H03,121127,False,0.35
+1782,DR01783,Dr. Patrick Walker,Emergency,Consultant,22,H03,138398,False,0.31
+1783,DR01784,Dr. Patrick Chen,Oncology,Consultant,11,H01,138023,True,0.43
+1784,DR01785,Dr. Sophie Singh,Oncology,Consultant,22,H01,110994,False,0.42
+1785,DR01786,Dr. Thomas Martinez,ICU,Senior House Officer,5,H02,47510,False,0.43
+1786,DR01787,Dr. Jessica Park,ICU,Senior Registrar,11,H03,82160,True,0.38
+1787,DR01788,Dr. Olivia Young,Emergency,Registrar,5,H04,61607,False,0.38
+1788,DR01789,Dr. Jessica Clark,Cardiology,Consultant,16,H02,141876,True,0.6
+1789,DR01790,Dr. Emma Young,Oncology,Senior House Officer,3,H03,43919,False,0.65
+1790,DR01791,Dr. Olivia Williams,Neurology,Senior House Officer,2,H09,57115,False,0.52
+1791,DR01792,Dr. Andrew Harris,Emergency,Senior Registrar,7,H03,81240,False,0.29
+1792,DR01793,Dr. Helen Lewis,ICU,Senior House Officer,4,H07,48220,False,0.53
+1793,DR01794,Dr. Liam Smith,Oncology,Senior House Officer,4,H02,54557,False,0.54
+1794,DR01795,Dr. Emma Smith,Pediatrics,Senior House Officer,2,H07,49605,False,0.25
+1795,DR01796,Dr. Carlos Martin,Oncology,Consultant,28,H07,124419,False,0.57
+1796,DR01797,Dr. Patrick Rodriguez,Orthopedics,Consultant,18,H10,119751,False,0.59
+1797,DR01798,Dr. Helen Chen,Cardiology,Foundation Year 2,1,H01,43456,False,0.2
+1798,DR01799,Dr. Rajesh Anderson,Emergency,Consultant,12,H01,122209,False,0.42
+1799,DR01800,Dr. Michael Garcia,Emergency,Senior Registrar,8,H04,81048,False,0.3
