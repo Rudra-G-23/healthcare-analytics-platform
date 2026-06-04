@@ -1,0 +1,77 @@
+Healthcare Analytics Platform | <This video>
+
+This video is part of my Healthcare Analytics Platform project, where I am transforming a healthcare datasets into an industry-style analytics solution.
+
+The goal of this project is to analyze hospital operations, emergency care performance, patient flow, resource utilization, and operational efficiency to uncover actionable insights that support better decision-making.
+
+In this series, I document the complete journey—from raw data and real-world errors to debugging, problem-solving, data modeling, analytics, and dashboard development. Rather than showing only polished results, I share the actual development process, challenges encountered, and how they are resolved.
+
+_ _ _
+
+
+Current Video we cover: <What we cover>
+
+
+_ _ _
+
+
+Resources:
+
+• Repo: https://github.com/Rudra-G-23/healthcare-analytics-platform
+• Notion: https://rudra-12345g.notion.site/YT-LIVE-Healthcare-Analytics-Platform-3755c069c4db80a9bcd4e708ad42c1f2
+• Current Playlist: https://youtube.com/playlist?list=PLbYkMkFiXhYaTiyAnbtBg1pZdFo0Nl4fN&si=u5qxsx6b6mrbo1rW
+
+
+_ _ _
+
+
+Connect with me:
+
+• Portfolio: https://rudra-g-23.github.io/
+• LinkedIn:https://www.linkedin.com/in/rudraprasadbhuyan/
+• WhatsApp Channel: https://whatsapp.com/channel/0029Vb7UgSjHLHQdVOBIom0x
+
+Jai Hind . . . ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ 🐦‍🔥
+
+_ _ _
+
+
+Key areas covered in this project:
+• Data Cleaning & Transformation with Python
+• SQL Data Warehouse Design
+• Data Modeling & Analytics
+• Power BI Dashboard Development
+• Healthcare Operations Analysis
+• Performance Monitoring & KPI Tracking
+• Industry-Style Project Structure & Best Practices
+
+This is an evolving project. Future phases may include:
+• Machine Learning Models
+• Predictive Analytics
+• Cloud Integration
+• Data Engineering Pipelines
+• Advanced Healthcare Intelligence Solutions
+
+
+_ _ _
+
+
+
+[Meta Data]
+
+As the project grows, the architecture, technology stack, and analytics capabilities will continue to expand.
+
+If you're interested in Data Analytics, Data Engineering, Business Intelligence, SQL, Python, or Power BI projects, follow along as I build this platform from the ground up.
+
+This project is a learning journey focused on continuously improving engineering practices, analytics skills, and building production-style solutions.
+
+Note: This playlist is actively growing. Future videos may introduce new technologies, architectures, and project components as the platform evolves.
+
+
+_ _ _
+
+
+#DataAnalytics #PowerBI #SQL #Python #HealthcareAnalytics #BusinessIntelligence #DataEngineering #AnalyticsProject #DataWarehouse #LearningInPublic #DashboardDesign #HealthcareData #DataScience #ETL #ProjectBasedLearning 
+
+
+Thanks for following the journey! 🙌
