@@ -39,8 +39,6 @@ CREATE TABLE public.fact_patient_visits (
     hospital_name                VARCHAR(150),
     latitude                     NUMERIC(10,6),
     longitude                    NUMERIC(10,6),
-
-    created_at                   TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );    
 
 --------------------------------------------------------------------------------

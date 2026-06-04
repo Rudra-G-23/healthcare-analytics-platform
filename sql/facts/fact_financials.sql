@@ -6,7 +6,7 @@ CREATE TABLE public.fact_financials (
     financial_record_id           VARCHAR(30) PRIMARY KEY,
 
     hospital_id                   VARCHAR(20) NOT NULL,
-    year                          INTEGER,
+    year_int                      INTEGER,
 
     month_name                    INTEGER,
     visit_count                   INTEGER,
@@ -34,8 +34,6 @@ CREATE TABLE public.fact_financials (
     hospital_name                 VARCHAR(150),
     latitude                      NUMERIC(10,6),
     longitude                     NUMERIC(10,6),
-
-    created_at                    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 );
 
 
@@ -48,7 +46,7 @@ CREATE TABLE bronze.fact_financials (
 
     hospital_id                   VARCHAR(20) NOT NULL,
 
-    year                          INTEGER
+    year_int                          INTEGER
         CHECK (year >= 2000),
 
     month_name                         INTEGER

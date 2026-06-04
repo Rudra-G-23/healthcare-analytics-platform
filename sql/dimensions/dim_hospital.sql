@@ -1,47 +1,47 @@
 --------------------------------------------------------------------------------
 -->> Create Dimension Hospital Table
 --------------------------------------------------------------------------------
+DROP TABLE IF EXISTS public.dim_hospital CASCADE;
 
 CREATE TABLE public.dim_hospital (
-    hospital_id                   VARCHAR(20) PRIMARY KEY,
-    hospital_name                 VARCHAR(150) NOT NULL,
-    archetype                     VARCHAR(100),
-    nhs_trust_type                VARCHAR(100),
-    
-    region_id                     VARCHAR(20),
-    city                          VARCHAR(100),
+    hospital_id                  VARCHAR(20) PRIMARY KEY,
+    hospital_name                VARCHAR(150) NOT NULL,
+    archetype                    VARCHAR(100),
+    nhs_trust_type               VARCHAR(100),
 
-    beds                          INTEGER,
-    icu_beds                      INTEGER,
-    ed_bays                       INTEGER,
-    total_beds                    INTEGER,
+    region_id                    VARCHAR(20),
+    city                         VARCHAR(100),
 
-    annual_budget_m               NUMERIC(12,2),
-    staff_fte                     INTEGER,
+    beds                         INTEGER,
+    icu_beds                     INTEGER,
+    ed_bays                      INTEGER,
 
-    founding_year                 INTEGER,
-    teaching_hospital             BOOLEAN,
-    trauma_level                  INTEGER,
-    private                       BOOLEAN,
+    annual_budget_m              NUMERIC(12,2),
+    staff_fte                    INTEGER,
 
-    avg_daily_admissions_base     INTEGER,
-    satisfaction_base             NUMERIC(5,2),
+    founding_year                INTEGER,
+    teaching_hospital            BOOLEAN,
+    trauma_level                 INTEGER,
+    private_int                  BOOLEAN,
 
-    efficiency_score              NUMERIC(5,2),
-    cost_index                    NUMERIC(6,2),
-    readmission_rate_base         NUMERIC(5,2),
+    avg_daily_admissions_base    INTEGER,
+    satisfaction_base            INTEGER,
 
-    staffing_stress               VARCHAR(50),
+    efficiency_score             NUMERIC(5,2),
+    cost_index                   NUMERIC(6,2),
+    readmission_rate_base        NUMERIC(5,2),
 
-    growth_trend                  NUMERIC(5,2),
-    quality_trend                 NUMERIC(5,2),
+    staffing_stress              VARCHAR(50),
 
-    special_profile               VARCHAR(255),
+    growth_trend                 NUMERIC(8,4),
+    quality_trend                NUMERIC(8,4),
 
-    latitude                      NUMERIC(10,6),
-    longitude                     NUMERIC(10,6),
+    special_profile              VARCHAR(255),
 
-    created_at                    TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    latitude                     NUMERIC(10,6),
+    longitude                    NUMERIC(10,6),
+
+    total_beds                   INTEGER
 );
 
 --------------------------------------------------------------------------------
@@ -68,7 +68,7 @@ CREATE TABLE bronze.dim_hospital (
     founding_year                 INTEGER,
     teaching_hospital             BOOLEAN,
     trauma_level                  INTEGER,
-    private                       BOOLEAN,
+    private_int                   BOOLEAN,
 
     avg_daily_admissions_base     INTEGER,
     satisfaction_base             NUMERIC(5,2),

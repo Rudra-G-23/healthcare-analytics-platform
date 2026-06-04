@@ -1,7 +1,7 @@
-,Region_ID,Region_Name,Population_M,Urban_Rural,Avg_Income_K,Elderly_Pct,Poverty_Rate
-0,R01,Greater London,9.0,Urban,42,12.1,0.148
-1,R02,South East England,9.2,Suburban,38,17.2,0.098
-2,R03,South West England,5.7,Mixed,31,20.1,0.118
-3,R04,East of England,6.3,Rural,29,18.8,0.142
-4,R05,West Midlands,5.9,Urban,28,15.4,0.198
-5,R06,Yorkshire & Humber,5.5,Rural,27,17.9,0.168
+Region_ID,Region_Name,Population_M,Urban_Rural,Avg_Income_K,Elderly_Pct,Poverty_Rate
+R01,Greater London,9.0,Urban,42,12.1,0.148
+R02,South East England,9.2,Suburban,38,17.2,0.098
+R03,South West England,5.7,Mixed,31,20.1,0.118
+R04,East of England,6.3,Rural,29,18.8,0.142
+R05,West Midlands,5.9,Urban,28,15.4,0.198
+R06,Yorkshire & Humber,5.5,Rural,27,17.9,0.168

@@ -6,8 +6,8 @@ CREATE TABLE public.dim_date (
     date_key            INTEGER PRIMARY KEY,
     full_date           DATE NOT NULL UNIQUE,
 
-    year                INTEGER,
-    quarter             VARCHAR(10),
+    year_int            INTEGER,
+    quarter_name        VARCHAR(10),
     month_int           INTEGER,
     month_name          VARCHAR(20),
     week_number         INTEGER,
@@ -19,8 +19,6 @@ CREATE TABLE public.dim_date (
     season              VARCHAR(20),
     is_winter           BOOLEAN,
     is_flu_season       BOOLEAN,
-
-    created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 );
 
 --------------------------------------------------------------------------------
@@ -32,10 +30,10 @@ CREATE TABLE bronze.dim_date (
 
     full_date           DATE NOT NULL UNIQUE,
 
-    year                INTEGER
+    year_int                INTEGER
         CHECK (year >= 2000),
 
-    quarter             VARCHAR(10),
+    quarter_name             VARCHAR(10),
 
     month_name               INTEGER
         CHECK (month_name BETWEEN 1 AND 12),

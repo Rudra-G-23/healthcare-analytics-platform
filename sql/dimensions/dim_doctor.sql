@@ -12,9 +12,7 @@ CREATE TABLE public.dim_doctor (
     primary_hospital_id     VARCHAR(20) NOT NULL,
     annual_salary           NUMERIC(12,2),
     part_time_flag          BOOLEAN,
-    burnout_baseline        NUMERIC(5,2),
-
-    created_at              TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    burnout_baseline        NUMERIC(5,2)
 );
 
 --------------------------------------------------------------------------------

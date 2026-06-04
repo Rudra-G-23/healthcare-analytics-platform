@@ -7,14 +7,14 @@ console = Console()
 FILE_TO_LOAD = {
     "data/raw-data/region.csv": "region",
     "data/raw-data/hospitals.csv": "hospital",
-    "data/raw-data/department.csv": "department",
-    "data/raw-data/doctors.csv": "doctor",
-    "data/raw-data/patients.csv": "patient",
-    "data/raw-data/diagnosis.csv": "diagnosis",
-    "data/raw-data/patient_visit.csv": "patient_visits",
-    "data/raw-data/staff.csv": "staffing",
-    "data/raw-data/finance.csv": "financials",
-    "data/raw-data/date.csv": "date_data",
+    # "data/raw-data/department.csv": "department",
+    # "data/raw-data/doctors.csv": "doctor",
+    # "data/raw-data/patients.csv": "patient",
+    # "data/raw-data/diagnosis.csv": "diagnosis",
+    # "data/raw-data/patient_visit.csv": "patient_visits",
+    # "data/raw-data/staff.csv": "staffing",
+    # "data/raw-data/finance.csv": "financials",
+    # "data/raw-data/date.csv": "date_data",
 }
 
 

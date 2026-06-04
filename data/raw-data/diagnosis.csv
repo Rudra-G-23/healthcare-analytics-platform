@@ -1,16 +1,16 @@
-,Diagnosis_ID,Category,ICD_Chapter,Severity_Weight,ICU_Probability,Avg_LOS_Hours,Readmission_Risk,Cost_Weight
-0,DX01,Cardiovascular,I,0.8,0.22,72,HIGH,1.45
-1,DX02,Respiratory,J,0.65,0.15,48,MEDIUM,1.2
-2,DX03,Trauma/Injury,S-T,0.9,0.28,56,LOW,1.6
-3,DX04,Gastrointestinal,K,0.5,0.08,36,MEDIUM,1.0
-4,DX05,Neurological,G,0.85,0.25,96,HIGH,1.55
-5,DX06,Mental Health,F,0.45,0.02,120,HIGH,0.85
-6,DX07,Orthopaedic,M,0.55,0.05,52,LOW,1.35
-7,DX08,Infectious Disease,A-B,0.7,0.18,44,MEDIUM,1.1
-8,DX09,Endocrine/Diabetes,E,0.6,0.1,40,HIGH,1.05
-9,DX10,Oncology,C,0.95,0.32,144,HIGH,2.2
-10,DX11,Paediatric,P,0.6,0.12,30,LOW,0.95
-11,DX12,Geriatric/Fall,W,0.75,0.14,68,HIGH,1.25
-12,DX13,Substance Abuse,F1,0.55,0.09,48,MEDIUM,0.88
-13,DX14,Obstetric,O,0.65,0.08,36,LOW,1.15
-14,DX15,Other/Unspecified,Z,0.35,0.03,24,LOW,0.75
+Diagnosis_ID,Category,ICD_Chapter,Severity_Weight,ICU_Probability,Avg_LOS_Hours,Readmission_Risk,Cost_Weight
+DX01,Cardiovascular,I,0.8,0.22,72,HIGH,1.45
+DX02,Respiratory,J,0.65,0.15,48,MEDIUM,1.2
+DX03,Trauma/Injury,S-T,0.9,0.28,56,LOW,1.6
+DX04,Gastrointestinal,K,0.5,0.08,36,MEDIUM,1.0
+DX05,Neurological,G,0.85,0.25,96,HIGH,1.55
+DX06,Mental Health,F,0.45,0.02,120,HIGH,0.85
+DX07,Orthopaedic,M,0.55,0.05,52,LOW,1.35
+DX08,Infectious Disease,A-B,0.7,0.18,44,MEDIUM,1.1
+DX09,Endocrine/Diabetes,E,0.6,0.1,40,HIGH,1.05
+DX10,Oncology,C,0.95,0.32,144,HIGH,2.2
+DX11,Paediatric,P,0.6,0.12,30,LOW,0.95
+DX12,Geriatric/Fall,W,0.75,0.14,68,HIGH,1.25
+DX13,Substance Abuse,F1,0.55,0.09,48,MEDIUM,0.88
+DX14,Obstetric,O,0.65,0.08,36,LOW,1.15
+DX15,Other/Unspecified,Z,0.35,0.03,24,LOW,0.75

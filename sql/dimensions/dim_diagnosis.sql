@@ -10,9 +10,7 @@ CREATE TABLE public.dim_diagnosis (
     icu_probability      NUMERIC(5,2),
     avg_los_hours        INTEGER,
     readmission_risk     VARCHAR(20),
-    cost_weight          NUMERIC(6,2),
-
-    created_at           TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    cost_weight          NUMERIC(6,2)
 );
 
 --------------------------------------------------------------------------------

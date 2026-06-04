@@ -27,7 +27,6 @@ files_to_load = {
     "data/raw-data/staff.csv": "staffing",
     "data/raw-data/finance.csv": "financials",
     "data/raw-data/date.csv": "date_data",
-    "data/raw-data/vocab.csv": "Vocab",
 }
 
 

@@ -9,9 +9,7 @@ CREATE TABLE public.dim_patient (
     insurance_type              VARCHAR(50),
     chronic_conditions          TEXT,
     chronic_condition_count     INTEGER,
-    risk_category               VARCHAR(30),
-
-    created_at                  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    risk_category               VARCHAR(30)
 );
 
 

@@ -1,13 +1,13 @@
-,Department_ID,Department_Name,Type,ICU_Capable
-0,D01,Emergency Department,Emergency,False
-1,D02,Intensive Care Unit,Critical Care,True
-2,D03,General Medicine,Inpatient,False
-3,D04,Cardiology,Inpatient,False
-4,D05,Orthopaedics,Elective,False
-5,D06,Paediatrics,Inpatient,False
-6,D07,Neurology,Inpatient,False
-7,D08,Respiratory,Inpatient,False
-8,D09,Mental Health,Inpatient,False
-9,D10,Oncology,Inpatient,False
-10,D11,Surgery,Elective,True
-11,D12,Geriatrics,Inpatient,False
+Department_ID,Department_Name,Type,ICU_Capable
+D01,Emergency Department,Emergency,False
+D02,Intensive Care Unit,Critical Care,True
+D03,General Medicine,Inpatient,False
+D04,Cardiology,Inpatient,False
+D05,Orthopaedics,Elective,False
+D06,Paediatrics,Inpatient,False
+D07,Neurology,Inpatient,False
+D08,Respiratory,Inpatient,False
+D09,Mental Health,Inpatient,False
+D10,Oncology,Inpatient,False
+D11,Surgery,Elective,True
+D12,Geriatrics,Inpatient,False
