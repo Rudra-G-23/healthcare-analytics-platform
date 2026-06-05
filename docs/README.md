@@ -1,5 +1,7 @@
 ### Steps
 
+![img](/docs/imgs/simple-mind-map.png)
+
 1. Get Data 
 2. Create an repo
 3. **Raw Data**
