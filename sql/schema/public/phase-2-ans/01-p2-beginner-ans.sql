@@ -77,6 +77,9 @@ SELECT * FROM public.dim_hospital;
 	SET city = 'Harrogate'
 	WHERE hospital_id = 'H01';
 
+	DELETE FROM demo
+	WHERE hospital_id = 'H01';
+	
 -- 11.3 Check
 	SELECT * FROM demo
 
